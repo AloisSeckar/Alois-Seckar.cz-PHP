@@ -14,7 +14,7 @@
 // *  File:           *  ../page-content/elrh_index_content.php    * //
 // *  Purpose:        *  Present page content for particular page  * //
 // *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 11:40 GMT+1                    * //
+// *  Last Modified:  *  2015-12-11 00:12 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -39,9 +39,6 @@ class ELRHPageContentRenderer {
 			echo '<li><strong><a href="politics" title="Politické názory">POLITIKA</a></strong> reflektuje fakt, že jsem hrdým příznivcem, voličem a&nbsp;aktivním členem <a href="http://www.svobodni.cz" title="Svobodní">Strany Svobodných Občanů</a>.</li>'.PHP_EOL;
 			echo '<li><strong><a href="misc" title="Ostatní aktivita">ZÁBAVA</a></strong> je všechno ostatní, co pokládám nějakým způsobem za důležité v&nbsp;mém životě.</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
-		echo '<p>'.PHP_EOL;	
-			echo 'Na vývoji webu se stále pracuje. Stará verze&nbsp;2 dosud "žije" na <a href="http://ellrohir.mzf.cz" title="Starý web">http://ellrohir.mzf.cz</a>'.PHP_EOL;
-		echo '</p>'.PHP_EOL;
 		// contacts
 		include_once getcwd().'/web/scripts/page-content/elrh_content_helper.php';
 		ELRHContentHelper::renderContactsList($page_data["contacts"], "h2");
