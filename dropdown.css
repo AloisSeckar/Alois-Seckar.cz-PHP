@@ -1,0 +1,117 @@
+/* 
+///////////////////////////////////////////////////////////////////////
+//                                                                   //
+//                           Alois-Seckar.cz                         //
+//                          Personal homepage                        //
+//                                                                   //
+//                 Copyright © Alois Seckar 2008-2015                //
+//                                                                   //
+//                                                                   //
+//    Page Info                                                      //
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
+// *  Homepage:       *  http://alois-seckar.cz                    * //
+// *  File:           *  dropdown.css                              * //
+// *  Purpose:        *  Stylesheet for dropdown dynamic menus     * //
+// *  System Version: *  3.0                                       * //
+// *  Last Modified:  *  2015-12-05 15:13 GMT+1                    * //
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+///////////////////////////////////////////////////////////////////////
+*/
+
+/* 
+// core taken from http://code.stephenmorley.org/javascript/touch-friendly-drop-down-menus/
+// customized to fit into page
+*/
+
+
+.dropdown,
+.dropdown ul,
+.dropdown li{
+  margin  : 0;
+  padding : 0;
+}
+
+.dropdown ul{
+  display  : none;
+  position : absolute;
+  top      : 100%;
+  left     : 0;
+  z-index  : 1;
+}
+
+.dropdown ul ul{
+  top  : 0;
+  left : 100%;
+}
+
+.dropdown ul .dropdownRightToLeft ul{
+  left  : auto;
+  right : 100%;
+}
+
+.dropdown li{
+  position        : relative;
+  display         : block;
+  list-style-type : none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sub-dropdown {
+	background : #fff8dc;
+	border: 2px ridge black; 
+	border-top: 0px;
+}
+
+.dropdown > li{
+  display : inline-block;
+}
+
+.dropdown a,
+.dropdown span{
+  display         : block;
+  text-decoration : none;
+  white-space     : pre;
+}
+
+.dropdown li:hover > ul{
+  display : block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+.dropdownVertical{
+  display : inline-block;
+}
+
+.dropdownVertical > li{
+  display : block;
+}
+
+.dropdownVertical ul{
+  top  : 0;
+  left : 100%;
+}
+
+.dropdownJavaScript li:hover > ul{
+  display : none;
+}
+
+.dropdownJavaScript li.dropdownOpen > ul{
+  display : block;
+}
+
+.left-li {
+  border-right: solid 2px;
+}
+
+.center-li {
+  border-left: solid 2px;
+  border-right: solid 2px;
+}
+
+.right-li {
+  border-left: solid 2px;
+}
