@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  elrh_css.css                              * //
 // *  Purpose:        *  Stylesheet for site                       * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-10 22:52 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-11 11:20 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 */
@@ -116,7 +116,6 @@ nav {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Times New Roman';
 }
 
 main { 
@@ -338,6 +337,7 @@ h1 {
 h2 {
  color: #6C247B;
  font-size: 22px;
+ font-style: italic;
 }
 
 h3 {

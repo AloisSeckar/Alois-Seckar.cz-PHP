@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_page_renderer.php       * //
 // *  Purpose:        *  Renders html code for page                * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-08 16:47 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-11 11:35 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -40,6 +40,10 @@ class ELRHPageRenderer {
 	
 	public static function renderBodyStart() {
 		echo '<body id="top">'.PHP_EOL;
+		// google analytics
+		include_once getcwd().'/web/scripts/java-script/elrh_ga_renderer.php';
+		ELRHGARenderer::renderGA();
+		//
 		echo '<div id="container">'.PHP_EOL;
 	}
 	
