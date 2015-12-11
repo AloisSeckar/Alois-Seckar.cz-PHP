@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
 //                           Alois-Seckar.cz                         //
@@ -13,31 +13,13 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_misc_helper.php         * //
 // *  Purpose:        *  Bunch of little static helping methods    * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 17:35 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-11 20:56 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
 
-class ELRHMiscHelper {
-	/** Checks if source variable (typically from super array) has value defined.
-	 * If yes - returns this value, if no - returns given default value. Protects
-	 * from errors occurend when handling undefined variable, typically from 
-	 * superarrays $_GET or $_POST.
-	 *  
-	 * @param identifier $source Checked source variable
-	 * @param mixed $def_value Given default vaule for target 
-	 * 
-	 * @return Either defined value of $source variable or given $def_value
-	 */
-	public static function elrhTestAndAssignVariable($source,$def_value) {
-		if (!empty($source)) {
-			return $source;
-		} else {
-			return $def_value;
-		}
-	} 
-	
+class ELRHMiscHelper {	
 	/** Specific function for returning current age in years. 
 	 *  
 	 * @param String $birth Birthdate in YYYY-MM-DD format
