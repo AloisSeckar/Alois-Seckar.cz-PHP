@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
 //                           Alois-Seckar.cz                         //
@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_page_controller.php     * //
 // *  Purpose:        *  Handle's all page rendering operations    * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 17:42 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-11 22:14 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -51,7 +51,11 @@ class ELRHPageController {
 			$this->page_request = "index";
 		}
 		// possible (article) id
-		$this->item_request = $url_parts[1];
+		if (!empty($url_parts[1])) {
+			$this->item_request = $url_parts[1];
+		} else {
+			$this->item_request = "";
+		}
 		
 		// check if desired page exists
 		if ((!file_exists(getcwd().'/web/scripts/page-data/elrh_'.$this->page_request.'_data.php'))

@@ -14,7 +14,7 @@
 // *  File:           *  /web/scripts/elrh_page_renderer.php       * //
 // *  Purpose:        *  Renders html code for page                * //
 // *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 11:35 GMT+1                    * //
+// *  Last Modified:  *  2015-12-11 22:14 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -31,7 +31,6 @@ class ELRHPageRenderer {
 			echo '<meta http-equiv="content-type" content="text/html; charset=utf-8" />'.PHP_EOL;
 			echo '<meta name="generator" content="PSPad editor, www.pspad.com" />'.PHP_EOL;
 			echo '<meta name="description" content="Alois Sečkár - osobní prezentace, politické názory a další aktivity" />'.PHP_EOL;
-			echo '<meta name="keywords" content="Ellrohir, Alois, Sečkár, Domovská, Stránka, Homepage, Práce, VŠE, Svobodní, Strana svobodných občanů, Politika, Zastupitelstvo, Praha 4, Softball, Softbal, Baseball, Zápis, Zapisování, Programování, PHP, Java, Blog, Články" />'.PHP_EOL;
 			echo '<meta property="og:image" content="/web/images/alois_seckar.png" />'.PHP_EOL;
 			echo '<link rel="stylesheet" type="text/css" href="/elrh_css.css" />'.PHP_EOL;
 			echo '<link rel="stylesheet" type="text/css" href="/dropdown.css" />'.PHP_EOL;
