@@ -9,4 +9,4 @@ System is written in PHP using OOP and simplified MVC principles.
 
 I am planning regular updates and improvements.
 
-Last major update is v.3.0 from 2015-12-10
+Last major update is v.3.0.1 from 2015-12-19
