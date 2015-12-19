@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  ../elrh_misc-links_content.php            * //
 // *  Purpose:        *  Present page content for particular page  * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 11:00 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-19 19:40 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -42,7 +42,7 @@ class ELRHPageContentRenderer {
 					echo $version_info["date"].PHP_EOL;
 				echo '</td>'.PHP_EOL;
 				echo '<td class="versions">'.PHP_EOL;
-					echo $version_info["dscr"].PHP_EOL;
+					echo $version_info["dscr"].'<hr />'.PHP_EOL;
 				echo '</td>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 		}

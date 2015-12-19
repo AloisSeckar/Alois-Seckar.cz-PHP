@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_menu_creator.php        * //
 // *  Purpose:        *  Creates menu elements for page            * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 17:22 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-19 17:33 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -53,6 +53,9 @@ class ELRHMenuCreator {
 							</li>
     						<li>
 								<a href="/politics-diary" title="Politická kariéra">Deník politika</a>
+      						</li>
+    						<li>
+								<a href="/politics-onlines" title="Online přenosy">Politika online</a>
       						</li>
     						<li>
 								<a href="/politics-library" title="LIberální LIteratura">Knihovna</a>

@@ -14,7 +14,7 @@
 // *  File:           *  elrh_css.css                              * //
 // *  Purpose:        *  Stylesheet for site                       * //
 // *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 11:20 GMT+1                    * //
+// *  Last Modified:  *  2015-12-19 18:45 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 */
@@ -361,7 +361,18 @@ td.links {
   padding-right: 15px;
 }
 
-.versions {
+table.onlines {
+  width: 90%;
+}
+
+td.onlines {
+  vertical-align: middle;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 1px solid black;
+}
+
+table.versions {
 	text-align: justify; 
 	border-bottom: 1px solid; 
 	padding: 5px;

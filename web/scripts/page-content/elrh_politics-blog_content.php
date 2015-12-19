@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  ../elrh_politics-blog_content.php         * //
 // *  Purpose:        *  Present page content for particular page  * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-10 22:51 GMT+1                    * //
+// *  System Version: *  3.0.1                                     * //
+// *  Last Modified:  *  2015-12-19 18:40 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -98,7 +98,7 @@ class ELRHPageContentRenderer {
 						$categories .= '<a href="/politics-blog/'.str_replace(" ","%20",$one).'">'.$one.'</a>';
 					}
 					// display results
-					echo '<tr>';
+					echo '<tr>'.PHP_EOL;
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
 						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
 						echo '<td style="padding-right: 10px; text-align: left;">'.$categories.'</td>'.PHP_EOL;
