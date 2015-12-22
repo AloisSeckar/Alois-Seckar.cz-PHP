@@ -1,21 +1,7 @@
 # Alois-Seckar.cz
-///////////////////////////////////////////////////////////////////
-//                                                               //
-//                         Alois-Seckar.cz                       //
-//                        Personal homepage                      //
-//                                                               //
-//               Copyright © Alois Seckar 2008-2015              //
-//                                                               //
-//                                                               //
-//    Page Info                                                  //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]   * //
-// *  Homepage:       *  http://alois-seckar.cz                * //
-// *  Purpose:        *  My personal homepage - new version    * //
-// *  System Version: *  3.0.2                                 * //
-// *  Last Modified:  *  2015-12-19                            * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
+
+Personal homepage in OOP
+
 
 This is source code for my website hosted live at http://alois-seckar.cz/
 
