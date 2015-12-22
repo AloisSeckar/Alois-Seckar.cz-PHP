@@ -1,24 +1,4 @@
 <?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  /web/scripts/elrh_page_controller.php     * //
-// *  Purpose:        *  Handle's all page rendering operations    * //
-// *  System Version: *  3.0.2                                     * //
-// *  Last Modified:  *  2015-12-22 22:53 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
-
 class ELRHPageController {
 	
 	/// ATRIBUTES \\\
@@ -29,15 +9,6 @@ class ELRHPageController {
 	private $item_request; // string containing item (typically articles) to be displayed
 	
 	private $page_data; // array containing all relevant data to be displayed within page-content
-	
-	
-	/// (DE)CONSTRUCTOR \\\
-	
-	public function __construct() {
-		// set mySQL
-		$this->getMySQLConnection();
-	}
-	
 	
 	/// PUBLIC METHODS \\\
 	
@@ -66,8 +37,11 @@ class ELRHPageController {
 	}
 	
 	public function prepareData() {
+		// set mySQL
+		$this->getMySQLConnection();
 		// variable info that depends on displayed page
-		if ($this->page_request != "error") {
+		// mysql must work and page must exist
+		if (($this->page_data["mysql"] == true)&&($this->page_request != "error")) {
 			include_once getcwd().'/web/scripts/page-data/elrh_'.$this->page_request.'_data.php';
 			$this->page_data = array_merge($this->page_data, 
 				ELRHPageData::prepareData($this->item_request, $this->mysqli));
@@ -75,6 +49,7 @@ class ELRHPageController {
 			$this->page_data["title"] = "Alois Sečkár - Domovská stránka";
 		}
 		// always presented info
+		// mysql must work
 		if ($this->page_data["mysql"] == true) {
 			// menu
 			include_once getcwd().'/web/scripts/elrh_menu_creator.php';
@@ -132,7 +107,7 @@ class ELRHPageController {
 		$this->mysqli = new mysqli($databaseInfo->ELRH_MySQL_Host, $databaseInfo->ELRH_MySQL_User, 
 			$databaseInfo->ELRH_MySQL_Pass, $databaseInfo->ELRH_MySQL_Db);
 		// work with DB
-		if ($this->mysqli->errno == 0) {
+		if (($this->mysqli!=null)&&($this->mysqli->errno == 0)) {
 			// set db encoding
 			$this->mysqli->set_charset("utf8");
 			// notify that no error occured

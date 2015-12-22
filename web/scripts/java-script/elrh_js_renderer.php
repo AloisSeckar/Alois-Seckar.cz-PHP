@@ -1,26 +1,6 @@
 <?php
-/* 
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  ../java-script/elrh_js_renderer.php       * //
-// *  Purpose:        *  Renders JS for page                       * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 19:52 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-*/
-
-
+// various java scripts
+// TODO refactor
 class ELRHJSRenderer {
 	// taken from http://code.stephenmorley.org/javascript/touch-friendly-drop-down-menus/
 	public static function renderJSDropDownMenu() {

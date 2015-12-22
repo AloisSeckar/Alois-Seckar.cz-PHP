@@ -1,23 +1,4 @@
 <?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  /web/scripts/elrh_navigation_creator.php  * //
-// *  Purpose:        *  Creates navigation elements for the page  * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 17:58 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
 class ELRHNavigationCreator {
 	
 	/** Builds a navigation line included in top of page content section.

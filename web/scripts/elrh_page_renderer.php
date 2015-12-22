@@ -1,24 +1,4 @@
 <?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  /web/scripts/elrh_page_renderer.php       * //
-// *  Purpose:        *  Renders html code for page                * //
-// *  System Version: *  3.0.2                                     * //
-// *  Last Modified:  *  2015-12-22 22:53 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
-
 class ELRHPageRenderer {
 	public static function renderHTMLStart() {
 		echo '<!DOCTYPE html>'.PHP_EOL;

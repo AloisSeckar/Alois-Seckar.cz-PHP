@@ -1,24 +1,4 @@
 ﻿<?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  /web/scripts/elrh_misc_helper.php         * //
-// *  Purpose:        *  Bunch of little static helping methods    * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 20:56 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
-
 class ELRHMiscHelper {	
 	/** Specific function for returning current age in years. 
 	 *  

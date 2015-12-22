@@ -1,24 +1,4 @@
 <?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  index.php                                 * //
-// *  Purpose:        *  Database connection values                * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-11-10 14:02 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
-
 // only edit this file when the web location or mysql data changed
 // these are values for homepage hosted on Wedos.cz
 // set 2015-11-09

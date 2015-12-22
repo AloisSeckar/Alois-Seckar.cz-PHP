@@ -1,27 +1,6 @@
 <?php
-/* 
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  ../java-script/elrh_ga_renderer.php       * //
-// *  Purpose:        *  Renders JS for Google Analytics           * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 11:36 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-*/
-
-
 class ELRHGARenderer {
+	// script for google analytics
 	// taken from Google Analytics code generator
 	public static function renderGA() {
 		echo '<script>';

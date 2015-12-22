@@ -1,24 +1,4 @@
 <?php
-///////////////////////////////////////////////////////////////////////
-//                                                                   //
-//                           Alois-Seckar.cz                         //
-//                          Personal homepage                        //
-//                                                                   //
-//                 Copyright © Alois Seckar 2008-2015                //
-//                                                                   //
-//                                                                   //
-//    Page Info                                                      //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-// *  Author:         *  Alois Seckar [ seckar@svobodni.cz ]       * //
-// *  Homepage:       *  http://alois-seckar.cz                    * //
-// *  File:           *  ../page-content/elrh_content_helper.php   * //
-// *  Purpose:        *  Shared help methods for rendering content * //
-// *  System Version: *  3.0                                       * //
-// *  Last Modified:  *  2015-12-06 19:50 GMT+1                    * //
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-///////////////////////////////////////////////////////////////////////
-
-
 class ELRHContentHelper {
 	
 	public static function renderLinksTable($links) {
@@ -41,8 +21,13 @@ class ELRHContentHelper {
 	public static function renderContactsList($contacts, $level) {
 		echo '<'.$level.'>KONTAKTY</'.$level.'>'.PHP_EOL;
 		echo '<ul>'.PHP_EOL;
-			foreach ($contacts as $contact_info) {
-				echo '<li><strong>'.$contact_info["contact"].':</strong> <a href="'.$contact_info["link"].'" title="'.$contact_info["dscr"].'">'.$contact_info["name"].'</a></li>'.PHP_EOL;
+		    // check, if some contacts exist (may be disconnected from db)
+			if (!empty($contacts)) {
+				foreach ($contacts as $contact_info) {
+					echo '<li><strong>'.$contact_info["contact"].':</strong> <a href="'.$contact_info["link"].'" title="'.$contact_info["dscr"].'">'.$contact_info["name"].'</a></li>'.PHP_EOL;
+				}
+			} else {
+				echo 'Nefunguje mi teď databáze, ale zastihnete mě na emailu <a href="mailto:seckar@svobodni.cz">seckar@svobodni.cz</a>'.PHP_EOL;
 			}
 		echo '</ul>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;
