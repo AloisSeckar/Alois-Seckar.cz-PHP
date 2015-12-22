@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
 //                           Alois-Seckar.cz                         //
@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_page_renderer.php       * //
 // *  Purpose:        *  Renders html code for page                * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 22:14 GMT+1                    * //
+// *  System Version: *  3.0.2                                     * //
+// *  Last Modified:  *  2015-12-22 22:53 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -91,7 +91,7 @@ class ELRHPageRenderer {
 	}
 	
 	public static function renderPageFooter($version, $update) {
-		echo '<div id="footer">'.PHP_EOL;
+		echo '<footer>'.PHP_EOL;
 			echo '<div id="footer-left">'.PHP_EOL;
 				echo '<a href="http://praha4.svobodni.cz" title="Svobodní Praha 4"> <img title="Svobodní Praha 4" alt="praha4.svobodni.cz" height="31" src="/web/images/svobodni_p4_bar.png" width="88" /> </a>'.PHP_EOL;
 				echo '<a href="http://svobodnatv.cz" title="Svobodná TV"> <img title="Svobodná TV" alt="svobodnatv.cz" height="31" src="/web/images/svobodna_tv_bar.png" width="88" /> </a>'.PHP_EOL;
@@ -107,7 +107,7 @@ class ELRHPageRenderer {
 				echo '<a href="http://svobodnatv.cz" title="Svobodná TV"> <img title="Svobodná TV" alt="svobodnatv.cz" height="31" src="/web/images/svobodna_tv_bar.png" width="88" /> </a>'.PHP_EOL;
 				echo '<a href="http://praha4.svobodni.cz" title="Svobodní Praha 4"> <img title="Svobodní Praha 4" alt="Svobodni.cz" height="31" src="/web/images/svobodni_p4_bar.png" width="88" /> </a>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
-		echo '</div>'.PHP_EOL;
+		echo '</footer>'.PHP_EOL;
 	}
 	
 	public static function renderHTMLEnd() {

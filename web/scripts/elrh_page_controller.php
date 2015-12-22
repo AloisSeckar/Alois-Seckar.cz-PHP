@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 ///////////////////////////////////////////////////////////////////////
 //                                                                   //
 //                           Alois-Seckar.cz                         //
@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  /web/scripts/elrh_page_controller.php     * //
 // *  Purpose:        *  Handle's all page rendering operations    * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-11 22:14 GMT+1                    * //
+// *  System Version: *  3.0.2                                     * //
+// *  Last Modified:  *  2015-12-22 22:53 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 

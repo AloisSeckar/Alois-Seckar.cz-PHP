@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  ../elrh_politics-onlines_content.php      * //
 // *  Purpose:        *  Present page content for particular page  * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-19 19:21 GMT+1                    * //
+// *  System Version: *  3.0.2                                     * //
+// *  Last Modified:  *  2015-12-22 07:53 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -26,7 +26,7 @@ class ELRHPageContentRenderer {
 			// there is request for displaying particular blog entry
 			if ($page_data["exists"]==true) {
 				// article found
-				echo '<h1>'.$page_data["title"].'</h1>'.PHP_EOL;
+				echo '<h1>Politika online: '.$page_data["entry"]["name"].'</h1>'.PHP_EOL;
 				echo '<img src="'.$page_data["entry"]["thumb"].'" title="'.$page_data["entry"]["name"].'" alt="'.$page_data["entry"]["name"].'" width="200" height="120" />'.PHP_EOL;
 				echo '<p>'.PHP_EOL;
 					echo '<strong><em>Datum: '.$page_data["entry"]["date"].'</em></strong>'.PHP_EOL;
@@ -82,9 +82,12 @@ class ELRHPageContentRenderer {
 			} else {
 				// article not found
 				echo '<h1>POLITIKA ONLINE</h1>'.PHP_EOL;
-				echo '<p>'.PHP_EOL;
-					echo '<div class="font-error">Online přenos s takovým ID se bohužel na blogu nenachází...</div>'.PHP_EOL;
+				echo '<p class="red-note">'.PHP_EOL;
+					echo 'Online přenos s takovým ID se bohužel na blogu nenachází...'.PHP_EOL;
 				echo '</p>'.PHP_EOL;
+				echo '<p class="centered">';
+					echo '<a href="http://alois-seckar.cz/politics-onlines">Zpět na seznam přenosů</a>';
+				echo '</p>';
 			}
 		} else {
 			// there is request for displaying onlines index 
@@ -127,7 +130,7 @@ class ELRHPageContentRenderer {
 					}
 					//
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td><img src="'.$row["thumb"].'" title="'.$row["name"].'" alt="'.$row["name"].'" width="50" height="30" /></td>'.PHP_EOL;
+						echo '<td class="onlines"><img src="'.$row["thumb"].'" title="'.$row["name"].'" alt="'.$row["name"].'" width="50" height="30" /></td>'.PHP_EOL;
 						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'">'.$row["name"].'</a></td>'.PHP_EOL;
 						echo '<td>'.$state.'</td>'.PHP_EOL;
 						if ($row["status"]!="future") { 

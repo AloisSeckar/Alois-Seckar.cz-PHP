@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  ../elrh_politics-blog_content.php         * //
 // *  Purpose:        *  Present page content for particular page  * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-19 18:40 GMT+1                    * //
+// *  System Version: *  3.0.2                                     * //
+// *  Last Modified:  *  2015-12-22 07:52 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -39,9 +39,12 @@ class ELRHPageContentRenderer {
 			} else {
 				// article not found
 				echo '<h1>ČLÁNKY</h1>'.PHP_EOL;
-				echo '<p>'.PHP_EOL;
-					echo '<div class="font-error">Příspěvek s takovým ID se bohužel na blogu nenachází...</div>'.PHP_EOL;
+				echo '<p class="red-note">'.PHP_EOL;
+					echo 'Příspěvek s takovým ID se bohužel na blogu nenachází...'.PHP_EOL;
 				echo '</p>'.PHP_EOL;
+				echo '<p class="centered">';
+					echo '<a href="http://alois-seckar.cz/politics-blog">Zpět na seznam příspěvků</a>';
+				echo '</p>';
 			}
 		} else {
 			// there is request for displaying blog index (possibly filtered)

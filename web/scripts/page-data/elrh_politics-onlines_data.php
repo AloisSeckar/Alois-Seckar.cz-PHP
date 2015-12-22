@@ -13,8 +13,8 @@
 // *  Homepage:       *  http://alois-seckar.cz                    * //
 // *  File:           *  ../elrh_politics-blog_onlines.php         * //
 // *  Purpose:        *  Prepares data to be presented within page * //
-// *  System Version: *  3.0.1                                     * //
-// *  Last Modified:  *  2015-12-19 19:28 GMT+1                    * //
+// *  System Version: *  3.0.2                                     * //
+// *  Last Modified:  *  2015-12-21 14:42 GMT+1                    * //
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 ///////////////////////////////////////////////////////////////////////
 
@@ -39,7 +39,8 @@ class ELRHPageData {
 			//
 			if (!empty($data["entry"])) {
 				// page title adjustment
-				$data["title"] .= ": ".$data["entry"]["title"];
+			    // too long...
+				// $data["title"] .= ": ".$data["entry"]["name"];
 				// notify content renderer, article exists
 				$data["exists"] = true;
 			}
