@@ -12,13 +12,12 @@ class ELRHPageContentRenderer {
 		echo '<h2>PŘEHLED ČLÁNKŮ</h2>'.PHP_EOL;
 		echo '<table>'.PHP_EOL;
 			echo '<tr>'.PHP_EOL;
-				echo '<th style="padding-right: 5px;">Datum</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Umístění</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Typ článku</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Název článku</th>'.PHP_EOL;
+				echo '<th>Datum</th>'.PHP_EOL;
+				echo '<th class="left">Umístění</th>'.PHP_EOL;
+				echo '<th class="left">Typ článku</th>'.PHP_EOL;
+				echo '<th class="left">Název článku</th>'.PHP_EOL;
 				echo '<th>Přejít</th>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
-			echo '<tr><td colspan="5" style="height: 5px;"></td></tr>'.PHP_EOL;
 			if (!empty($page_data["reviews"])) {
 				foreach ($page_data["reviews"] as $row) {
 					// set location link
@@ -38,10 +37,10 @@ class ELRHPageContentRenderer {
 					}
 					// display results
 					echo '<tr>'.PHP_EOL;
-						echo '<td style="padding-right: 5px;">'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td style="padding-right: 5px; text-align: left;">'.$row["loc"].'</td>'.PHP_EOL;
-						echo '<td style="padding-right: 5px; text-align: left;">'.$row["type"].'</td>'.PHP_EOL;
-						echo '<td style="padding-right: 5px; text-align: left;"><a href="'.$row["link"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
+						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
+						echo '<td class="left">'.$row["loc"].'</td>'.PHP_EOL;
+						echo '<td class="left">'.$row["type"].'</td>'.PHP_EOL;
+						echo '<td class="left"><a href="'.$row["link"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
 						echo '<td><a href="'.$row["link"].'" title="'.$row["title"].'"><img src="web/skin/left_arrow.png" title="K článku" alt="K článku" height="10" /></a></td>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 				}

@@ -3,7 +3,7 @@ class ELRHPageContentRenderer {
 	public static function renderContent($page_data) {
 		// use "echo" function to render all contents of current page
 		// personal advertising
-		echo '<p style="text-align: center;">'.PHP_EOL;
+		echo '<p class="centered">'.PHP_EOL;
 			echo '<a href="http://praha4.svobodni.cz" title="Svobodní Praha 4"><img title="Svobodní Praha 4" alt="Svobodní Praha 4" height="100" src="https://svobodni-cms.s3.amazonaws.com/sites/53be7c12c58b9a2ca9000036/theme/images/poutac.png" /></a>'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
 		// welcome text
@@ -23,7 +23,7 @@ class ELRHPageContentRenderer {
 		include_once getcwd().'/web/scripts/page-content/elrh_content_helper.php';
 		ELRHContentHelper::renderContactsList($page_data["contacts"], "h2");
 		// current page version
-		echo '<p style="padding-top: 25px.PHP_EOL; padding-bottom: 15px.PHP_EOL;">'.PHP_EOL;
+		echo '<p class="version-info">'.PHP_EOL;
 			echo 'Aktuální verze stránek je <a href="versions" title="Verze systému">'.$page_data["version"].'</a>'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
 	}

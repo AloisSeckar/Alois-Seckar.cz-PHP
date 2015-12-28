@@ -37,7 +37,6 @@ class ELRHPageContentRenderer {
 				echo '<th>E</th>'.PHP_EOL;
 				echo '<th>FA</th>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
-			echo '<tr><td colspan="23" style="height: 5px;"></td></tr>'.PHP_EOL;
 			if (!empty($page_data["stats"])) {
 				foreach ($page_data["stats"] as $row) {
 					echo '<tr>'.PHP_EOL;

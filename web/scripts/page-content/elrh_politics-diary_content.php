@@ -13,18 +13,15 @@ class ELRHPageContentRenderer {
 			// headers
 			echo '<tr>'.PHP_EOL;
 				echo '<th>Datum</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Událost</th>'.PHP_EOL;
+				echo '<th class="left">Událost</th>'.PHP_EOL;
 				echo '<th>Odkaz</th>'.PHP_EOL;
-			echo '</tr>'.PHP_EOL;
-			echo '<tr>'.PHP_EOL;
-				echo '<td colspan="3" style="height: 5px;"></td>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 			// display stored entries
 			if (!empty($page_data["entries"])) {
 				foreach ($page_data["entries"] as $row) {
 					echo '<tr>'.PHP_EOL;
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td style="padding: 10px; text-align: justify;">'.$row["content"].'</td>'.PHP_EOL;
+						echo '<td class="justify">'.$row["content"].'</td>'.PHP_EOL;
 						if ($row["link"]!="null") {
 							echo '<td><a href="'.$row["link"].'" title="K odkazu"><img src="/web/skin/left_arrow.png" title="K odkazu" alt="K odkazu" height="10" /></a></td>'.PHP_EOL;
 						} else {

@@ -35,7 +35,7 @@ class ELRHPageContentRenderer {
 			echo '<hr />'.PHP_EOL;
 			// blog rss feed
 			include_once getcwd().'/web/scripts/page-content/elrh_content_helper.php';
-			echo '<div style="width: 100%; text-align: center;">'.PHP_EOL;
+			echo '<div class="rss-feed">'.PHP_EOL;
 				ELRHContentHelper::renderRSSFeed('http://seckar.blog.idnes.cz');
 			echo '</div>'.PHP_EOL;
 			echo '<hr />'.PHP_EOL;
@@ -49,20 +49,16 @@ class ELRHPageContentRenderer {
 			echo '<table>'.PHP_EOL;
 			// inform about possible filter
 			if (!empty($page_data["filter"])) {
-				echo '<tr><td colspan="4" style="text-align: left;">'.PHP_EOL;
-				echo 'Příspěvky jsou filtrovány podle výrazu <strong>'.$page_data["filter"].'</strong>. <a href="/politics-blog">Vypnout filtr</a>'.PHP_EOL;
+				echo '<tr><td colspan="4">'.PHP_EOL;
+					echo 'Příspěvky jsou filtrovány podle výrazu <strong>'.$page_data["filter"].'</strong>. <a href="/politics-blog">Vypnout filtr</a>'.PHP_EOL;
 				echo '</td></tr>'.PHP_EOL;
-				echo '<tr><td colspan="4" style="height: 5px;"></td></tr>'.PHP_EOL;
 			}
 			// headers
 			echo '<tr>'.PHP_EOL;
 				echo '<th>Datum</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Název</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Kategorie</th>'.PHP_EOL;
+				echo '<th class="left">Název</th>'.PHP_EOL;
+				echo '<th class="left">Kategorie</th>'.PHP_EOL;
 				echo '<th>Přejít</th>'.PHP_EOL;
-			echo '</tr>'.PHP_EOL;
-			echo '<tr>'.PHP_EOL;
-				echo '<td colspan="4" style="height: 5px;"></td>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 			// display stored blog entries
 			if (!empty($page_data["entries"])) {
@@ -83,8 +79,8 @@ class ELRHPageContentRenderer {
 					// display results
 					echo '<tr>'.PHP_EOL;
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
-						echo '<td style="padding-right: 10px; text-align: left;">'.$categories.'</td>'.PHP_EOL;
+						echo '<td class="left"><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
+						echo '<td class="left">'.$categories.'</td>'.PHP_EOL;
 						echo '<td><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'"><img src="/web/skin/left_arrow.png" title="K článku" alt="K článku" height="10" /></a></td>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 				}

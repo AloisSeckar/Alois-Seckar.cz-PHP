@@ -23,6 +23,14 @@ a:hover {
   text-decoration: underline
 }
 
+/* DIVS */
+
+/* displaying rss from personal blog */
+div.rss-feed {
+	width: 100%;
+	text-align: center;
+}
+
 /* TABLES */
 
 table {
@@ -32,6 +40,12 @@ table {
 th {
   text-align: center;
   color: #6C247B;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+
+th.left {
+  text-align: left;
 }
 
 td {
@@ -39,6 +53,16 @@ td {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
+}
+
+td.left {
+	padding-right: 10px;
+	text-align: left;
+}
+
+td.justify {
+	padding: 10px;
+	text-align: justify;
 }
 
 /* displaying links to other sites */
@@ -95,6 +119,12 @@ p.back-to-top {
   padding-top: 10px; 
   padding-bottom: 5px;
   font-size: 12px;
+}
+
+/* version info on index page */
+p.version-info {
+	padding-top: 25px; 
+	padding-bottom: 0px;
 }
 
 /* SECTION 01 - Basic HTML Tags definition */
@@ -274,3 +304,23 @@ h4 {
 }
 
 /* SECTION 04 - Headers definition */
+
+
+
+/* SECTION 05 - Others definition */
+
+/* colors for political onlines */
+
+.future {
+	background-color: #C0C0C0;
+}
+
+.active {
+	background-color: #66FF66;
+}
+
+.past {
+	background-color: #FFFF99;
+}
+
+/* SECTION 05 - Others definition */

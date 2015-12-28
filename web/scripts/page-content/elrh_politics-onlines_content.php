@@ -14,13 +14,13 @@ class ELRHPageContentRenderer {
 				echo '<p>'.PHP_EOL;
 					switch ($page_data["entry"]["status"]) {
 						case "future":
-						    $state = '<span style="background-color: #C0C0C0;">Budoucí</span>';
+						    $state = '<span class="future">Budoucí</span>';
 							break;
 						case "current":
-						    $state = '<span style="background-color: #66FF66;">Aktivní</span>';
+						    $state = '<span class="active">Aktivní</span>';
 							break;
 						case "past":
-						    $state = '<span style="background-color: #FFFF99;">Ukončeno</span>';
+						    $state = '<span class="past">Ukončeno</span>';
 							break;
 					}
 					echo '<strong><em>Stav: '.$state.'</em></strong>'.PHP_EOL;
@@ -37,10 +37,7 @@ class ELRHPageContentRenderer {
 					// headers
 					echo '<tr>'.PHP_EOL;
 						echo '<th>Čas</th>'.PHP_EOL;
-						echo '<th style="text-align: left;">Příspěvek</th>'.PHP_EOL;
-					echo '</tr>'.PHP_EOL;
-					echo '<tr>'.PHP_EOL;
-						echo '<td colspan="5" style="height: 5px;"></td>'.PHP_EOL;
+						echo '<th class="left">Příspěvek</th>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 					foreach ($page_data["contents"] as $row) {
 						// prepare time in HH:MM format
@@ -49,7 +46,7 @@ class ELRHPageContentRenderer {
 						// display results
 						echo '<tr>'.PHP_EOL;
 							echo '<td><strong>'.$time[0].':'.$time[1].'</strong></td>'.PHP_EOL;
-							echo '<td style="text-align: justify;">'.$row["content"].'</td>'.PHP_EOL;
+							echo '<td class="justify">'.$row["content"].'</td>'.PHP_EOL;
 						echo '</tr>'.PHP_EOL;
 					}
 					echo '</table>'.PHP_EOL;
@@ -82,12 +79,9 @@ class ELRHPageContentRenderer {
 			echo '<tr>'.PHP_EOL;
 				echo '<th>Datum</th>'.PHP_EOL;
 				echo '<th></th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Název</th>'.PHP_EOL;
+				echo '<th class="left">Název</th>'.PHP_EOL;
 				echo '<th>Stav</th>'.PHP_EOL;
 				echo '<th>Přejít</th>'.PHP_EOL;
-			echo '</tr>'.PHP_EOL;
-			echo '<tr>'.PHP_EOL;
-				echo '<td colspan="5" style="height: 5px;"></td>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 			// display stored onlines
 			if (!empty($page_data["onlines"])) {
@@ -97,21 +91,21 @@ class ELRHPageContentRenderer {
 					switch ($row["status"]) {
 						case "future":
 						    $state = "Budoucí";
-							echo '<tr style="background-color: #C0C0C0;">'.PHP_EOL;
+							echo '<tr class="future">'.PHP_EOL;
 							break;
 						case "current":
 						    $state = "Aktivní";
-							echo '<tr style="background-color: #66FF66;">'.PHP_EOL;
+							echo '<tr class="active">'.PHP_EOL;
 							break;
 						case "past":
 						    $state = "Ukončeno";
-							echo '<tr style="background-color: #FFFF99;">'.PHP_EOL;
+							echo '<tr class="past">'.PHP_EOL;
 							break;
 					}
 					//
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
 						echo '<td class="onlines"><img src="'.$row["thumb"].'" title="'.$row["name"].'" alt="'.$row["name"].'" width="50" height="30" /></td>'.PHP_EOL;
-						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'">'.$row["name"].'</a></td>'.PHP_EOL;
+						echo '<td class="left"><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'">'.$row["name"].'</a></td>'.PHP_EOL;
 						echo '<td>'.$state.'</td>'.PHP_EOL;
 						if ($row["status"]!="future") { 
 							echo '<td><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'"><img src="/web/skin/left_arrow.png" title="K online přenosu" alt="K online přenosu" height="10" /></a></td>'.PHP_EOL;

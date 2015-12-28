@@ -28,20 +28,19 @@ class ELRHPageContentRenderer {
 		echo '</p>'.PHP_EOL;
 		echo '<table>'.PHP_EOL;
 			echo '<tr>'.PHP_EOL;
-				echo '<th style="padding-right: 5px;">Datum</th>'.PHP_EOL;
-				echo '<th style="padding-right: 5px;">Sport</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Turnaj</th>'.PHP_EOL;
-				echo '<th style="text-align: left;">Místo</th>'.PHP_EOL;
+				echo '<th>Datum</th>'.PHP_EOL;
+				echo '<th>Sport</th>'.PHP_EOL;
+				echo '<th class="left">Turnaj</th>'.PHP_EOL;
+				echo '<th class="left">Místo</th>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
-			echo '<tr><td colspan="4" style="height: 5px;"></td></tr>'.PHP_EOL;
 			if (!empty($page_data["tournaments"])) {
 				foreach ($page_data["tournaments"] as $row) {
 					// display tournaments 
 					echo '<tr>'.PHP_EOL;
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
 					    echo '<td>'.$row["sport"].'</td>'.PHP_EOL;
-					    echo '<td style="padding-right: 5px; text-align: left;"><a href="'.$row["link"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>';
-					   echo '<td style="padding-right: 5px; text-align: left;">'.$row["location"].'</td>'.PHP_EOL;
+					    echo '<td class="left"><a href="'.$row["link"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>';
+					   echo '<td class="left">'.$row["location"].'</td>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 				}
 			} else {
