@@ -69,7 +69,7 @@ class ELRHPageController {
 			$this->page_data["version"] = $data["value"];	
 		} else {
 			$this->page_data["menu"] = '&nbsp;&diams;&nbsp;Not connected&nbsp;&diams;&nbsp;';
-			$this->page_data["navigation"]["top"] = '&raquo;&nbsp;<a href="" target="_self" title="Index">INDEX</a>';
+			$this->page_data["navigation"]["top"] = '&raquo;&nbsp;<a href="/" title="Index">INDEX</a>';
 			$this->page_data["navigation"]["bottom"] = '';
 			$this->page_data["update"] = "???";
 			$this->page_data["version"] = "???";	
@@ -107,7 +107,7 @@ class ELRHPageController {
 		$this->mysqli = new mysqli($databaseInfo->ELRH_MySQL_Host, $databaseInfo->ELRH_MySQL_User, 
 			$databaseInfo->ELRH_MySQL_Pass, $databaseInfo->ELRH_MySQL_Db);
 		// work with DB
-		if (($this->mysqli!=null)&&($this->mysqli->errno == 0)) {
+		if (($this->mysqli!=null)&&($this->mysqli->connect_error == NULL)) {
 			// set db encoding
 			$this->mysqli->set_charset("utf8");
 			// notify that no error occured
