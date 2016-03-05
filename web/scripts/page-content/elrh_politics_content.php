@@ -10,7 +10,8 @@ class ELRHPageContentRenderer {
 			echo '<li><strong><a href="politics-blog" title="Archiv článků">ČLÁNKY</a></strong> - přehled starších článků a&nbsp;odkazy na má současná publikační místa.</li>'.PHP_EOL;
 			echo '<li><strong><a href="politics-quotes" title="Krátké postřehy">GLOSY</a></strong> - útržky mých myšlenek, které mi stály za zaznamenání.</li>'.PHP_EOL;
 			echo '<li><strong><a href="politics-diary" title="Politická kariéra">DENÍK POLITIKA</a></strong> - zde se snažím zapsat veškeré činnosti, aktivity a&nbsp;schůzky související s&nbsp;politikou.</li>'.PHP_EOL;
-			echo '<li><strong><a href="politics-library" title="LIberální LIteratura">ČLÁNKY</a></strong> - vzdělávací projekt "Svobodné" knihovny realizovaný s&nbsp;pomocí europoslance Petra Macha.</li>'.PHP_EOL;
+			echo '<li><strong><a href="politics-onlines" title="Politické online přenosy">POLITIKA ONLINE</a></strong> - projekt "živých" přenosů přímo z&nbsp;jednání, kterých se -nbsp;zatím jen jako divák -nbsp;účastním.</li>'.PHP_EOL;
+			echo '<li><strong><a href="politics-library" title="LIberální LIteratura">KNIHOVNA</a></strong> - vzdělávací projekt "Svobodné" knihovny realizovaný s&nbsp;pomocí europoslance Petra Macha.</li>'.PHP_EOL;
 			echo '<li><strong><a href="politics-links" title="Politický rozcestník">ROZCESTNÍK</a></strong> - odkazy na související weby.</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;

@@ -3,7 +3,7 @@
 ini_set('display_errors','Off');
 
 // page setup //
-include_once "web/scripts/elrh_page_controller.php";
+include_once getcwd().'/web/scripts/elrh_page_controller.php';
 $controller = new ELRHPageController();
 
 // get request
