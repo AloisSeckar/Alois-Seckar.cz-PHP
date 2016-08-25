@@ -4,6 +4,28 @@ class ELRHPageData {
 		// page title
 		$data["title"] = "Alois Sečkár - Glosy";
 		
+		// deal with admin input, if any
+		if (isset($_SESSION["user"])) {
+			if (isset($_POST["admin_quote"]) && isset($_POST["admin_topic"])) {
+				// prepare values
+				$data["admin_input"]["quote"] = $_POST["admin_quote"];
+				$data["admin_input"]["topic"] = $_POST["admin_topic"];
+				$data["admin_input"]["link"] = "null";
+				if (isset($_POST["admin_link"]) && $_POST["admin_link"]!="") {
+					$data["admin_input"]["link"] = $_POST["admin_link"];
+				}
+				// insert into db
+				$result = $mysqli->query("INSERT INTO elrh_quotes (date, content, topic, link) VALUES (now(), '".mysqli_real_escape_string($mysqli, $data["admin_input"]["quote"] )."', '".mysqli_real_escape_string($mysqli, $data["admin_input"]["topic"])."', '".mysqli_real_escape_string($mysqli, $data["admin_input"]["link"])."');");
+				if ($result) {
+					$mysqli->query("UPDATE elrh_main SET value=now() WHERE var='last_quote'");
+					$data["admin_message"] = '<span style="color: green;">Vložen nový záznam</span>';
+				} else {
+					$data["admin_message"] = '<span style="color: red;">Vložení selhalo</span>';
+				}
+			}
+		}
+		//
+		
 		// get quotes 
 		include_once getcwd().'/web/scripts/page-data/elrh_data_helper.php';
 		// default amount is 25

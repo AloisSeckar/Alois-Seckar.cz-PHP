@@ -56,8 +56,8 @@ class ELRHPageContentRenderer {
 			// headers
 			echo '<tr>'.PHP_EOL;
 				echo '<th>Datum</th>'.PHP_EOL;
-				echo '<th class="left">Název</th>'.PHP_EOL;
-				echo '<th class="left">Kategorie</th>'.PHP_EOL;
+				echo '<th style="text-align: left;">Název</th>'.PHP_EOL;
+				echo '<th style="text-align: left;">Kategorie</th>'.PHP_EOL;
 				echo '<th>Přejít</th>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 			// display stored blog entries
@@ -79,8 +79,8 @@ class ELRHPageContentRenderer {
 					// display results
 					echo '<tr>'.PHP_EOL;
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td class="left"><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
-						echo '<td class="left">'.$categories.'</td>'.PHP_EOL;
+						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'">'.$row["title"].'</a></td>'.PHP_EOL;
+						echo '<td style="padding-right: 10px; text-align: left;">'.$categories.'</td>'.PHP_EOL;
 						echo '<td><a href="/politics-blog/'.$row["id"].'" title="'.$row["title"].'"><img src="/web/skin/left_arrow.png" title="K článku" alt="K článku" height="10" /></a></td>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 				}

@@ -8,12 +8,22 @@ class ELRHDataHelper {
 			$array[$i] = $current;
 			$i++;
 		}
-		return $array;
+		//
+		if (isset($array)) {
+			return $array;
+		} else {
+			return null;
+		}
 	}
 	
 	public static function retrieveRow($mysqli, $query) {
 		$result = $mysqli->query($query." LIMIT 1");
 	    $row = $result->fetch_array();
-		return $row;
+		//
+		if (isset($row)) {
+			return $row;
+		} else {
+			return null;
+		}
 	}
 }

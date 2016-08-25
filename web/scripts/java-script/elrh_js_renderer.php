@@ -1,6 +1,4 @@
 <?php
-// various java scripts
-// TODO refactor
 class ELRHJSRenderer {
 	// taken from http://code.stephenmorley.org/javascript/touch-friendly-drop-down-menus/
 	public static function renderJSDropDownMenu() {

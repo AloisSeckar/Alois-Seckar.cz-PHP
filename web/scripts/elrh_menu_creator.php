@@ -50,6 +50,9 @@ class ELRHMenuCreator {
 						<a href="/misc" title="Ostatní aktivity">ZÁBAVA</a>
 						<ul class="sub-dropdown">
 							<li>
+								<a href="/misc-run" title="Běžecké výkony">Běh</a>
+							</li>
+							<li>
 								<a href="/misc-writing" title="Literární tvorba">Psaní</a>
 							</li>
     						<li >

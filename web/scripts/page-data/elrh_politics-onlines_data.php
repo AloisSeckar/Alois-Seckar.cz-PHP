@@ -7,10 +7,24 @@ class ELRHPageData {
 		
 		include_once getcwd().'/web/scripts/page-data/elrh_data_helper.php';
 		
-		if (empty($item)) {
-			// if no item selected = show list of all available onlines
-			$data["onlines"] = ELRHDataHelper::retrieveArray($mysqli, "SELECT id, date, name, thumb, status FROM elrh_onlines ORDER BY date DESC");
-		} else {
+		// deal with admin input, if any
+		if (isset($_SESSION["user"])) {
+			if (isset($_POST["admin_online"]) && isset($_POST["admin_content"])) {
+				$data["admin_content"] = $_POST["admin_content"];
+				$result = $mysqli->query("INSERT INTO elrh_onlines_content (online, date, content) VALUES (".mysqli_real_escape_string($mysqli, $_POST["online"]).", now(), '".mysqli_real_escape_string($mysqli, $_POST["content"])."');");
+				if ($result) {
+					$data["admin_message"] = '<span style="color: green;">Vložen nový záznam</span>';
+				} else {
+					$data["admin_message"] = '<span style="color: red;">Vložení selhalo</span>';
+				}
+			}
+		}
+		//
+		
+		// get list of all existing onlines
+		$data["onlines"] = ELRHDataHelper::retrieveArray($mysqli, "SELECT id, date, name, thumb, status FROM elrh_onlines ORDER BY date DESC");
+		//
+		if (!empty($item)) {
 			// notify content renderer, there will be only one entry
 		    $data["single"] = true;
 				

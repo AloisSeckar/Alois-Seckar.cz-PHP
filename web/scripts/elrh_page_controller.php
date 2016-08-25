@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class ELRHPageController {
 	
 	/// ATRIBUTES \\\
@@ -10,11 +10,20 @@ class ELRHPageController {
 	
 	private $page_data; // array containing all relevant data to be displayed within page-content
 	
+	
+	/// (DE)CONSTRUCTOR \\\
+	
+	public function __construct() {
+		// set mySQL
+		$this->getMySQLConnection();
+	}
+	
+	
 	/// PUBLIC METHODS \\\
 	
 	public function resolvePath($url) {
 		// split url by "/"
-		$url_parts = split("/", $url);
+		$url_parts = explode("/", $url);
 		// page (set default if needed)
 		if ($url_parts[0]!="") {
 			$this->page_request = $url_parts[0];
@@ -37,11 +46,8 @@ class ELRHPageController {
 	}
 	
 	public function prepareData() {
-		// set mySQL
-		$this->getMySQLConnection();
 		// variable info that depends on displayed page
-		// mysql must work and page must exist
-		if (($this->page_data["mysql"] == true)&&($this->page_request != "error")) {
+		if ($this->page_request != "error") {
 			include_once getcwd().'/web/scripts/page-data/elrh_'.$this->page_request.'_data.php';
 			$this->page_data = array_merge($this->page_data, 
 				ELRHPageData::prepareData($this->item_request, $this->mysqli));
@@ -49,7 +55,6 @@ class ELRHPageController {
 			$this->page_data["title"] = "Alois Sečkár - Domovská stránka";
 		}
 		// always presented info
-		// mysql must work
 		if ($this->page_data["mysql"] == true) {
 			// menu
 			include_once getcwd().'/web/scripts/elrh_menu_creator.php';
@@ -69,7 +74,7 @@ class ELRHPageController {
 			$this->page_data["version"] = $data["value"];	
 		} else {
 			$this->page_data["menu"] = '&nbsp;&diams;&nbsp;Not connected&nbsp;&diams;&nbsp;';
-			$this->page_data["navigation"]["top"] = '&raquo;&nbsp;<a href="/" title="Index">INDEX</a>';
+			$this->page_data["navigation"]["top"] = '&raquo;&nbsp;<a href="" target="_self" title="Index">INDEX</a>';
 			$this->page_data["navigation"]["bottom"] = '';
 			$this->page_data["update"] = "???";
 			$this->page_data["version"] = "???";	
@@ -107,7 +112,7 @@ class ELRHPageController {
 		$this->mysqli = new mysqli($databaseInfo->ELRH_MySQL_Host, $databaseInfo->ELRH_MySQL_User, 
 			$databaseInfo->ELRH_MySQL_Pass, $databaseInfo->ELRH_MySQL_Db);
 		// work with DB
-		if (($this->mysqli!=null)&&($this->mysqli->connect_error == NULL)) {
+		if ($this->mysqli->errno == 0) {
 			// set db encoding
 			$this->mysqli->set_charset("utf8");
 			// notify that no error occured

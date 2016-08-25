@@ -7,6 +7,7 @@ class ELRHPageContentRenderer {
 			echo 'Zde najdete všechno ostatní, co nenajdete jinde:'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
 		echo '<ul>'.PHP_EOL;
+			echo '<li><strong><a href="misc-run" title="Běžecké výkony">BĚH</a></strong> - přehled mých historických běžeckých statistik.</li>'.PHP_EOL;
 			echo '<li><strong><a href="misc-writing" title="Literární tvorba">PSANÍ</a></strong> - mám na svědomí několik pokusů o&nbsp;povídky a&nbsp;jiná literární díla.</li>'.PHP_EOL;
 			echo '<li><strong><a href="misc-history" title="Historické okénko">HISTORIE</a></strong> - několik projektů historického bádání, zejména naše <a href="http://krc-historie.cz" title="Stará Krč">Stará Krč</a>.</li>'.PHP_EOL;
 			echo '<li><strong><a href="misc-soft" title="Hraní softbalu">SOFTBAL</a></strong> - věnuju či věnoval jsem se celé řadě sportů, ale softbal hraje prim.</li>'.PHP_EOL;

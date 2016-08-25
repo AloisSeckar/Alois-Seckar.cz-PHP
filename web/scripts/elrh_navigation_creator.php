@@ -11,7 +11,7 @@ class ELRHNavigationCreator {
 	 */
 	public static function createNavigationContent($page, $item, $mysqli) {
 		// split page request into parts (page and sub-page)
-		$request = split("-", $page);
+		$request = explode("-", $page);
 		// look into db for values
 		// page
 		$result = $mysqli->query(

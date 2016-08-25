@@ -1,3 +1,9 @@
+/* 
+// core taken from http://code.stephenmorley.org/javascript/touch-friendly-drop-down-menus/
+// customized to fit into page
+*/
+
+
 .dropdown,
 .dropdown ul,
 .dropdown li{

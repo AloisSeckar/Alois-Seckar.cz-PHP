@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: wm95.wedos.net:3306
--- Generation Time: Dec 19, 2015 at 07:54 PM
+-- Generation Time: Aug 25, 2016 at 05:52 PM
 -- Server version: 5.6.23
 -- PHP Version: 5.4.23
 
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `elrh_blog` (
   `time` time NOT NULL,
   `content` text NOT NULL,
   `categories` varchar(255) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=78 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=79 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `elrh_blog`
@@ -121,7 +121,8 @@ INSERT INTO `elrh_blog` (`id`, `title`, `date`, `time`, `content`, `categories`)
 (74, 'Pětiminutové zastupitelstvo', '2015-03-12', '10:33:15', '<p><i>Ano, mohli jsme pro vás uspořádat normální zasedání zastupitelstva. A krásné. Zdlouhavé jednání, občanské interpelace a potom nějaká ta vábnička pro místní voliče. Jenomže my jsme řekli – NE! Žádné zastupitelstvo. A když cirkus, tak pořádný!</i></p>\r\n\r\n<p>Jednání zastupitelstva Prahy 4 mě za ten rok a půl, co je sleduji, nepřestávají fascinovat. Škoda, že je jich do roka jako šafránu, protože jsme snad pokaždé svědky něčeho nového a úžasného. Zvolání „tak teď už jsem viděl všechno“ je zjevně domýšlivostí nejen na internetu, ale i v místní komunální politice. Dnes jsme pro změnu viděli prý nejkratší zasedání od roku 1992, které <a href="https://www.youtube.com/watch?v=EYz7CoOy9Yw">skončilo po pěti minutách</a> neschválením pořadu jednání (výsledek hlasování o programu <a href="http://praha4.cz/file/pGY1/3Z-PROGRAM.pdf">ZDE</a>).</p>\r\n\r\n<p>S krátkým předstihem jsem byl upozorněn, že se něco takového chystá, takže to pro mě nebyl úplný šok, jako asi pro některé občany, kteří přišli na zastupitelstvo řešit své problémy, nebo se chtěli podívat, jak jejich zvolení zástupci pracují. Kvůli začátku v 10 hodin středečního dopoledne je to nejspíš stálo výběr volna v práci. Je otázkou, zda je to znechutilo víc, než obvyklá zdlouhavá mnohahodinová jednání. Každopádně neviděli víc, než krátkou epizodu ve hře „Sestřel si svého starostu“. Oficiálně v ní jde o špatnou komunikaci a nekvalitní návrh rozpočtu na rok 2015.</p>\r\n\r\n<p>Měl jsem k tomu návrhu rozpočtu připravený diskusní příspěvek. Chtěl jsem se zeptat TOP09, proč nyní spolupředkládají schodkový rozpočet krytý prostředky, které se nevyčerpaly z rozpočtu 2014, když před rokem z opozičních lavic tvrdil předseda klubu TOP09 Martin Plíšek:</p>\r\n\r\n<p><i>„My tento rozpočet nepodpoříme z obecného hlediska z toho důvodu, jak je koncipován. Je koncipován jako schodkový, deficitní s tím, že plánovaný schodek má být kryt z rozpočtové rezervy a nevyčerpaných prostředků na dřív, v minulosti schválené akce.“</i> [1]</p>\r\n\r\n<p>Zajímalo mě, jak je možné, že se více než čtvrtina výdajů navrhovaných pro rok 2014, nevyužila. Je sice rozhodně lepší skončit v přebytku nežli ve ztrátě, ale přesto mi přijde zvláštní, že se odhad a realita liší o <i>tolik</i>.</p>\r\n\r\n<p>A nakonec mě zajímalo, kam se s křesly v Radě poděla někdejší transparentnost Zelených. Před rokem se paní Iva Kotvová nechala slyšet:</p>\r\n\r\n<p><i>„[…] poukážu také na tu formu, která je velmi důležitá z hlediska přehlednosti a transparentnosti rozpočtu. My jako zastupitelé jsme se možná za ta léta už s tím trošičku naučili pracovat, nicméně rozpočet ve formátu PDF – s tím se nedá pracovat, tam se nedají věci porovnávat, vyhledávat. Řekla bych, že je velmi uživatelsky nepřátelský.“</i> [2]</p>\r\n\r\n<p>Naprostý souhlas. Ale co letos předložila Rada MČ Praha 4, jejíž je paní Kotvová součástí? Stejné <a href="http://praha4.cz/file/oRZ1/10-Rozpocet-mestske-casti-Praha-4-na-rok-2015-celek.pdf">nepřehledné PDF</a>, kde asi jediný rozdíl je, že letošní je ještě o 50 stránek delší než minulé. Pokud jsou v rozpočtu nějaké zásadní chyby, které údajně stojí za snahou části zastupitelů zbavit se starosty Štěpánka, nebyl jsem schopen je v dostupném materiálu objevit. Nebyl jsem tam vlastně schopen objevit skoro nic, a protože scrollovací kolečko myši je ta součást, která vždycky odchází první, tak jsem se o to v zájmu zachování mého elektronického hlodavce popravdě ani moc nepokoušel.</p>\r\n\r\n<p>Na to všechno jsem se chtěl zastupitelů ptát, ale nedostal jsem dnes možnost. Tak snad příště, nové jednání musí být dle zákona svoláno do 15 dnů. I když kdo ví, co nás čeká. Mohl by zase někdo <a href="http://www.ceskatelevize.cz/ct24/regiony/254277-kvuli-primatorske-ceste-na-kypr-chtela-opozice-odvolat-starostu-prahy-4/">odcestovat na dovolenou na Kypr</a> nebo si <a href="http://www.metro.cz/smejdi-z-prahy-4-chteji-omluvu-stepanek-byl-pry-na-ne-prilis-sprosty-11j-/co-se-deje.aspx?c=A140618_123004_co-se-deje_rab">pouštět pusu na špacír při setkání s občany</a> a budeme mít opět o zábavu postaráno i bez rozpočtu.</p>\r\n\r\n<p><br /></p>\r\n\r\n<p>[1] <a href="http://praha4.cz/file/oio1/Zapis-18-zasedani-Zastupitelstva-MC-Praha-4-dne-13-2-2014.pdf">Zápis z jednání zastupitelstva dne 13. 2. 2014</a> (str. 101-102)<br />\r\n\r\n[2] <a href="http://praha4.cz/file/oio1/Zapis-18-zasedani-Zastupitelstva-MC-Praha-4-dne-13-2-2014.pdf">Zápis z jednání zastupitelstva dne 13. 2. 2014</a> (str. 118-119)</p>', 'Politika, Praha 4, Zastupitelstvo'),
 (75, 'Zodpovědný přístup k životnímu prostředí', '2015-04-21', '17:40:35', '<p>Jsem rád, že si mohu na webu Prahy 4 přečíst zprávu, že městská část dostala cenu za „zodpovědný přístup k životnímu prostředí[1], zpětnému odběru výrobků a třídění odpadů“. Souhlasím se zastupiteli, že je dobré rozvíjet podobné aktivity, jako je sběr starých mobilů a jiných elektrospotřebičů, a tím přispívat k ochraně přírody. Pokud se děti na školách skutečně naučí, že odpad se vyhazuje v místech k tomu určených, pro budoucnost jenom dobře.</p>\r\n\r\n<p>Do té doby se ale Praha 4 musí potýkat se skutečností, že takřka libovolná plocha veřejné zeleně, obzvlášť křovinaté porosty podél silnic, jsou mnohdy doslova vystlány vrstvami nejrůznějších odpadků, které tam někdo odhodil, nebo odněkud nalétaly. Zvláštní talent ve znečišťování mají bezdomovci, kteří dokáží nepořádku ve svém okolí generovat skutečně úctyhodné množství. Často se přitom přesouvají, ale různá „hnízda“ dokládající jejich přítomnost po nich zůstávají. Myslím, že to ale zdaleka nejsou jen oni.</p>\r\n\r\n<p>Následkům čelíme všichni, kdykoliv jdeme okolo nějakého zaneřáděného místa, což znamená téměř pokaždé, když se pohybujeme ulicemi Prahy 4. Poměrně často pořádají nadšenci veřejné úklidy, ale ty mají pouze dočasný účinek a v silách dobrovolníků není čistotu permanentně udržovat.</p>\r\n\r\n<p>Myslím si, že by se měla mnohem více angažovat radnice. Pořádek v obci by měl být jedním ze základních cílů a priorit každé obce. Návrh rozpočtu na rok 2015[2] před úpravou (konsolidovanou verzi se zapracovanými změnami z posledního zastupitelstva jsem nenašel) vyčlenil následující objem prostředků:</p>\r\n\r\n<ul>\r\n<li>32,97 milionu na sběr a svoz komunálního odpadu (+10% proti 2014)</li>\r\n<li>3,1 milionu na sběr a svoz ostatního odpadu (+3% proti 2014)</li>\r\n<li>46,56 milionu na péči o vzhled obce a veřejnou zeleň (+6% proti 2014)</li>\r\n</ul>\r\n\r\n<p>Není to zrovna málo, ačkoliv je Praha 4 velká. Budu tedy s napětím sledovat, zda se v balíku financí najdou peníze i na periodický sběr nepořádku ze zelených ploch. Zatím za první skoro 4 měsíce bohužel nevidím žádný dramatický posun vpřed.</p>\r\n\r\n<p>„Údržba“ zeleně naproti tomu často probíhá stylem „půjdeme a vykácíme, co se dá“. Zůstane jen pár vzrostlejších stromů v měsíční krajině u země uřezaných keřů. Přes zimu jsme tuto praxi mohli pozorovat na mnoha místech. Tento přístup má z hlediska obce jednu výhodu – odpadkům se tam nedaří tak dobře jako v houštinách. Pro místní rekreanty zvyklé na krásu přírody už je to horší.</p>\r\n\r\n<p>Zkušenost z našich „velkých úklidů“ říká, že parta deseti až dvaceti lidí nasbírá za pár hodin plný kontejner odpadu a tím rapidně zlepší pořádek v místě, kde úklid prováděla. Limitem těchto akcí jsou jednak finanční prostředky, protože pytle, rukavice ani odvoz kontejneru není zdarma, pak také samozřejmě čas a ochota dobrovolníků, protože místo víkendové relaxace a odpočinku mají někde lítat po lese a sbírat nepořádek. Jednou za čas to jde, nelze to však pravidelně.</p>\r\n\r\n<p>Městská část může pomoct několika způsoby. Třeba vyčleněním financí na materiální podporu dobrovolných uklízečů, nebo i tím, že nadšené občany nahradí placenými brigádníky, kteří budou do ulic, lesů a parků Prahy 4 vyrážet častěji a nedají tak nezodpovědným lidem tolik času vyčištěná místa znovu zaneřádit.</p>\r\n\r\n<p>Pokud k tomu přeci dojde, jsou tu weby jako <a href="http://www.lepsimisto.cz/">http://www.lepsimisto.cz/</a> nebo <a href="http://www.zmapujto.cz/">http://www.zmapujto.cz/</a>, kde mohou lidé aktuální problémy nahlásit. Vyžaduje to ale spolupráci úřadů, aby přijatá hlášení také efektivně vypořádávaly. A pomohla by propagace těchto nepříliš známých webů mezi občany. Webové stránky Prahy 4 a radniční zpravodaj Tučňák jsou k tomu ideální. Totéž se týká plánovaných úklidových akcí (i těch, kterých se osobně neúčastní zastupitelé). Samozřejmostí je osvěta na školách, aby pro vyrůstající generaci prostě už nebylo normální dojíst v lese svačinu a obal upustit do větru.</p>\r\n\r\n<p>Míč je na straně vedení městské části.</p>\r\n\r\n<p>\r\n[1] <a href="http://praha4.cz/Praha-4-ziskala-Certifikat-spolecenske-odpovednosti-1.html">http://praha4.cz/Praha-4-ziskala-Certifikat-spolecenske-odpovednosti-1.html</a><br />\r\n[2] <a href="http://praha4.cz/Navrh-rozpoctu-mestske-casti-Praha-4-na-rok-2015.html">http://praha4.cz/Navrh-rozpoctu-mestske-casti-Praha-4-na-rok-2015.html</a>\r\n</p>', 'Názory, Praha 4, Pořádek'),
 (76, 'Revolučním vojákem', '2015-04-23', '15:03:39', '<p>Letos v květnu si připomínáme 70 let od bouřlivých událostí konce druhé světové války známých jako Pražské povstání. Po několik bouřlivých dnů prožívali Pražané stovky a tisíce pohnutých příběhů a zdi mnoha domů dnes zdobí pamětní desky připomínající ty, kteří v předvečer osvobození položili život v boji za svobodu nebo byli bezdůvodně a zákeřně zavražděni. Ani ulicím Krče se dramatické chvíle nevyhnuly.</p>\r\n\r\n<p>Jedním z chtěných či nechtěných aktérů revolučního dění byl i Alois Papírník, z místní hasičské stanice. Krčští hasiči se pod jeho taktovkou zapojili do dění hned 5. května a to zejména blokádou Benešovské silnice. Záhy se podařilo zajmout řadu Němců a to včetně vozu s několika raněnými vojáky. Těm šlo v revoluční náladě brzo o život, pročež se pan Papírník ujal velení sanitního vozu na cestě z Budějovické do lazaretu v Masarykových domovech (dnešní Thomayerově nemocnici). To ho dvakrát málem stálo život:</p>\r\n\r\n<p><i>„Při sjíždění z vrchu zvaného "Endršťák“ voláno na mne před vilou vrchního zdravotního rady Pazderníka a jeho paní, abych nejel dále, že s Pragovaru Němci střílí. Nedbal jsem toho, poněvadž jsem vše považoval za ženský strach a jel dále. Ale u Pragovaru byl by mne málem vyhodil ručním granátem do povětří V. Boček z Horní Krče, který, když viděl ujížděti německou ochrannou stanici (dle barvy), předpokládal, že to ujíždějí Němci a chtěl vše likvidovat ručním granátem. V poslední chvíli ale vzkřikl jsem na něho a on, poznav mne, volal mne dolů, abych dále nejel, že z Pragovaru Němci střílí. Do mne však v první chvíli nestříleli, poněvadž nevěděli, nejsem-li jeden z nich. Když jsem však vylezl z vozu, střelili po mně a zasáhli mě do pravého boku. Kule narazila na kost kyčelní a vyrvala kus masa, načež vylétla ven.“</i></p>\r\n\r\n<p>Po dalších peripetiích naplněných především ochotnou pomocí raněným na různých místech po Krči se provizorně ošetřený Alois Papírník stal součástí místní delegace, která se vydala do Pragovaru (dnes areál u Vídeňské mezi Jižní spojkou a železniční tratí), toho času sloužícího jako kasárna SS, aby sjednali kapitulaci místní posádky. Přes výhodné postavení a vojenskou převahu tomu byli Němci nakloněni, považujíc zřejmě svou situaci za neudržitelnou. Revoluční zástupci byli tedy uvedeni:</p>\r\n\r\n<p><i>„V místnosti důstojníků se právě odbýval "předsmrtný" banket. Stoly plné jídla, vína a likérů. Nacházelo se tam asi pět důstojníků SS se ženami v náladě - mezi nimi i mně z Pragovaru známý (byl jsem tam služebně kasárnován u P.O.) Obersturmbannführer Edelhof. Po služebním hlášení našeho vedoucího se jakž takž vzpamatovali a po představení žádali o chvíli strpení, že se poradí. Major vedoucí, druhý major a mně známý Edelhof, jenž mi hned při představení řekl "Löschmeister, Sie auch?" Odpověděl jsem: "Ja, Herr Obersturmbannführer, das ist meine Pflicht". Pohleděl na mne a řekl: "Bravo!" načež jsme usedli a začalo jednání. Major dal rozkaz palbu zastavit, což bylo okamžitě provedeno.“</i></p>\r\n\r\n<p>Jednání přerušila eskapáda se střelbou zvenčí. Komunikace vlastenců vázla, a tak zatímco naše skupinka uvnitř jednala, jiná se jala kasárna ostřelovat. Přesto bylo nakonec dosaženo dohody, přičemž SS-mani nežádali v podstatě nic jiného, než převzetí areálu dostatečně silnou policejní stráží, ponechání příručních zbraní a volný odjezd, přičemž velícímu majorovi bylo <i>„ganz egal“</i> kam.</p>\r\n\r\n<p>Aktivní role Aloise Papírníka skončila cestou do Braníka na policejní komisařství, kde ohlásil čerstvě dohodnutou kapitulaci Německé posádky Pragovaru. Přijat byl stroze a dnes již víme, že slibná dohoda nedošla naplnění. Pragovar nepřišla žádná policejní jednotka včas převzít a Němci neodešli. Poté už se k nim donesly zprávy o posilách maršála Schörnera blížících se kvapem od Benešova a zůstali tak tam, kde byli. Německé tanky měly volnou cestu do Prahy…</p>\r\n\r\n<p>Tento příběh zachytil v písemné podobě můj dědeček, rovněž Alois Papírník, syn hlavního aktéra. Ve svých pamětech přepsal hlášení, které jeho otec podal po osvobození na výzvu úřadů. Sám byl příliš skromný, než aby se svým příběhem hlasitě chlubil. Přesto však nezůstal utajen a vynesl mu nakonec Československý válečný kříž 1939 a další tři vyznamenání.\r\nKdyž děda psal o svém tatínkovi, uvedl text jako monografii o obyčejném člověku: <i>„Nebyl vědcem, ani dobyvatelem, ba nebyl dokonce ani tzv. úspěšným mužem - byl jen dobrým člověkem!“</i> Stačilo, aby se věci seběhly jen trochu jinak, a mohl být třeba i oslavovaným hrdinou. Takto zůstal jen jedním z mnoha pozapomenutých jmen v mozaice Pražského povstání.</p>\r\n\r\n<p>Celý příběh Aloise Papírníka a mnoho dalších informací a starých fotografií z historie Krče a okolních čtvrtí naleznete na webu <a href="http://www.krc-historie.cz/">http://www.krc-historie.cz/</a></p>', 'Historie, Krč, Pražské povstání'),
-(77, 'Obyčejný příběh', '2015-05-08', '12:40:26', '<p>V těchto dnech si připomínáme 70. let od událostí tzv. Pražského povstání. Dozvídáme se nejrůznější věci, včetně toho, jak bylo povstání vlastně zbytečné, a že tu a onde došlo k neomluvitelným masakrům Německých civilistů. Samozřejmě se nejvíc mluví o notoricky známých událostech, jakými byl Boj o rozhlas nebo boje v okolí Staroměstské radnice.</p>\r\n\r\n<p>U nás v Krči se ovšem bojovalo také a byly zde také zabity desítky lidí, včetně dvou velkých vraždění v Úsobské a Hornokrčské ulici. A místní prožívali své osobní příběhy. Už před dvěma lety jsem zveřejnil <a href="http://ellrohir.mzf.cz/index.php?page=blog&id=76" title="Revolučním vojákem">zapsané svědectví mého pradědy </a> Aloise Papírníka, kterak se role v Pražském povstání zhostil se ctí on. Dnes přidávám příběh jeho syna a tedy mého dědečka, rovněž Aloise Papírníka, jehož prožití památných květnových dní je dle jeho vlastních slov „zcela nehrdinské, i když myslím, že nikoliv zbabělé“. Dle mého je předně velmi zajímavé a hodné toho, aby bylo vytaženo z jeho strojem psaných pamětí na světlo internetového světa.</p>\r\n\r\n<p>-----</p>\r\n\r\n<p>Toho času devatenáctiletý Papírník junior se 5. května po poledni vracel ze směny v Holešovických mlýnech, kde byl nuceně nasazen, tramvají domů do Krče. Z reakcí spolucestujících a z výjevů za okny již věděl, že se něco děje. Tramvaj zastavila Na Paloučku blízko Nuselské radnice v Táborské a zde se děda potkal s prvním mrtvým.</p>\r\n\r\n<p><i>„Byl to mladý esesák, hlídač z pankrácké věznice, v té době už dobyté revolucionáři, davem chycený a rozšlapaný, zvláště v obličeji; zda se sám zachraňoval útěkem či bláhově chtěl potlačit "méněcenné" Čechy, už se nedozvím.“</i></p>\r\n\r\n<p>Veden prozaickou potřebou hladu, chtěl se pěšky dostat do svého krčského domova a posléze alespoň na hasičárnu, kde plánoval setkat se s otcem. Brzy ho však pohltil „pocit povinnosti“, a ač jak sám přiznává „bez valného nadšení“, pokusil se na Soudním náměstí na Pankráci nechat se naverbovat k dobrovolníkům odjíždějícím na pomoc rozhlasu. Nebylo mu ale souzeno stát se bojovníkem povstání. Neznámý organizátor byl však k jeho nabídce pomoci skeptický.</p>\r\n\r\n<p><i>„Pohlédl na mou mladou tvář a bylo mu jasné, že jsem za Benešovy republiky ještě voják nebyl a pravil: "Byl jsi na vojně?" "Ne -" "A umíš vůbec střílet?" "Neumím, ale to mně tam snad vysvětlíte". Nevysvětlil, nevzal, auto odjelo beze mne.“</i></p>\r\n\r\n<p>Děda tedy pokračoval dál směrem ke Krči a ruku k revolučnímu dílu přidal v místech dnešního Baumaxu a Finančního úřadu pro Prahu 4 na Pankráci. Tehdy tam stála zbrojovka Janeček a živelně vyrůstala barikáda. Již za pár chvil se ukázalo, že jde o stejně smrtící činnost jako bojovat proti Němcům se zbraní v ruce. Od krčského hřbitova se přiřítila jednotka ozbrojených německých vojáků a nemilosrdně zahájila palbu do davu. Nezbylo než utíkat.</p>\r\n\r\n<p><i>„Snad moje schopnost, zatím mě věrně provázející, v kritické chvíli možných řešení vybrat ve zlomku vteřiny optimální variantu způsobila, že jsem neprchal pro  jistou smrt směrem ke krčské hasičárně, ač pro mne už blízké, ale  daleké pro dávku ze samopalů, ale s davem směr Michle a to těsně  podle nějaké prkenné ohrady, která tam tehdy stála, a pozoroval, jak  smrt kosí spoluběžce, hlavně z prostředku silnice; šlo řádově o deset lidí, jen jsem si myslel, jak to asi zabolí, když mě to trefí. Netrefilo - a už tu byl spásný roh, v němž se ulice uhýbala mírně vpravo pryč od střelby.“</i></p>\r\n\r\n<p>Zachránilo jej možná i to, že se Němci spokojili s obsazením barikády a nepokračovali v postupu směrem do Michle. Děda spekuluje, zda se nebáli, že by v ulicích mezi domy mohli být zaskočeni ze zálohy, ale kdo ví. On sám si vzápětí vyzkoušel roli polního zdravotníka, ačkoliv jistě nepatřil k povolaným odborníkům. Postřeleným však bylo třeba pomoct, jak se dalo.</p>\r\n\r\n<p>Když už nebylo, co udělat na místě, obnovil svůj původní záměr dostat se na krčskou hasičskou stanici. Cesta přes Kačerov sice proběhla bez incidentů, ale jistě si každý dovede představit, jak stresující to musel být zážitek. Zvlášť když musel projít na dohled (a hlavně na dostřel) od pivovaru Pragovar, kde sídlila posádka SS, se kterou mezitím dědův otec pomáhal sjednávat kapitulaci, která ale nakonec padla kvůli branické policejní posádce, která se včas nedostavila k dohodnutému převzetí objektu.</p>\r\n\r\n<p>Každopádně děda se spásně dostal na hasičárnu, kde odříznut od Papírníka seniora strávil ve společnosti jeho služebních kolegů noc. Protože na stanici byli také ranění, dostal opět přidělenou roli saniťáka a to včetně pásky s křížem na rukáv. Tak ho zastihly jednotky maršála Schörnera, které na Prahu přitáhly od Benešova.</p>\r\n\r\n<p><i>„Hned vedle hasičárny, rozestavili dělostřelecké baterie směrem na Janečkovu továrnu a dále na Prahu a zahájili palbu. V té době měli poměrně i dobrou náladu a s námi i vtipkovali, ovšem po svém stylu: Praha je opravdu krásné město, škoda že ho musíme rozbít na kusy, ale co se dá dělat.“</i></p>\r\n\r\n<p>Mladý Alois Papírník zatoužil po domově. A bylo mu vyhověno. Následovala scénka, která, kdyby ji člověk sledoval v teple domova v televizi, mohla být skoro až veselá a rozhodně zcela nehrdinská. Být však v kůži mého dědy by asi tehdy nikdo být nechtěl.</p>\r\n\r\n<p><i>„Otevřela se branka potu hasičárny a já vystrčen ven přímo před německé baterie, odstřelující Prahu, ale též odstřelující barikádníky od Janečkárny. Neuvažovav ani vteřinu, mávaje rukou s páskou s červeným křížem a německy psaným občanským průkazem (Kennkarte) a volaje "nicht Schiesen!" (nestřílet) vběhl jsem mezi obsluhu mne nejbližšího děla a schoval se za jeho krytem. Oni si pobaveně uvědomili komičnost situace a se sarkastickým smíchem se ptali, proč mi to vadí, že to střílí naši, tak jsem jim rovněž tak odpověděl, že je mi jedno, která střela je trefí, že nechci žádnou. I zde jsem požádal o dovolení další cesty a vydal se dál, tentokrát už ulicí Hornokrčskou směr Pragovar, který se mi posléze objevil, ale ouha! - v cestě mi bránila již prázdná barikáda z rozstřílených autobusů. Co teď? Jít zpět znamená kulku do těla - tak dopředu. Pane Bože, přede mnou úsek Budějovická ulice lemovaný po celé délce okraji chodníků sedícími vojáky, kteří na mne s udivením, a mnozí pobaveně zírali, co tu jako chci. Tak zase kennkartu v ruce, mávaje rukou s našitým křížem zdravotníka, brebentě všem skupinám své "nicht schiessen! Ich bin  Sanitär!" blížil jsem se krok za krokem k starému železničnímu mostu (jeho kamenný pilíř je dodnes patrný), čekaje tam spásu, a podobně jako včera při útěku do Michle počítající se smrtící kulkou.“</i></p>\r\n\r\n<p>Naštěstí vše dobře dopadlo, děda dospěl zdárně domů a setkal se zde se svými blízkými. Vyhnulo se jim zuřivé a nesmyslné vraždění, které Němci 6. května v Krči rozpoutali v Úsobské, Hornokrčské, ale i jinde. Po mrtvých zbyly pamětní desky, po živých jejich příběhy, které bychom si měli neustále připomínat. A nezapomenout…</p>', 'Historie, Krč, Pražské povstání');
+(77, 'Obyčejný příběh', '2015-05-08', '12:40:27', '<p>V těchto dnech si připomínáme 70. let od událostí tzv. Pražského povstání. Dozvídáme se nejrůznější věci, včetně toho, jak bylo povstání vlastně zbytečné, a že tu a onde došlo k neomluvitelným masakrům Německých civilistů. Samozřejmě se nejvíc mluví o notoricky známých událostech, jakými byl Boj o rozhlas nebo boje v okolí Staroměstské radnice.</p>\n\n<p>U nás v Krči se ovšem bojovalo také a byly zde také zabity desítky lidí, včetně dvou velkých vraždění v Úsobské a Hornokrčské ulici. A místní prožívali své osobní příběhy. Už před dvěma lety jsem zveřejnil <a href="http://ellrohir.mzf.cz/index.php?page=blog&id=76" title="Revolučním vojákem">zapsané svědectví mého pradědy </a> Aloise Papírníka, kterak se role v Pražském povstání zhostil se ctí on. Dnes přidávám příběh jeho syna a tedy mého dědečka, rovněž Aloise Papírníka, jehož prožití památných květnových dní je dle jeho vlastních slov „zcela nehrdinské, i když myslím, že nikoliv zbabělé“. Dle mého je předně velmi zajímavé a hodné toho, aby bylo vytaženo z jeho strojem psaných pamětí na světlo internetového světa.</p>\n\n<p>-----</p>\n\n<p>Toho času devatenáctiletý Papírník junior se 5. května po poledni vracel ze směny v Holešovických mlýnech, kde byl nuceně nasazen, tramvají domů do Krče. Z reakcí spolucestujících a z výjevů za okny již věděl, že se něco děje. Tramvaj zastavila Na Paloučku blízko Nuselské radnice v Táborské a zde se děda potkal s prvním mrtvým.</p>\n\n<p><i>„Byl to mladý esesák, hlídač z pankrácké věznice, v té době už dobyté revolucionáři, davem chycený a rozšlapaný, zvláště v obličeji; zda se sám zachraňoval útěkem či bláhově chtěl potlačit "méněcenné" Čechy, už se nedozvím.“</i></p>\n\n<p>Veden prozaickou potřebou hladu, chtěl se pěšky dostat do svého krčského domova a posléze alespoň na hasičárnu, kde plánoval setkat se s otcem. Brzy ho však pohltil „pocit povinnosti“, a ač jak sám přiznává „bez valného nadšení“, pokusil se na Soudním náměstí na Pankráci nechat se naverbovat k dobrovolníkům odjíždějícím na pomoc rozhlasu. Nebylo mu ale souzeno stát se bojovníkem povstání. Neznámý organizátor byl však k jeho nabídce pomoci skeptický.</p>\n\n<p><i>„Pohlédl na mou mladou tvář a bylo mu jasné, že jsem za Benešovy republiky ještě voják nebyl a pravil: "Byl jsi na vojně?" "Ne -" "A umíš vůbec střílet?" "Neumím, ale to mně tam snad vysvětlíte". Nevysvětlil, nevzal, auto odjelo beze mne.“</i></p>\n\n<p>Děda tedy pokračoval dál směrem ke Krči a ruku k revolučnímu dílu přidal v místech dnešního Baumaxu a Finančního úřadu pro Prahu 4 na Pankráci. Tehdy tam stála zbrojovka Janeček a živelně vyrůstala barikáda. Již za pár chvil se ukázalo, že jde o stejně smrtící činnost jako bojovat proti Němcům se zbraní v ruce. Od krčského hřbitova se přiřítila jednotka ozbrojených německých vojáků a nemilosrdně zahájila palbu do davu. Nezbylo než utíkat.</p>\n\n<p><i>„Snad moje schopnost, zatím mě věrně provázející, v kritické chvíli možných řešení vybrat ve zlomku vteřiny optimální variantu způsobila, že jsem neprchal pro  jistou smrt směrem ke krčské hasičárně, ač pro mne už blízké, ale  daleké pro dávku ze samopalů, ale s davem směr Michle a to těsně  podle nějaké prkenné ohrady, která tam tehdy stála, a pozoroval, jak  smrt kosí spoluběžce, hlavně z prostředku silnice; šlo řádově o deset lidí, jen jsem si myslel, jak to asi zabolí, když mě to trefí. Netrefilo - a už tu byl spásný roh, v němž se ulice uhýbala mírně vpravo pryč od střelby.“</i></p>\n\n<p>Zachránilo jej možná i to, že se Němci spokojili s obsazením barikády a nepokračovali v postupu směrem do Michle. Děda spekuluje, zda se nebáli, že by v ulicích mezi domy mohli být zaskočeni ze zálohy, ale kdo ví. On sám si vzápětí vyzkoušel roli polního zdravotníka, ačkoliv jistě nepatřil k povolaným odborníkům. Postřeleným však bylo třeba pomoct, jak se dalo.</p>\n\n<p>Když už nebylo, co udělat na místě, obnovil svůj původní záměr dostat se na krčskou hasičskou stanici. Cesta přes Kačerov sice proběhla bez incidentů, ale jistě si každý dovede představit, jak stresující to musel být zážitek. Zvlášť když musel projít na dohled (a hlavně na dostřel) od pivovaru Pragovar, kde sídlila posádka SS, se kterou mezitím dědův otec pomáhal sjednávat kapitulaci, která ale nakonec padla kvůli branické policejní posádce, která se včas nedostavila k dohodnutému převzetí objektu.</p>\n\n<p>Každopádně děda se spásně dostal na hasičárnu, kde odříznut od Papírníka seniora strávil ve společnosti jeho služebních kolegů noc. Protože na stanici byli také ranění, dostal opět přidělenou roli saniťáka a to včetně pásky s křížem na rukáv. Tak ho zastihly jednotky maršála Schörnera, které na Prahu přitáhly od Benešova.</p>\n\n<p><i>„Hned vedle hasičárny, rozestavili dělostřelecké baterie směrem na Janečkovu továrnu a dále na Prahu a zahájili palbu. V té době měli poměrně i dobrou náladu a s námi i vtipkovali, ovšem po svém stylu: Praha je opravdu krásné město, škoda že ho musíme rozbít na kusy, ale co se dá dělat.“</i></p>\n\n<p>Mladý Alois Papírník zatoužil po domově. A bylo mu vyhověno. Následovala scénka, která, kdyby ji člověk sledoval v teple domova v televizi, mohla být skoro až veselá a rozhodně zcela nehrdinská. Být však v kůži mého dědy by asi tehdy nikdo být nechtěl.</p>\n\n<p><i>„Otevřela se branka potu hasičárny a já vystrčen ven přímo před německé baterie, odstřelující Prahu, ale též odstřelující barikádníky od Janečkárny. Neuvažovav ani vteřinu, mávaje rukou s páskou s červeným křížem a německy psaným občanským průkazem (Kennkarte) a volaje "nicht Schiesen!" (nestřílet) vběhl jsem mezi obsluhu mne nejbližšího děla a schoval se za jeho krytem. Oni si pobaveně uvědomili komičnost situace a se sarkastickým smíchem se ptali, proč mi to vadí, že to střílí naši, tak jsem jim rovněž tak odpověděl, že je mi jedno, která střela je trefí, že nechci žádnou. I zde jsem požádal o dovolení další cesty a vydal se dál, tentokrát už ulicí Hornokrčskou směr Pragovar, který se mi posléze objevil, ale ouha! - v cestě mi bránila již prázdná barikáda z rozstřílených autobusů. Co teď? Jít zpět znamená kulku do těla - tak dopředu. Pane Bože, přede mnou úsek Budějovická ulice lemovaný po celé délce okraji chodníků sedícími vojáky, kteří na mne s udivením, a mnozí pobaveně zírali, co tu jako chci. Tak zase kennkartu v ruce, mávaje rukou s našitým křížem zdravotníka, brebentě všem skupinám své "nicht schiessen! Ich bin  Sanitär!" blížil jsem se krok za krokem k starému železničnímu mostu (jeho kamenný pilíř je dodnes patrný), čekaje tam spásu, a podobně jako včera při útěku do Michle počítající se smrtící kulkou.“</i></p>\n\n<p>Naštěstí vše dobře dopadlo, děda dospěl zdárně domů a setkal se zde se svými blízkými. Vyhnulo se jim zuřivé a nesmyslné vraždění, které Němci 6. května v Krči rozpoutali v Úsobské, Hornokrčské, ale i jinde. Po mrtvých zbyly pamětní desky, po živých jejich příběhy, které bychom si měli neustále připomínat. A nezapomenout…</p>', 'Historie, Krč, Pražské povstání'),
+(78, 'Já jsem student, kdo je víc?', '2016-03-24', '19:45:00', '<p>Vpomínáte na pohádku Lotrando a Zubejda? Jak tam na začátku zpívají:</p>\r\n\r\n<p><em>Bude to ozdoba loupežnické bandy<br />\r\nBude nosit brýle a možná i kšandy<br />\r\nPosune řemeslo zas o kousek dál<br />\r\nBude to lotr-intelektuál</em></p>\r\n\r\n<p>A poslední životní rada starého bandity mladému naivnímu synovi:</p>\r\n\r\n<p><strong>„A hlavně – NEPRACUJ!“</strong></p>\r\n\r\n<p>Pohádky jsou nám vzorem, a tuhle si zřejmě vzal k srdci předseda Zelených Matěj Stropnický. Studenti by podle něj měli hlasitě odmítat pracovat a volat po tom, aby stát krom toho, že jim platí vysokoškolské vzdělání, taky ještě zařídil, aby si mohli ten „studentskej život“ užívat plnými doušky.</p>\r\n\r\n<img src="http://u.smedata.sk/blogidnes/article/5/50/500475/500475_article_photo_cdq6ypc_600x.png" title="Studenti" alt="Studenti" />\r\n\r\n<p>Od Zelených jsem zvyklý na ledacos – nepřekvapí mě, když bojují proti autům, proti firmám, proti globalizaci a vůbec proti většině z toho, co jim umožňuje vést vcelku bezstarostné životy plné boje za lepší svět. Taky mě asi nezaskočí, že si o sobě dnešní mladí studenti perspektivních oborů dějiny komiksu, rekreologie, filosofie, kulturní antropologie, gender studies a dalších myslí, že jsou budoucnost této země, které má a musí mít zaručen nástup na dobré místo s vysokým platem, hodně benefity a malým stresem. Ale že někteří z nich vnímají samotný status studenta jako takovou zásluhu, že je hodna státem garantovaného odstínění od nepříjemností jakou jsou práce a vydělávání si na živobytí, to je na i mě už trochu moc.</p>\r\n\r\n<p>Zřejmě stále neumím dostatečně dohlédnout a docenit myšlenkové pochody v hlavách těchto většinou mladých lidí a zejména v hlavách těch, kteří jim to do nich lijí – protože na tohle snad nemůže nikdo přijít sám. A tak zatímco na Informatice na VŠE nám celá řada vyučujících vřele doporučovala, abychom si ještě před koncem školy nějaký částečný úvazek, který by nám pomohl nabrat cenné zkušenosti a rozhled před vstupem na pracovní trh s čerstvým titulem v kapse, a zatímco jsem se sám vnitřně cítil provinile, že jsem svou první opravdovou polo-práci zahájil až pětadvaceti, zatímco do té doby jsem si vystačil pouze s občasnými odměnami za zápis a rozhodcování, ve skutečnosti jsem měl využít té spousty volného času, a bojovat za lepší podmínky pro studium mých méně uvědomělých kolegů, kteří se někde lopotí na brigádě ve fast-foodu nebo multikině.</p>\r\n\r\n<p>Sociální dávky pro studenty? To zní přece fantasticky. Kdože to zaplatí? Zdroje přeci jsou, soudruzi. Jenom kdyby nebyli lidé stále tak chamtiví kapitalisti a pochopili skutečné hodnoty našeho nového lepšího světa…<p>\r\n\r\n<p>Loupežníci ze Svěrákovy pohádky by se asi divili, kam posunuli řemeslo novodobí lotři-intelektuálové.</p>', 'Politika, Zelení, Školství');
 
 -- --------------------------------------------------------
 
@@ -186,7 +187,7 @@ CREATE TABLE IF NOT EXISTS `elrh_diary` (
   `date` date NOT NULL,
   `content` text NOT NULL,
   `link` varchar(150) NOT NULL DEFAULT 'null'
-) ENGINE=MyISAM AUTO_INCREMENT=114 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=140 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `elrh_diary`
@@ -303,7 +304,33 @@ INSERT INTO `elrh_diary` (`id`, `date`, `content`, `link`) VALUES
 (110, '2015-12-01', 'Setkání s novým zájemcem o členství u Svobodných panem Čapkem. Odpoledne jsme s kolegy domlouvali podrobnosti tisku našich novin.', 'null'),
 (111, '2015-11-30', 'V rámci komise rozvoje se uskutečnila na Nuselské radnici prezentace projektu Metra D, takže jsem se jako mnoho dalších občanů seznámil s plány, jak to má vypadat.', 'null'),
 (112, '2015-12-04', 'Mimořádné jednání Zastupitelstva Prahy 4, které ale nic nového nepřineslo, ježto se neschválil program. Natočil jsem k tomu aspoň videokomentář.', 'https://www.youtube.com/watch?v=B53QXIKrqGs'),
-(113, '2015-12-07', 'Na komisi pro dopravu jsme předali podněty k MHD od občanů, potom rychlý přesnun na pravidelnou schůzi pobočky na Spořilově. Pozdě večer pak konečně odešly do tisku naše předvánoční noviny.', 'http://praha4.svobodni.cz/clanky/predani-podnetu-k-mhd');
+(113, '2015-12-07', 'Na komisi pro dopravu jsme předali podněty k MHD od občanů, potom rychlý přesnun na pravidelnou schůzi pobočky na Spořilově. Pozdě večer pak konečně odešly do tisku naše předvánoční noviny.', 'http://praha4.svobodni.cz/clanky/predani-podnetu-k-mhd'),
+(114, '2015-12-10', 'Jednání komise pro obnovu koupaliště Lhotka. Protože začalo později, než bylo původně avizováno, měl jsem šanci si chvíli nezávazně promluvit se zastupitelkami Lucií Michkovou a Marií Zacharovou. Potom jsme se dozvěděli něco o plánech s areálem - co kde má být postaveno.', 'null'),
+(115, '2015-12-11', 'V Mělníku jsme s tátou vyzvedli noviny pro Prahu 4.', 'null'),
+(116, '2015-12-14', 'V pražském AutoKlubu jsem pomáhal s realizací tiskové konference našich krajských lídrů. Natočili jsme videopozvánku na jednání o rozpočtu hl. m. Prahy.', 'https://web.svobodni.cz/clanky/svobodni-jdou-do-voleb-ve-vsech-krajich'),
+(117, '2015-12-16', 'Proběhla ustavující schůze spolku "Stará Krč", ve kterém bychom spolu s dalšími aktivními občany měli řešit, co se v Krči chystá a také organizovat různé sousedské akce. Bohužel slibně započatý projekt se vzápětí trochu zadrhl. Uvidíme, co bude dál.', 'null'),
+(118, '2015-12-17', 'Sledoval jsem jednání Zastupitelsva hl. m. Prahy a pořídil první testovací "on-line" reportáž.', 'http://alois-seckar.cz/politics-onlines/1'),
+(119, '2015-12-20', 'Výlučně nepoliticky jsem se potkal se zastupitelem Prahy 4 Janem Schneiderem - byli jsme spolu na koncertě <strong>Blind Guardian</strong> na Smíchově.', 'null'),
+(120, '2015-12-21', 'Poslední letošní zastupitelstvo Prahy 4. Vcelku poklidné a opět s mým "on-line" přenosem.', 'http://alois-seckar.cz/politics-onlines/2'),
+(121, '2016-01-04', 'První schůze Svobodných Praha 4 v novém roce.', 'null'),
+(122, '2016-01-20', 'Na schůzku si mě pozval zástupce starosty P4 Zdeněk Kovářík. Bavili jsme se o problémech při sestavování rozpočtu a o parkovacích zónách. Odpoledne jsem byl na Budějovické opět na jednání Kontrolní komise, která řešila zejména situaci ohledně pozemky pod prodanými domy, kde je spor o jejich prodejní cenu majitelům.', 'null'),
+(123, '2016-01-26', 'Schůzka pražského KrP spolu se zastupiteli a koordinátory poboček.', 'null'),
+(124, '2016-02-01', 'Schůze pobočky Praha 4 - dohodlo se velké množství věcí, doufám, že se podaří všechny zrealizovat.', 'null'),
+(125, '2016-02-07', 'Krajský sněm Pražských Svobodných. Proběhl v poklidné atmosféře a celkem se nedělo nic významného.', 'null'),
+(126, '2016-02-12', 'Práce na emailovém newsletteru pro Prahu 4. Po dvouměsíční pauze je tu opět nové číslo.', 'http://us10.campaign-archive2.com/?u=37b7fd1605ae9ef481e692870&id=1fad319644'),
+(127, '2016-02-15', 'Účast na komisi dopravy P4. Jedním z hlavních témat byla prezentace plánů na rekonstrukci Táborské a informace o odsunu parkovacích zón.', 'null'),
+(128, '2016-02-17', 'Poslal jsem IPR emailem dotazy k Táborské, ale v odpovědi mě odkázali až na březnovou výstavu...', 'null'),
+(129, '2016-02-20', 'Absolvoval jsem školení sociálních sítí od našeho místopředsedy Jiřího Hemerleho. Doufám, že některé informace mi pomůžou tvořit lepší statusy a lépe propagovat Svobodné i sebe.', 'null'),
+(130, '2016-02-24', 'Sešli jsme se s několika sousedy z naší "dolní" Krče (překvapil mě zájem). Dohodli jsme, že do konce března uspořádáme velké setkání, kam pozveme všechny sousedy. Ať už to dopadne jakkoliv, tak doufám, že se dosud neaktivní společenský život v naší čtvrti podaří nastartovat.', 'null'),
+(131, '2016-02-23', 'Druhá schůze spolku "Stará Krč". Splnili jsme formální náležitosti k ustanovení se a bavili se o budoucnosti Krče a naší další práci.', 'null'),
+(132, '2016-02-29', 'Zúčastnil jsem se jednání komise pro životní prostředí.', 'null'),
+(133, '2016-03-02', 'Zúčastnil jsem se jednání komise pro kulturu a volný čas. Bylo pěkně bouřlivé, protože se jednalo o nájemci Branického divadla. Bohužel jsem nějak nebyl ve formě a nechal se odradit když bylo řečeno, že jednání bude uzavřeno veřejnosti. Nakonec se to totiž nepodařilo schválit a správně mohl a měl zůstat. Ale zase jsem si ušetřil tři hodiny předčítání došlých návrhů...', 'http://praha4.svobodni.cz/clanky/tajemne-divadlo-v-braniku'),
+(134, '2016-03-03', 'Sestavil jsem text pozvánky na setkání pro naše Krčské sousedy a předal kolegům k vytištění.', 'null'),
+(135, '2016-03-07', 'Z práce rovnou na Nuselskou radnici na komisi územního rozvoje, kde jsme stihli diskusi o několika plánovaných projektech (Hodkovičky, Novodvorská, Nusle) a pak honem na Spořilov na pravidelnou schůzi pobočky. Z té mám tentokrát dost špatný pocit, tak doufám, že to byly jen nějaké skrvny na slunci a že budeme dál fungovat dobře.', 'null'),
+(136, '2016-03-08', 'Navštívil jsem Pirátské centrum na Žižkově a poslechl si informace o chystaném Metropolitním územním plánu od jejich zastupitelů. Hlavní zpráva - zveřejnění k veřejnému připomínkování se odkládá z 1.4. někdy na květen/červen.', 'https://www.facebook.com/events/1510997102540017/'),
+(137, '2016-03-10', 'Článkem jsem vyjádřil nesouhlas s plánem pražské ČSSD přesunout "Kliniku" z Prahy 3 k nám na Prahu 4.', 'http://praha4.svobodni.cz/clanky/zakon-musi-platit-i-pro-squattery'),
+(138, '2016-03-05', 'Ozámil jsem svou kandidaturu do Republikového Výboru Svobodných. Volby proběhnou 6. až 13. dubna.', 'null'),
+(139, '2016-03-11', 'Kolegové roznesli část pozvánek na setkání krčských sousedů včera, na mě s tátou zbyl dnes zbytek čtvrti.', 'null');
 
 -- --------------------------------------------------------
 
@@ -402,10 +429,10 @@ CREATE TABLE IF NOT EXISTS `elrh_main` (
 --
 
 INSERT INTO `elrh_main` (`var`, `dscr`, `value`) VALUES
-('last_update', 'Date of last page update', '19 December 2015'),
-('system_version', 'Site system version number', '3.0.1'),
-('last_quote', 'Date of last quote inserted', '17. prosince 2015'),
-('last_diary', 'Date of last diary entry inserted', '7. prosince 2015');
+('last_update', 'Date of last page update', '23 August 2016'),
+('system_version', 'Site system version number', '3.1'),
+('last_quote', 'Date of last quote inserted', '25. dubna 2016'),
+('last_diary', 'Date of last diary entry inserted', '11. března 2016');
 
 -- --------------------------------------------------------
 
@@ -418,7 +445,7 @@ CREATE TABLE IF NOT EXISTS `elrh_navigation` (
   `type` enum('page','subpage') COLLATE latin2_czech_cs NOT NULL,
   `ident` varchar(25) COLLATE latin2_czech_cs NOT NULL,
   `name` varchar(25) COLLATE latin2_czech_cs NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin2 COLLATE=latin2_czech_cs;
+) ENGINE=MyISAM AUTO_INCREMENT=28 DEFAULT CHARSET=latin2 COLLATE=latin2_czech_cs;
 
 --
 -- Dumping data for table `elrh_navigation`
@@ -449,7 +476,9 @@ INSERT INTO `elrh_navigation` (`id`, `type`, `ident`, `name`) VALUES
 (22, 'subpage', 'hansp', 'HANSPAULKA'),
 (23, 'subpage', 'reviews', 'RECENZE'),
 (24, 'subpage', 'scorer', 'ZÁPIS'),
-(25, 'subpage', 'onlines', 'POLITIKA ONLINE');
+(25, 'subpage', 'onlines', 'POLITIKA ONLINE'),
+(26, 'subpage', 'run', 'BĚH'),
+(27, 'page', 'login', 'LOGIN');
 
 -- --------------------------------------------------------
 
@@ -464,7 +493,7 @@ CREATE TABLE IF NOT EXISTS `elrh_onlines` (
   `dscr` text COLLATE utf8_czech_ci NOT NULL,
   `thumb` varchar(100) COLLATE utf8_czech_ci NOT NULL,
   `status` enum('future','current','past') COLLATE utf8_czech_ci NOT NULL DEFAULT 'future'
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 
 --
 -- Dumping data for table `elrh_onlines`
@@ -472,7 +501,10 @@ CREATE TABLE IF NOT EXISTS `elrh_onlines` (
 
 INSERT INTO `elrh_onlines` (`id`, `date`, `name`, `dscr`, `thumb`, `status`) VALUES
 (1, '2015-12-17', '12. zasedání ZHMP', 'Včera jsem celý den proseděl na Nové radnici na Mariánském náměstí a sledoval jednání pražského zastupitelstva. Nakonec to nebylo až takové drama, ale aspoň má Praha rozpočet. ', '/web/images/thumb_praha.png', 'past'),
-(2, '2015-12-21', '12. zasedání ZMČ Praha 4', 'Poslední letošní jednání zastupitelstva Prahy 4 v pondělí 21. prosince 2015. Pokud bude na Nuselské radnici wifi, bude i online přenos.', '/web/images/thumb_praha4.png', 'future');
+(2, '2015-12-21', '12. zasedání ZMČ Praha 4', 'Poslední letošní jednání zastupitelstva Prahy&nbsp;4 v&nbsp;pondělí 21.&nbsp;prosince 2015. Nedošlo k souboji na světelné meče, ani se jednacím sálem neprohnala jednotka stormtrooperů a&nbsp;celkově patřilo jednání k&nbsp;těm kratším a&nbsp;klidnějším. Přesto se leccos událo, například máme rozpočet na příští rok.', '/web/images/thumb_praha4.png', 'past'),
+(3, '2016-01-28', '13. zasedání ZHMP', 'Tentokrát bude "přenos" probíhat z tepla domova při poslechu on-line streamu. Ale alespoň se pokusím shrnout a zkomprimovat několikahodinové dění.', '/web/images/thumb_praha.png', 'past'),
+(4, '2016-04-08', '15. zasedání ZMČ Praha 4', 'Od 15:22 začíná další jednání zastupitelů z Prahy 4.', '/web/images/thumb_praha.png', 'past'),
+(5, '2016-06-15', '16. zasedání ZMČ Praha 4', 'Červnové jednání zastupitelů Prahy 4 bylo opět plné zajímavých chvil.', '/web/images/thumb_praha4.png', 'past');
 
 -- --------------------------------------------------------
 
@@ -485,7 +517,7 @@ CREATE TABLE IF NOT EXISTS `elrh_onlines_content` (
   `online` int(11) NOT NULL,
   `date` datetime NOT NULL,
   `content` text COLLATE utf8_czech_ci NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=240 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 
 --
 -- Dumping data for table `elrh_onlines_content`
@@ -519,7 +551,218 @@ INSERT INTO `elrh_onlines_content` (`id`, `online`, `date`, `content`) VALUES
 (25, 1, '2015-12-17 17:37:00', 'Zastupitelstvo teď jede podle programu jednání a kdy přijde "klíčová chvíle", pokud vůbec dnes přijde, není jasné. Já se tedy přesunu z Nové radnice domů a doufám, že cestou o nic zásadního nepřijdu. Potom využiju on-line stream.'),
 (26, 1, '2015-12-17 18:35:00', 'Během mé cesty domů jednání dospělo už do bodu 16 z 31. Zdá se, že skutečně už vše proběhne hladce. Ale dokud nezazvoní zvonec, ještě stále není konec...'),
 (27, 1, '2015-12-17 19:18:00', 'Radní Plamínková informuje zastupitele, že smluvní vztah Prahy k PVS a PVK (vodárny a kanalizace) je problematický a možná snad dokonce neplatný. Jen zatím nějak nejsou detaily. Prý budou na výborech.'),
-(28, 1, '2015-12-17 19:36:00', 'Zastupitelé neschválili změny jednacího řádu navržené Výborem pro legislativu a tím to pro dnešek opravdu skončilo. Tak díky za pozornost, pokud jste sledovali můj první politický "onlajn", budou další, i když asi trochu jinak řešené, ať to není dvacet rozházených statusů. A jak řekla na závěr primátorka - Síla se probouzí! Já jdu do kina zítra :)');
+(28, 1, '2015-12-17 19:36:00', 'Zastupitelé neschválili změny jednacího řádu navržené Výborem pro legislativu a tím to pro dnešek opravdu skončilo. Tak díky za pozornost, pokud jste sledovali můj první politický "onlajn", budou další, i když asi trochu jinak řešené, ať to není dvacet rozházených statusů. A jak řekla na závěr primátorka - Síla se probouzí! Já jdu do kina zítra :)'),
+(29, 2, '2015-12-21 13:13:00', 'Tradičně nabíráme zpoždění. Stále se nezačalo.'),
+(30, 2, '2015-12-21 13:16:00', 'Začínáme.'),
+(31, 2, '2015-12-21 13:19:00', 'Jan Petr (TOP09) zpochybňuje jednání zastupitelstva. Starosta Petr Štěpánek (SZ) prý měl včas oznámit odložení zahájení, což neučinil...'),
+(32, 2, '2015-12-21 13:30:00', 'ČSSD navrhuje zařadit body "problematika nájezdových ramp" a "nestandardní personální politika radnice", TOP09 bod "problematika privatizace bytového fondu" a "problematika výpovědí nájmů pozemků pod domy". Nic z toho nebylo přijato.'),
+(33, 2, '2015-12-21 13:34:00', 'Začíná projednávání rozpočtu na rok 2016. Úvodní slovo má starosta Štěpánek.'),
+(34, 2, '2015-12-21 13:55:00', 'Přednesl jsem svůj příspěvek, soubor otázek, k rozpočtu a poslouchám diskusi. TOP09 navrhuje hlasovat kapitoly postupně - něco jim zřejmě připadá rozumné, jiné špatné. Jedna z těch věcí je vysoká "neurčená" rezerva skoro 60 milionů, ačkoliv pan starosta při představení rozpočtu hovořil o plánovaném účelovém rozčlenění této rezervy.'),
+(35, 2, '2015-12-21 14:04:00', 'Jan Petr (TOP09) kritizuje, že návrh rozpočtu přišel opozičním zastupitelům pozdě (2 dny před finančným výborem). Dále se na základě podoby rozpočtu domnívá, že Rada nemá žádnou předem promyšlenou koncepci.'),
+(36, 2, '2015-12-21 14:11:00', 'Budeme v roce 2018 posílat Prahu 4 do likvidace, jak se obává opozice?'),
+(37, 2, '2015-12-21 14:33:00', 'Kritika podoby rozpočtu na kulturu z úst Michala Hrozy (TOP09) - je na to odbor, ale polovinu prostředků rozděluje kancelář starosty...'),
+(38, 2, '2015-12-21 14:38:00', 'Podle Jiřího Bodenlose (ČSSD) je rozpočet pouze udržovací, nepromítá se v něm ani náznak ničího programu.'),
+(39, 2, '2015-12-21 14:44:00', 'Bývalý radní pro životní prostředí Petr Kučera (TOP09) se domnívá, že rozpočet na ŽP nebude příští rok stačit.'),
+(40, 2, '2015-12-21 14:48:00', 'Daniel Kunc (SZ) odmítl návrh na hlasování rozpočtu po částech, jelikož je podle něj komplexní a provázaný, tudíž to nedává smysl.'),
+(41, 2, '2015-12-21 14:59:00', 'V reakci na připomínky představil radní pro IT Zdeněk Pokorný (Tučňák) koncept vlastního kamerového systému Prahy 4. Pilotní zkušební systém má být vybudován za 1,4 mil. korun...'),
+(42, 2, '2015-12-21 15:11:00', 'Přerušeno projednávání rozpočtu, jde se na interpelace. Já se jdu ptát na IT záležitosti kolem návrhu rozpočtu (proč se s ním tak obtížně pracuje), v plánu jsou interpelace majitelů domů, kteří nesouhlasí se záměrem radnice vnutit jim pozemky pod jejich domy (spor je o prodejní cenu).'),
+(43, 2, '2015-12-21 15:27:00', 'Pan Mazač ve své interpelaci navrhuje přejmenování politických stran podle zvířat nebo profesí - například Kavky či Velrybáři nebo Piráti a Práskači.'),
+(44, 2, '2015-12-21 15:30:00', 'Zpět k diskusi o rozpočtu. Zastupitelé si vyjasňují různé položky.'),
+(45, 2, '2015-12-21 15:53:00', 'Řeší se prostředky na časopis Tučňák. Smlouva vyprší v březnu, prostředky jsou však rozpočtovány na celý rok. Celkově rozpočet na média narůstá o 9%, ačkoliv byla proklamována budoucí úspora - zřejmě narostou výdaje na TV Praha...'),
+(46, 2, '2015-12-21 15:56:00', 'V závěrečné slově slíbil starosta Štěpánek IT zakázku, která by měla vyřešit bolavé místo nepřehledného a nepoužitelného rozpočtu v naskenovaném PDF.'),
+(47, 2, '2015-12-21 16:04:00', 'Krátká přestávka před zahájením hlasování o rozpočtu.'),
+(48, 2, '2015-12-21 16:14:00', 'Neprošel procedurální návrh hlasovat rozpočet po jednotlivých kapitolách. Pro bylo pouze 14 opozičích zastupitelů.'),
+(49, 2, '2015-12-21 16:23:00', 'Praha 4 má svůj rozpočet na rok 2016. Schválen byl ve znění předloženém Radou. Žádný pozměňovací návrh nebyl přijat.'),
+(50, 2, '2015-12-21 16:28:00', 'Privatizovány tři bytové jednotky, zastupitelstvo má nyní 20 minut přestávku na příjem potravy.'),
+(51, 2, '2015-12-21 17:03:00', 'S tradičním zpožděním pokračuje jednání dalšími majetkovými dispozicemi (pozemky).'),
+(52, 2, '2015-12-21 17:07:00', 'Stojaté vody rutinního schvalování předjednaných transakcí víří Petr Horálek (ČSSD), který nesouhlasí s rozhodnutím Rady NEkupovat pozemnek. Týká se o parcelu související se školou "U Krčského lesa", proto by podle jejich názoru měl být vykoupen od majitele za 3000kč/m2. TOP09 také pokládá za nerozumné nechávat část areálu školy v rukou jiného vlastníka a objednává 5 minutovou přestávku po skončení rozpravy.'),
+(53, 2, '2015-12-21 17:14:00', 'Jan Petr vyzvihuje výhody šance na zcelení pozemku školy, upozorňuje na případy, kdy majitelé podobných pozemků vedou válku s obcí a odnáší to škola, připomíná, že v rozpočtu 2016 je na výkupy pozemků rozpočtována rezerva 10 milionů, takže zdroje k dispozici jsou.'),
+(54, 2, '2015-12-21 17:24:00', 'Kolem 17:30 bychom se snad mohli dozvědět, jak to s pozemkem bude.'),
+(55, 2, '2015-12-21 17:37:00', 'Kvůli nejasnostem máme další přestávku do 17:45'),
+(56, 2, '2015-12-21 17:47:00', 'Máme to za sebou. Prošlo kompromisní rozšíření usesení o závazek k dalšímu jednání s vlastníkem.'),
+(57, 2, '2015-12-21 17:50:00', 'Na programu je čerpání EU dotací - Praha 4 chce zpracovat projekt "Místní akční plány rozvoje vzdělávání". Maximální možný rozsah je 4 miliony, spolufinancování je minimálně 5%.'),
+(58, 2, '2015-12-21 17:57:00', 'Opozice neví, o co jde, protože v důvodové zprávě je projekt nastíněn jen velmi vágně. Podle slov Jana Petra ČR obecně čerpá jen aby čerpala dotace, neřeší se už tolik smysluplnost.'),
+(59, 2, '2015-12-21 18:02:00', 'Schváleno - budeme akčně žádat o šanci tvořit akční plány a nyní si dáme akční přestávku.'),
+(60, 2, '2015-12-21 18:09:00', '150 tisíc pro čerstvě druholigový Slavoj Vyšehrad? Ano či ne?'),
+(61, 2, '2015-12-21 18:13:00', 'ČSSD se snaží dotaci ještě navýšit - klub žádá 500 tisíc, druhá liga je finančně náročná, navíc klub pronajímá stadion Viktorie Žižkov.'),
+(62, 2, '2015-12-21 18:20:00', 'Vyšehradský fotbal dostane 150 tisíc na provozní výdaje.'),
+(63, 2, '2015-12-21 18:21:00', 'Stručné zprávy předsedů výborů o činnosti jejich výborů.'),
+(64, 2, '2015-12-21 18:25:00', 'Předseda nového Výboru pro energetické úspory představuje svou pro opozici kontroverzní činnost. Zmínil koncept SmartCities, Praha 4 chce následovat Písek a čerpat na projekty Evropské dotace. Vzletný projev byl utnut předsedajícím.'),
+(65, 2, '2015-12-21 18:28:00', 'Praha 4 se chystá nesouhlasit s podněty na stávajícího ÚP. Proč? Plénu vysvětluje radní pro územní rozvoj Alžběta Rejchrtová (SZ).'),
+(66, 2, '2015-12-21 18:30:00', 'Je navrženo šest změn, jsou již staršího data, se žádným nesouhlasila ani komise územního rozvoje Prahy 4, ani výbor pro územní plánování Magistrátu. Jednat o změnách bude Rada a posléze Zastupitelstvo HMP, účelem stanoviska je vyjádřit nesouhlas dotčené městské části.'),
+(67, 2, '2015-12-21 18:33:00', 'Jaromíra Eismannová (TOP09) upozorňuje jako předsedkyně komise pro ÚR na jisté rozpory v projednávání jednoho případu, starosta Štěpánek ujišťuje, že je to v pořádku, že vlastník pozemku nechce koeficient využitelnosti měnit. TOP09 si bere 5 minut přestávku a zastupitelé spolu diskutují.'),
+(68, 2, '2015-12-21 18:44:00', 'Nesouhlasné stanovisko Prahy 4 ke změnám ÚP bylo přijato, ovšem pouze 24 hlasy koalice, opozice se vůbec nezúčastnila hlasování.'),
+(69, 2, '2015-12-21 18:45:00', 'A už se chýlíme ke konci dnešního jednání, posledním bodem jsou interpelace zastupitelů.'),
+(70, 2, '2015-12-21 18:49:00', 'Jiří Bodenlos se zeptal starosty, kde se vzal nový návrh parkovacích zón. Došlo ke změnám, které jsou v rozporu s tím, co schválilo zastupitelstvo. Zdeněk Kovářík (ODS) uvedl, že Praha 4 na svém rozhodnutí nic neměnila a že je to tedy věcí magistrátu.'),
+(71, 2, '2015-12-21 18:52:00', 'Jan Petr se ptá, jak bude zajištěn provoz IT, zastupitelé Hroza (TOP09) a Krejčová (ČSSD) se tážou na téma zrušeného výběrového řízení na nájemce Branického divadla a Filipa Váchu (TOP09) zajímá projekt retenčních nádrží za 20 milionů.'),
+(72, 2, '2015-12-21 18:55:00', 'Dozvěděli jsme se předběžné termíny zastupitelstva v roce 2016 - 3.2., 13.4., 22.6. a 14.9.'),
+(73, 2, '2015-12-21 18:59:00', 'Bude nájezdová rampa v ulici Vyskočilova? Co si o tom myslí Rada? Ptá se Jiří Bodenlos a na jeho interpelaci musí být písemně odpovězeno. Stejně tak mají členové Rady vysvětlit, proč jimi byl spěšně odvolán ředitel Ústavu Sociálních Služeb Hájek, proč byl dočasně vedením pověřen zastupitel a ne někdo z ÚSS a kdy bude vypsáno výběrové řízení na nového ředitele?'),
+(74, 2, '2015-12-21 19:02:00', 'Přehoupla se 19. hodina, ale tentokrát se podařilo jednání dovést ke konci i bez potřeby prodloužení. Poslední schůze roku 2015 je ukončena, rozpočet schválen a všichni si mohou připít a popřát šťastné svátky. Loučím se z Nuselské radnice.'),
+(75, 3, '2016-01-28 09:05:00', 'Online stream už běží, zastupitelstvo zatím ne...'),
+(76, 3, '2016-01-28 09:15:00', 'Jsou za námi formality. Jde se na schvalování programu.'),
+(77, 3, '2016-01-28 09:26:00', 'Radní doteď vysvětlovali, proč bylo třeba přistopuit k některým změnám v programu.'),
+(78, 3, '2016-01-28 09:30:00', 'Zastupitel Jílek (TOP09) kritizuje, že se na stolech zastupitelů objevil tištený materiál v tloušťce cca 5cm, který nikdo nemá šanci včas a řádně přečíst, navíc se plýtvá papírem. Žádá zařazení bodu informace o činnosti komise pro ICT, která podle něj nefunguje správně - objemné materiály chodí pozdě, program jednání se sestavuje chaoticky...'),
+(79, 3, '2016-01-28 09:36:00', 'Jak to bude s "Lítačkou", potažmo s městskou společností Operátor ICT, která ji má na svědomí? A co parkovací zóny? I toto jsou požadavky opozice na změnu programu.'),
+(80, 3, '2016-01-28 09:39:00', 'Radní Dolinek projednávání otázky Libeňského mostu navrhl stáhnout, Jan Čižinský (Trojkoalice) naopak žádá, aby se o mostu jednalo.'),
+(81, 3, '2016-01-28 09:47:00', 'TOP 09 předala Radě HMP "pololetní vysvědčení". Cedule s vysvědčením stojí před řečnickým pultíkem, bohužel na kameře není vidět text :('),
+(82, 3, '2016-01-28 09:54:00', 'Piráti navrhují bod řešící personální obsazení Rady - jako pevný bod po interpelacích zastupitelů, tedy někdy krátce po poledni.'),
+(83, 3, '2016-01-28 10:01:00', 'Očekávaný návrh - Adam Zábranský (Piráti) navrhuje zařadit bod "Problematika členství Karla Březiny v orgánech města". Připomněl, že nejvyšší soud zamítl jeho dovolání, takže už není, na co se vymlouvat.'),
+(84, 3, '2016-01-28 10:10:00', 'Jakub Michálek (Piráti) si stěžuje, že Rada neplní usnesení Zastupitelstva ohledně obsazování pozic v městských firmách.'),
+(85, 3, '2016-01-28 10:14:00', 'Hezky se rozjela debata, proč některé body zařadit či nezařadit. Mikuláš Ferjenčík (Piráti) však připomíná, že současný jednací řád to neumožňuje, pročež navrhuje jeho změnu.'),
+(86, 3, '2016-01-28 10:22:00', 'Konec podávání návrhů na změnu programu, 20 minut přestávka...'),
+(87, 3, '2016-01-28 10:43:00', 'Hlasuje se celkem o 10 návrzích na změnu programu.'),
+(88, 3, '2016-01-28 10:53:00', 'Někteté změny prošly, jiné neprošly. Jen co byl schválen program, tak byla opět vyžádána 30 minutová přestávka (nebylo jasné kdo, nemluvil na mikrofon).'),
+(89, 3, '2016-01-28 11:18:00', 'Zasedání už formálně probíhá přes 2 hodiny, ale stále ještě nebyl zahájen ani první bod vlastního programu...'),
+(90, 3, '2016-01-28 11:26:00', 'Jako první se řeší církevní restituce v Březiněvsi. Jde o to, zda má Praha podat ústavní stížnost proti vydání tamních pozemků řádu maltézkých rytířů. Prý na něj nemají nárok. Tedy řeší to ta část zastupitelů, která zvládla dorazit do sálu. Pouze 31 hlasů pro, takže návrh neprošel...'),
+(91, 3, '2016-01-28 11:28:00', 'Následuje diskuse o stavu komise pro ICT.'),
+(92, 3, '2016-01-28 11:37:00', 'Problém komise pro ICT je nemoc a z ní plynoucí dlouhodobá absence předsedy komise. Návrh TOP 09 směřuje zaúkolování Rady, aby zajistila lepší fungování. Návrh byl schválen 52 hlasy, všichni přítomni byli pro.'),
+(93, 3, '2016-01-28 11:41:00', 'Nyní k městské společnosti "Operátor ICT". Co s ní vlastně má být? Chybí strategická koncepce do budoucna.'),
+(94, 3, '2016-01-28 11:57:00', 'Základní slovo skoňované v diskusi - "nekoncepčnost". Krom toho je tu kritika změny stanov společnosti Operátor ICT, které schválila Rada, protože stanovy městských firem by mělo schvalovat zastupitelstvo. Piráti využili situaci a předložili návrh, který se věnuje problematiku městských společností jako celku.'),
+(95, 3, '2016-01-28 12:05:00', 'Petra Kolínská (Trojkoalice) připomněla, že dle stanov firmy Operátor ICT má změny stanov v kompetenci valná hromada, tedy nikoliv zastupitelstvo HMP. Souhlasí s větší transparentností městských společností, ale domnívá se, že to nepatří do tohoto bodu, který se věnuje pouze jedné firmě.'),
+(96, 3, '2016-01-28 12:27:00', 'Projednávání Operátora ICT za chvíli přeruší interpelace, které jsou řazeny v pevně daném čase 12:30. Jelikož už je na pořadu jen 10 minutová přestávka před hlasováním, tak to snad průběh neohrozí.'),
+(97, 3, '2016-01-28 13:20:00', 'Témata občanských interpelací - autobusy na Ládví, omezení pouličních hudebních vystoupení (buskingu), uprchlíci (resp. "příchozí" :)), partnerství s Moskvou a Petrohradem, opět busking (2x), odtahy vozidel, Libeňský most, podruhé doprava na Ládví a nakonec téma černých staveb. Dnes byly interpelace občanů mimořádně dlouhé, byl vyčerpán celý přidělený čas (45 minut) a dokonce o pár minut přetažen.'),
+(98, 3, '2016-01-28 13:22:00', 'Začínají interpelace zastupitelů. Účast je tradičně nevalná.'),
+(99, 3, '2016-01-28 14:00:00', 'Nestihly se tři interpelace z důvodu vypršení časového limitu 45 minut. Piráti opět připomínají, že v sále není řada zastupitelů, a to přesto, že mají zasunuté hlasovací karty. Pokračovat se bude po "obědové" pauze do 14:30.'),
+(100, 3, '2016-01-28 14:40:00', 'Primátorka Krnáčová informuje zastupitelstvo o svém projektu "Lítačka".'),
+(101, 3, '2016-01-28 14:52:00', 'Filip Humplík věří v dobré úmysly primátorky. Chtěl by ji nicméně zaúkolovat, aby do příštího zastupitelstva připravila podrobný informační materiál o projektu.'),
+(102, 3, '2016-01-28 15:10:00', 'Hlavní kritika směřuje na utajování procesu před zastupiteli a nejasnosti ohledně výsledku.'),
+(103, 3, '2016-01-28 15:14:00', 'Filip Humplík (ODS) se ptá, co bude s parkovacími automaty, ve kterých dnes lze platit OpenCard, pokud nová karta nebude mít tuto funkci.'),
+(104, 3, '2016-01-28 15:38:00', 'Podpora "Lítačky"? <i>I want to believe...</i> A to je problém, který kritizují TOP 09 a ODS - chybí relevantní informace o projektu a všichni pouze <i>věří</i> (anebo nevěří), že to bude fungovat.'),
+(105, 3, '2016-01-28 15:58:00', 'Tomáš Hudeček plameně kritizuje primátorku za několikaměsíční nečinnost ve sporu s firmou EMS, která podle něj bude znamenat prohraný soud o 90 milionů, které je třeba připočítat k proklamovaným nákladům na nový systém.'),
+(106, 3, '2016-01-28 16:03:00', 'Tomáš Jílek (TOP 09) připomíná, že částka 10 milionů korun zdaleka není konečnou sumou za celou životnost projektu. Také připomněl, že ačkoliv jistě není projekt OpenCard v pořádku, tak v roce 2006 stály informační technologie více než stojí díky pokroku dnes, což se nutně muselo promítnout do ceny.'),
+(107, 3, '2016-01-28 16:10:00', 'Jako obvykle jsme nepřišli o opakující se hádky, jestli bylo horších posledních 25 let ODS nebo předchozích 40 let KSČ a kdo by měl raději mlčet.'),
+(108, 3, '2016-01-28 16:33:00', 'Od 14:40 do 16:33 se řečnilo a zastupitelé se vzájemně napadali, nakonec byli všichni přítomní zastupitelé pro to, co ODS v tomto bodě navrhovala - tedy aby primátorka do příště připravila kvalitní informační materiál o projektu "Lítačka".'),
+(109, 3, '2016-01-28 16:38:00', 'Někam záhadně zmizelo 16 zastupitelů...alespoň soudě podle hlasování v dalším bodě...'),
+(110, 3, '2016-01-28 16:40:00', 'A je tu zlatý hřeb dne - vyhláška o regulaci buskingu (pouličního umění).'),
+(111, 3, '2016-01-28 16:45:00', 'Překvapení - ve městě není takové ticho jako na vesnici. A můžou za to buskeři. Je proto třeba zavést omezující opatření, které Prahu <i>"zklidní"</i>...'),
+(112, 3, '2016-01-28 16:48:00', 'Podle zástupce buskerů je vyhláška chaotická a navíc často nesmyslná (což demonstroval např. hraním na "zakázanou" pikolu).'),
+(113, 3, '2016-01-28 17:07:00', 'Vystoupilo nebývalé množství občanů, většinou na obhajobu buskingu, slyšeli jsme však i jednu negativní zkušenost.'),
+(114, 3, '2016-01-28 17:13:00', 'Piráti představují vlastní verzi vyhlášky. Souhlasí s potřebou regulace kvůli místním obyvatelům, ale měla by být méně přísná.'),
+(115, 3, '2016-01-28 19:10:00', '<div style="color: red;">Omlouvám se za neplánovanou absenci. Poslední zhruba hodina jednání mi tak unikla. Nevím bohužel, jak dopadlo projednávání vyhlášky o buskingu :( Když jsem odcházel, stále se o ní jednalo...</div>'),
+(116, 3, '2016-01-28 19:13:00', 'Čeká nás vyhláška o komunitním kompostování'),
+(117, 3, '2016-01-28 19:52:00', 'Nyní probíhá vcelku bezrozporné schvalování víceméně formálních rozhodnutí. Většinu času hovoří předkladatel bodu (aktuálně radní Dolínek)'),
+(118, 3, '2016-01-28 20:17:00', 'Komunisté měli pár dotazů k prodeji obecních bytů, ale jinak stále platí, že se neřeší nic kontroverzního, co by si vyžádalo větší diskusi a zásadní pozornost.'),
+(119, 3, '2016-01-28 20:28:00', 'Projekt nové budovy Archivu hl. m. Prahy na Chodovci potřebuje vícepráce za skoro 140 milionů korun, což je konkečně opět trochu kontroverzní téma. Některým zastupitelům chybí ujištění, že rozhodnutí nebude zpětně napadnutelné jako porušení zákona.'),
+(120, 3, '2016-01-28 20:40:00', 'Zdá se, že finanční prostředky jsou nutné, protože je operativně třeba řešit vzniklou situaci. 150 milionů již je proinvestováno, kozervace stavby by přišla na 1,3 milionu měsíčně. Na druhou stranu se postup některým zastupitelům jeví jako nestandardní, a proto se jim nechce dát k uvolnění částky souhlas. Vedení Prahy se (poněkud váhavě) snaží pochyby rozptýlit.'),
+(121, 3, '2016-01-28 20:54:00', 'Je to vskutku výživné téma. Po dlouhé diskusi následuje ještě 10 minut přestávka na poradu. Podle všeho jde "jen" o to, že nových 140 milionů, které mají být uvolněny, budou později kompenzovány ušetřením jiných milionů ze stávajícího projektu, ale opoziční části zastupitelstva se to stále nezdá.'),
+(122, 3, '2016-01-28 21:11:00', 'Teď je na mikrofon slyšet "organizační" diskusi mezi radními Dolínkem a Wolfem. Zachytil jsem, že se "holt někdo zdrží" a že to "nesmí projít". Skutečně to vzápětí neprošlo - pouze 18 zastupitelů pro.'),
+(123, 3, '2016-01-28 21:21:00', 'Opět jsme zpátky u zrychleného projednávání bezrozporných bodů programu. Již je na pořadu bod 20 z celkových 27 plánovaných.'),
+(124, 3, '2016-01-28 21:35:00', 'Menší rozepře je ohledně zakázky pro úpravu povodí Vltavy u Císařského ostrova. Piráty zajímá, proč je v zadání povinnost firmy mít alespoň 30 zaměstnanců. Radní Plamínková se ztotožňuje se snížením na 20. Usnesení nicméně o 1 hlas tak jako tak neprošlo.'),
+(125, 3, '2016-01-28 21:51:00', 'Zdá se, že jednání směřuje ke svému konci již bez významnějších událostí.'),
+(126, 3, '2016-01-28 21:56:00', 'Tak ještě na závěr jednání návrh Pirátů na odvolávání Karla Březiny ze tří výborů, jichž je členem.'),
+(127, 3, '2016-01-28 21:57:00', 'Martin Stropnický (Trojkoalice) připomíná, že chybí jak předseda, tak místopředseda výboru pro územní plánování, který je tímto už druhý měsíc paralyzován. Karel Březina (ČSSD) kontruje tím, že navrhuje Jana Slezáka (ČSSD) - již jednou odvolán. Piráti navrhují Mikuláše Ferjenčíka.'),
+(128, 3, '2016-01-28 22:15:00', 'Neprošel ani jeden z personálních návrhů Pirátů, z části proto, že se hlasování účastnila sotva třetina zastupitelů.'),
+(129, 3, '2016-01-28 22:16:00', 'A to bylo to poslední, co se na Mariánském náměstí dnes stalo. Děkuji za pozornost.'),
+(130, 4, '2016-04-08 15:23:00', 'Jednání za moment začne. Jsme připraveni.'),
+(131, 4, '2016-04-08 15:31:00', 'Na úvod se řeší, jak a kdy se má projednávat bod o výstavbě na Kavčích horách. Starosta navrhuje začít v 17:00, opozice přesunout bod z 8 na 3. Sál je plný občanů, kteří na bod čekají.'),
+(132, 4, '2016-04-08 15:36:00', 'Hádky zastupitelů už nevydržel jeden občan a vstoupil iniciativně do diskuse sám. Jednání se točí dokolečka.'),
+(133, 4, '2016-04-08 15:43:00', '"Pane starosto, zdržujete!" - "Nezdržuju!"...'),
+(134, 4, '2016-04-08 15:45:00', 'A máme tu naši dnešní první desetiminutovou přestávku na poradu klubů. Bohužel až po ukončení rozpravy o návrhu programu. Už teď je jasné, že za prvních 30 minut jednání se vůbec nic nestane a neprobere...'),
+(135, 4, '2016-04-08 16:01:00', 'Hádky o programu nakonec celkem nic zvláštního nepřinesly. Nyní je na řadě opakování slibu zastupitelů, které se provádí "pro jistotu" v návaznosti na nějaké nedávné soudní rozhodnutí.'),
+(136, 4, '2016-04-08 16:09:00', 'Už jsme u zastupitelů na "P"...'),
+(137, 4, '2016-04-08 16:15:00', 'Máme složen slib i návrhový a volební výbor. Zastupitelstvo může konečně pracovat.'),
+(138, 4, '2016-04-08 16:21:00', 'Zastupitelstvo volí přísedící obvodního soudu. Volba je tajná, takže to bude trvat odhadem 15-20 minut, než všichni odhlasují a komise sečte hlasy.'),
+(139, 4, '2016-04-08 16:44:00', 'Přísedící byla zvolena 37 hlasy. Zastupitel Josef Svoboda navrhuje usnesení, aby se příště musel přísedící osobně představit.'),
+(140, 4, '2016-04-08 16:50:00', 'Otevřen bod o partnerské smlouvě s městem Snina. Důvodem je potřeba spolupráce na tvorbě biotopové koupaliště Lhotka. Na Slovensku totiž mají podobné.'),
+(141, 4, '2016-04-08 16:53:00', 'Michal Hroza (TOP09) označil smlouvu za "blábol". Připomíná, že příslušná komise smlouvu odmítla a navíc navrhla audit partnerských smluv (čtyři existující, tři už možná neplatí, aniž by si toho Praha 4 všimla).'),
+(142, 4, '2016-04-08 16:57:00', 'Patrik Šebesta (TOP09) připomněl, že funkční biotopové koupaliště se nachází v Praze 16 - Radotíně.'),
+(143, 4, '2016-04-08 16:59:00', 'Alois Těšitel (TOP09) navrhl partnerskou smlouvu s Prahou 8, protože tam leží Bohnice.'),
+(144, 4, '2016-04-08 17:01:00', 'Přerušen bod číslo 3, na pořad přichází bod 8 - o developerském záměru na Kavčích Horách a občanské petici proti němu. Radní Alžběta Rejchrtová (Trojkoalice) informuje o situaci. Petici podepsalo přes 3000 občanů, 2700 z P4.'),
+(145, 4, '2016-04-08 17:10:00', 'Jsme seznamováni s projektem - lépe řečeno s tím, co je už schváleno a co nyní developer navrhuje.'),
+(146, 4, '2016-04-08 17:16:00', 'Jako výhody projektu je zdůrazňováno například vybudování sociálních a dalších služeb, které v původním projektu nejsou.'),
+(147, 4, '2016-04-08 17:18:00', 'Nyní se konečně dostávají ke slovu občané, kteří čekají již od 14 hodin. Zástupce petičního výboru uvedl, že původní projekt ("objekt E") ještě není schválen. Oproti novému návrhu však i tento starší návrh vypadá rozumně.'),
+(148, 4, '2016-04-08 17:31:00', 'Zazněla kritika skutečnosti, že projednávaný bod byl zařazen na program až dodatečně ve čtvrtek, takže mnozí občané se o tom nemohli dozvědět. V původním na webu vystaveném návrhu žádný takový bod nebyl.'),
+(149, 4, '2016-04-08 17:38:00', 'Konec vystoupení občanů, pokračuje diskuse zastupitelů.'),
+(150, 4, '2016-04-08 17:44:00', 'Patrik Šebesta (TOP09) říká: Vy hájíte pouze své partikulární zájmy. Kdyby se jednalo o Braník, byl by řev. Ale na Pankráci zřejmě žádný Zelený nebydlí...'),
+(151, 4, '2016-04-08 17:45:00', 'Petr Horálek (ČSSD) uvedl, že se nanašel nikdo, kdo by s výstavbou souhlasil.'),
+(152, 4, '2016-04-08 17:54:00', 'Jan Petr (TOP09): Ano, na Pankráci se bude stavět. Ale otázkou je, jak moc, jak vysoko, kolik bude dopravy, atd. To by přeci mělo být starostí Zelených. Proč najednou navrhují to, co dřív kritizovali jako opozice?'),
+(153, 4, '2016-04-08 17:57:00', 'Jan Petr k všeobecnému obveselení přítomných občanů čte volební program Trojkoalice.'),
+(154, 4, '2016-04-08 18:04:00', 'Opozice kritizuje fakt, že není přítomen radní pro životní prostředí.'),
+(155, 4, '2016-04-08 18:06:00', 'Otázka na tělo panu starostovi: "Souhlasíte s projektem? Ano/Ne?"'),
+(156, 4, '2016-04-08 18:28:00', 'Rozpor v komisi územního rozvoje? Radní Rejchrtová byla pochválena za to, že zve na jednání komise občany z dotčených lokalit, ale radnímu Kováříkovi, který o tom neví, ačkoliv je v komisi také, se to příliš nelíbí...'),
+(157, 4, '2016-04-08 18:34:00', 'Hovoří zastupitel Daniel Kunc (Trojkoalice) a obhajuje postup Rady. Následuje trojice faktických a věcných poznámek a obligátní hádka o to, co je nebo není faktická poznámka.'),
+(158, 4, '2016-04-08 18:38:00', 'Obligátní je též hlasování o prodloužení jednání po 19. hodině. Nyní může zastupitelstvo zasedat až do 22:00.'),
+(159, 4, '2016-04-08 18:39:00', 'Jiří Bodenlos (ČSSD): "Daniel Kunc lže jako když tiskne."'),
+(160, 4, '2016-04-08 18:44:00', 'Petru Štěpánkovi se projekt nelíbí a nesouhlasí s ním - ale nemůže nic dělat s platným územním rozhodnutím. Nový projekt předložil developer, ne radnice. Je třeba zajistit, aby MČ uškodil co nejméně. Proto se podle něj musí jednat. Starému schválenému projektu chybí infrastruktura.'),
+(161, 4, '2016-04-08 18:55:00', 'Aktuálně máme schválenou 15 minut přestávku PŘED ukončením diskuse a poté 10 minut přestávku PO ukončení diskuse.'),
+(162, 4, '2016-04-08 19:11:00', 'Předsedající Zdeněk Kovářík (ODS) kárá zastupitele za obligátní pozdní příchod do sálu. Pokračuje rozprava o výstavbě na Pankrácké pláni.'),
+(163, 4, '2016-04-08 19:17:00', 'Filip Vácha (TOP09): "Věže" nejsou lepší projekt než "Housenky"!'),
+(164, 4, '2016-04-08 19:18:00', 'Závěrečné slovo a poté 5 minut přestávka před hlasování.'),
+(165, 4, '2016-04-08 19:32:00', 'Začíná hlasování o usneseních k Pankrácké pláni.'),
+(166, 4, '2016-04-08 19:34:00', 'Schváleno usnesení předložené jménem koalice Viktorem Janouškovcem (Tučňák).'),
+(167, 4, '2016-04-08 19:35:00', 'Konečně začínají interpelace občanů, které správně měly začít v 17:22, ale byly odloženy projednáváním situace kolem výstavby na Pankráci.'),
+(168, 4, '2016-04-08 19:40:00', '13:45 až 19:40 - tak dlouho čeká občan na možnost vyjádřit se v interpelaci... Dnes se to našim zastupitelům opravdu nepovedlo.'),
+(169, 4, '2016-04-08 19:51:00', 'Pokračuje přerušené projednávání bodu 3 - partnerství s městem Snina.'),
+(170, 4, '2016-04-08 19:56:00', 'Antonín Lébl (ANO) kritizuje špatnou úroveň důvodové zprávy.'),
+(171, 4, '2016-04-08 00:00:00', 'Podle Michala Hrozy (TOP09) nemá smlouva žádný reálný obsah a plán činnosti, pouze obecné fráze.'),
+(172, 4, '2016-04-08 20:00:00', 'Slovenská strana smlouvu projednávala už 15. prosince. Proč tedy Praha 4 věc řeší až dnes?'),
+(173, 4, '2016-04-08 20:01:00', 'Potřebujeme skutečně partnerskou smlouvu s 20 tisícovým městem kvůli koupališti?'),
+(174, 4, '2016-04-08 20:06:00', 'Opět přestávka na poradu klubů.'),
+(175, 4, '2016-04-08 20:09:00', 'Závěrečné slovo starosty: staré partnerské smlouvy (např. s jednou čtvrtí v Záhřebu) se postupně revokují.'),
+(176, 4, '2016-04-08 20:11:00', 'Od teď jsme partnery slovenského města Snina. Na poslední chvíli přiskočil potřebný 23 hlas. Opozice nicméně zpochybňuje hlasování radního Kováříka, který podle mnohých vůbec nebyl v sále.'),
+(177, 4, '2016-04-08 20:12:00', 'Starosta informuje zastupitele o postupu v otázce 4-Energetické. Nepodařilo se najít kupce. Přihlásil se jeden zájemce, který nesplnil podmínky.'),
+(178, 4, '2016-04-08 20:18:00', 'Jan Petr (TOP09): Opět se nepovedlo privatizovat? Je to nekompetentnost nebo záměr? Jak přesně se realizuje usnesení "nevybrat nabídku"? Co bude dál?'),
+(179, 4, '2016-04-08 20:26:00', 'Filip Vácha (TOP09): Opozice kritizovala způsob vypsání výběrového řízení, kde byla příliš krátká lhůta pro podání nabídek. A ejhle - VŘ selhalo...'),
+(180, 4, '2016-04-08 20:32:00', 'Začal blok majetkových dispozic - hodně bodů, ale vcelku očekáváme poklidný průběh hlasování, protože jde o dobře předjednané a většinou bezrozporné záležitosti.'),
+(181, 4, '2016-04-08 21:03:00', 'Hledá se místostarosta Kovářík - schoval se totiž dozadu na místo řadového zastupitele.'),
+(182, 4, '2016-04-08 21:10:00', 'Tak přeci jen dochází ke sporům - prodej zelených ploch nedaleko školy "U Krčského lesa". Podle opozice jde o pro místní občany nežádoucí developerský záměr. Na stole jsou dva návrhy - prodat či neprodat.'),
+(183, 4, '2016-04-08 21:17:00', 'Tak neprošlo ani jedno. Nicméně předkladatel se snaží vydupat ze země "variantu B", to jest znovu hlasovat o "neschválení" prodeje. Následují (ne)procedurální dohady. Lukáš Zicha (Tučňák) bezelstně zmiňuje, že Rada má zkušenosti s revokací usnesení - což je úsměvné vzhledem k postupu, jaký Rada zvolila při výběru nájemce Branického divadla (jeden byl vybrán, dalším usnesením bylo to předchozí okamžitě zrušeno).'),
+(184, 4, '2016-04-08 21:26:00', 'Atmosféra houstne a hádky pokračují. Aktuální stav je, že zastupitelstvo neschválilo žádné usnesení, to se však má změnit...'),
+(185, 4, '2016-04-08 21:30:00', 'Musím říct, že od prosince 2013, kdy jsem byl poprvé na zastupitelstvu Prahy 4, ještě nikdo nekřičel na mikrofon tak nahlas, jako dnes...'),
+(186, 4, '2016-04-08 21:36:00', 'Stále pokračuje divadlo. Jan Petr opět obvinil Zdeňka Kováříka ze lži. Patrik Šebesta se konečně po dlouhých minutách dostal ke slovu se svou technickou poznámkou.'),
+(187, 4, '2016-04-08 21:41:00', 'Po 25 minutách skončilo hlasování pouze 14 hlasy pro. Jednání bylo promptně prohlášeno za zmatečné.'),
+(188, 4, '2016-04-08 21:43:00', 'Opakované hlasování - 21 pro...usnesení stále neschváleno.'),
+(189, 4, '2016-04-08 21:45:00', 'Neprošlo procedurální hlasování o prodloužení jednání do 23 hodin - pouze 22 hlasů pro. Nový návrh starosty Štěpánka - pokračovat do 23:10. 23 hlasů pro - sláva!'),
+(190, 4, '2016-04-08 21:50:00', 'Snaha předsedající nechat hlasovat o žádosti o přestávku naštěstí již neprošla (byla opravena, že to opravdu nejde), takže máme 5 minut pauzu.'),
+(191, 4, '2016-04-08 21:48:00', 'Zastupitelům Váchovi, Petrovi a Šebestovi nebylo uděleno slovo k technické poznámce, ačkoliv celou dobu svítili na tabuli.'),
+(192, 4, '2016-04-08 22:03:00', 'Konec prodejů pozemků. Nyní je na řadě žádost o dotaci SFŽP na zateplení několika škol.'),
+(193, 4, '2016-04-08 22:09:00', 'Informace o činnosti výboru - nikdo nevystoupil. Takže se jde rovnou na interpelace zastupitelů, poslední bod programu.'),
+(194, 4, '2016-04-08 22:11:00', 'Petr Kučera (TOP09): Kritika výkopových prací - nešetrné jednání k životnímu prostředí. Žádost o zjednání nápravy.'),
+(195, 4, '2016-04-08 22:14:00', 'Jan Petr (TOP09): Zajímá se o pojistné smlouvy na majetek uzavřené do roku 2010.'),
+(196, 4, '2016-04-08 22:15:00', 'Michal Hroza (TOP09): Jak to bude s Branickým divadlem. Dočkáme se v tomto volebním obdoní?'),
+(197, 4, '2016-04-08 22:16:00', 'Patrik Šebesta (TOP09): Jak je možné, že je svévolně a nepravdivě měněn zápis z komise (volnočasové). Jak se tomu zabrání pro příště?'),
+(198, 4, '2016-04-08 22:19:00', 'Petr Horálek (ČSSD): Vyšel článek kritizující stav kriminality v Braníku. Jaký je tedy místní bezpečností situace?'),
+(199, 4, '2016-04-08 22:22:00', 'Jan Petr (TOP09): Zeleň v Praze 4 - v jakém stavu je změna smluv na údržbu zeleně? '),
+(200, 4, '2016-04-08 22:27:00', 'Michal Hroza (TOP09): Jaká je situace kolem služeb na výrobu časopisu Tučňák.'),
+(201, 4, '2016-04-08 22:29:00', 'Jan Petr (TOP09): Jaký je názor starosty na přesun centra Klinika na Prahu 4? Často dělá něco jiného než říká... Reakce starosty: Byl to návrh ČSSD na magistrátu, Rada nic neřešila, protože nebylo nic oficiálně doručeno, objekt ve Znojemské by měl dál sloužit jako školské zařízení.'),
+(202, 4, '2016-04-08 22:31:00', '15. zasedání ZMČ Praha 4 bylo ukončeno. Končí i tento on-line přenos. Díky za pozornost.'),
+(203, 5, '2016-06-15 15:05:00', 'Jednání zastupitelstva bylo zahájeno'),
+(204, 5, '2016-06-15 15:13:00', 'Opozice navrhuje otevřít témata výstavby na Pankráci, stav zeleně na P4 a Branické divadlo.'),
+(205, 5, '2016-06-15 15:20:00', 'Jan Petr čte údajný dopis od Ivo Vaňka, kde se mluví o jeho "jednání" s developery ohledně Pankrácké pláně. Obsah je vskutku zajímavý. Jde o podvrh?'),
+(206, 5, '2016-06-15 15:26:00', 'Tradičně nebyly zařazeny žádné opoziční body.'),
+(207, 5, '2016-06-15 15:32:00', 'Nyní je na řadě zpráva o rozpočtu 2015'),
+(208, 5, '2016-06-15 15:40:00', 'Čtení jednoho čísla za druhým není příliš zajímavá. Snad něco zazní později v diskusi.'),
+(209, 5, '2016-06-15 15:58:00', 'Opozice kritizuje zejména neschopnost čerpat a realizovat plánované investice. Petr Horálek připomíná, že nejsou vůbec veřejně známé priority koalice. Podle opozice se nic nedělá...'),
+(210, 5, '2016-06-15 16:11:00', 'Zdeněk Kovářík vysvětluje, že řada projektů není dobře zpracovaná už z dřívějška, proto nelze čerpat.'),
+(211, 5, '2016-06-15 16:17:00', 'Zpráva o rozpočtu 2015 schválena 25:12.'),
+(212, 5, '2016-06-15 16:19:00', 'Nyní bude zastupitelstvo volit přísedící k obvodnímu soudu. Jsou dva kandidáti, čeká nás představení a poté tajná volba, což chvíli potrvá.'),
+(213, 5, '2016-06-15 16:43:00', 'Přísedící byli zvoleni. Ale někam se ztratili zastupilelé... '),
+(214, 5, '2016-06-15 16:44:00', 'Možná proto byly - předčasně - zahájeny interpelace občanů.'),
+(215, 5, '2016-06-15 16:54:00', 'Zastupitel Tišitel vystupuje v interpelacích jako občan. Kritizuje dopravní situaci v ulici U plynárny, kde se během rekonstrukce jezdí občas v protisměru.'),
+(216, 5, '2016-06-15 16:57:00', 'Nyní přestávka, aby mohli na interpelace dorazit ti, kteří počítali s časem 2 hodiny po začátku.'),
+(217, 5, '2016-06-15 17:10:00', 'Interpelují občané, kteří mají zájem o privatizaci bytů, ale radnice jim brání.'),
+(218, 5, '2016-06-15 17:13:00', 'Následuje asi stěžejní bod - granty městské části. Radní Zdeněk Pokorný velmi stručně představil návrh.'),
+(219, 5, '2016-06-15 17:17:00', 'Hovoří zástupce spolku handicapovaných. Jde o Radou navržené snížení podpory akce "Pojď dál".'),
+(220, 5, '2016-06-15 17:22:00', 'Petr Horálek kritizuje rok od roku pozdější schvalování grantů.'),
+(221, 5, '2016-06-15 17:24:00', 'Michal Hroza se pozastavuje nad řadou změn schválených v Radě, ačkoliv na grantové komisi byla široká shoda.'),
+(222, 5, '2016-06-15 17:31:00', 'Patrik Šebesta načítá všechny návrhy na změny...'),
+(223, 5, '2016-06-15 17:53:00', 'Pokračují dohady kolem grantů a jejich přiznané výše.'),
+(224, 5, '2016-06-15 18:05:00', 'Blíží se hlasování, deklarují se střety zájmů.'),
+(225, 5, '2016-06-15 18:07:00', 'Napřed ale ještě pauza na jednání klubů.'),
+(226, 5, '2016-06-15 18:33:00', 'Granty schváleny ve znění předloženém Radou (25 hlasů pro)'),
+(227, 5, '2016-06-15 18:32:00', 'Neprošly návrhy opozice ani žádost o znovuotevření diskuse (21 hlasů)'),
+(228, 5, '2016-06-15 18:35:00', 'Nyní balík návrhů na prodej volných bytů. Jan Petr však chce dodržet rozdělení po bodech - neprošlo (21 pro). Prý však jde pouze o spojení diskusí.'),
+(229, 5, '2016-06-15 18:44:00', 'Místo diskuse o prodeji bytů se diskutuje o vedení diskuse...'),
+(230, 5, '2016-06-15 18:51:00', 'Zmatky jsou korunovány 10 minutovou přestávkou.'),
+(231, 5, '2016-06-15 19:10:00', 'Ještě stále máme hádku...'),
+(232, 5, '2016-06-15 19:11:00', 'Po asi 40 minutách jsme na návrh Zdeňka Kováříka zpět na začátku - diskuse bod po bodu dle původního programu.'),
+(233, 5, '2016-06-15 19:40:00', 'Poklidný blok schvalování prodejů bytů narušil diskusní příspěvek občana, který vede restituční soudní spor. Informace nebyla v důvodové zprávě, na což se dotazuje opozice. Ukazuje se, že v zamotanému sporu není moc jasno. Znovu se otevírá diskuse.'),
+(234, 5, '2016-06-15 19:44:00', 'Vše se vyjasnilo, pokračujeme.'),
+(235, 5, '2016-06-15 19:49:00', 'TOP09 navrhuje vložení nového bodu, kde chce uložit Radě, aby se zveřejňovaly materiály online a ze zastupitelstva se konal tv přenos. Podpořilo to však jen 20 zastupitelů, takže nic.'),
+(236, 5, '2016-06-15 20:12:00', 'Nyní se jednání zaseklo na prodeji pozemku, kolem kterého se točí majetkový spor o bezdůvodné obohacení. Podle opozice by se MČ prodejem zbavila páky v onom sporu. Přesto návrh 24 hlasy prošel.'),
+(237, 5, '2016-06-15 20:24:00', 'Určité dohady jsou i u dalších prodejů, ale schvalování úspěšně pokračuje.'),
+(238, 5, '2016-06-15 20:31:00', 'Prodej velkého domu s velkým pozemkem za 12 milionů? Sice zřejmě nepřišla lepší nabídka, ale zdá se to opravdu málo.'),
+(239, 5, '2016-06-15 20:37:00', 'Další přestávka a to je pro dnešek konec tohoto přenosu. Jednání sice ještě nekončí, ale už toho bylo dost. Nashledanou zase někdy příště.');
 
 -- --------------------------------------------------------
 
@@ -533,7 +776,7 @@ CREATE TABLE IF NOT EXISTS `elrh_quotes` (
   `content` text NOT NULL,
   `topic` varchar(50) NOT NULL,
   `link` varchar(200) NOT NULL DEFAULT 'null'
-) ENGINE=MyISAM AUTO_INCREMENT=52 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=68 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `elrh_quotes`
@@ -589,7 +832,23 @@ INSERT INTO `elrh_quotes` (`id`, `date`, `content`, `topic`, `link`) VALUES
 (48, '2015-11-28', 'Je úžasné, že když jde o zákazy, tak je najednou na všechno široká shoda napříč spektrem...', 'Hazard', 'http://praha.idnes.cz/v-praze-se-rusi-vsechny-herny-schvalili-zastupitele-povoleno-bude-jen-101-kasin-1hw-/praha-zpravy.aspx?c=A151126_223525_praha-zpravy_rych'),
 (49, '2015-12-01', 'Zrovna když si myslíte, že už jste viděli všechno, tak zjistíte, že existuje Vyhláška, kterou se provádí zákon o Antarktidě...', 'Byrokracie', 'http://www.zakonyprolidi.cz/cs/2004-104'),
 (50, '2015-12-07', 'Být přítel (spojenec) přeci neznamená, že se spolu s ním loajálně vrhnu střemhlav do propasti, ale že ho včas upozorním, že dělá hloupost.', 'Turecko', 'http://seckar.blog.idnes.cz/c/486997/asterix-a-turecke-spojenectvi.html'),
-(51, '2015-12-17', 'Z hrobu by měl vstát Jan Toufar a soudružce Semelové vrazit pár facek.', '12. zastupitelstvo HMP', 'null');
+(51, '2015-12-17', 'Z hrobu by měl vstát Jan Toufar a soudružce Semelové vrazit pár facek.', '12. zastupitelstvo HMP', 'null'),
+(52, '2015-12-21', 'Co neuděláš dnes, neuděláš nikdy.', 'Motivace', 'null'),
+(53, '2015-12-23', 'Karel IV byl prý největší Čech, takže bych se Lucemburků nebál.', 'Pečivo', 'http://tn.nova.cz/clanek/ceske-housky-uz-nebudou-ceske-pekarny-kupuje-lucemburcan.html'),
+(54, '2016-01-12', 'Fungující demokracie cenzuru nepotřebuje, nefunkční společnosti naopak ani cenzura k větší svobodě nepomůže.', 'Cenzura', 'http://zpravy.idnes.cz/facebook-zablokoval-islam-v-cr-nechceme-d9k-/domaci.aspx?c=A160111_200312_domaci_fer'),
+(55, '2016-01-27', 'Prodej funkčních kalašnikovů lidem je přeci státem zakázaný, tudíž nechápu, v čem je problém.', 'Zeman', 'http://zpravy.idnes.cz/jak-se-zbavit-sobotky-zeman-zminil-kalasnikov-nevkusne-rekl-chovanec-12v-/domaci.aspx?c=A160126_113607_domaci_kop'),
+(56, '2016-01-29', 'Babišovi řekli "Dientsbier" a on to pochopil tak, že pivo je služba.', 'Babiš', 'http://www.novinky.cz/ekonomika/393291-pivo-v-restauraci-neni-zbozi-ale-sluzba-tvrdi-babisuv-urad-ke-smernici-eu.html'),
+(57, '2016-01-30', 'K čemu sakra potřebujeme veřejnoprávní pivo?', 'Budvar', 'https://cs.wikipedia.org/wiki/Bud%C4%9Bjovick%C3%BD_Budvar_%28podnik%29'),
+(58, '2016-02-04', 'Co by to bylo za den, kdyby stát nezvažoval nějakou regulaci?', 'Vlaky', 'http://ekonomika.idnes.cz/stat-zvazuje-ze-by-reguloval-vlaky-z-prahy-do-ostravy-pfv-/eko-doprava.aspx?c=A160203_150551_eko-doprava_rts'),
+(59, '2016-02-21', 'S Ruskem je to poker, ale Stropnický hraje prší.', 'Rusko', 'http://www.novinky.cz/domaci/395449-stropnicky-s-ruskem-je-to-poker-cesko-by-mohlo-poslat-na-vychod-sto-vojaku.html'),
+(60, '2016-03-11', 'Antisystémoví squatteři hledají zastání v systému - a systém jim ho ochotně poskytuje.', 'Klinika', 'http://seckar.blog.idnes.cz/c/498705/zakon-musi-platit-i-pro-squattery.html'),
+(61, '2016-03-12', 'Ministři mezi sebou závodí, kdo napáchá víc dobra.', 'Vláda', 'null'),
+(62, '2016-03-23', 'To, že Babiše zplodila ODS a Kalousek, by asi vysvětlovalo, že krade a podvádí. Ne však už to, jak se stal apoštolem boje proti korupci.', 'Babiš', 'http://www.novinky.cz/domaci/398453-on-line-babis-rekl-ze-capi-hnizdo-v-dobe-prideleni-dotace-vlastnily-jeho-deti.html'),
+(63, '2016-03-25', 'Nevěřím svým očím: politik provedl sebekritiku :o', 'Sobotka', 'https://twitter.com/SlavekSobotka/status/713281212224290816'),
+(64, '2016-04-06', 'Asistenti štěkají, ale karavana jede dál.', 'Svobodní', 'null'),
+(65, '2016-04-07', 'Posledním výstřelkem Evropské Komise je plán na vytvoření jednotného trhu s uprchlíky.', 'Evropská Unie', 'http://seckar.blog.idnes.cz/blog.aspx?c=502021'),
+(66, '2016-04-25', 'Chtělo by to ministerstvo výjimek ', 'Výjimky', 'https://www.facebook.com/ZbynekStanjura/posts/566833563486357'),
+(67, '2016-05-07', 'Chcete říct krátký vtip? ANO dnes pořádá ideovou konferenci...', 'ANO', 'http://www.novinky.cz/domaci/402802-politika-je-jeste-vetsi-hnus-nez-jsem-si-myslel-babis-promluvil-na-programove-konferenci.html');
 
 -- --------------------------------------------------------
 
@@ -694,6 +953,528 @@ INSERT INTO `elrh_reviews` (`id`, `type`, `title`, `date`, `location`, `link`) V
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `elrh_run_records`
+--
+
+CREATE TABLE IF NOT EXISTS `elrh_run_records` (
+  `id` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `track` int(11) NOT NULL,
+  `length` int(11) NOT NULL,
+  `time` varchar(12) COLLATE utf8_czech_ci NOT NULL,
+  `speed` varchar(6) COLLATE utf8_czech_ci NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=462 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+
+--
+-- Dumping data for table `elrh_run_records`
+--
+
+INSERT INTO `elrh_run_records` (`id`, `date`, `track`, `length`, `time`, `speed`) VALUES
+(1, '2013-03-11', 1, 0, '09:15:3', '11.838'),
+(2, '2013-03-13', 1, 0, '08:59:1', '12.189'),
+(3, '2013-03-18', 1, 0, '09:06:8', '12.011'),
+(4, '2013-03-25', 1, 0, '08:53:5', '12.303'),
+(5, '2013-03-29', 1, 0, '09:04:6', '12.055'),
+(6, '2013-04-06', 1, 0, '09:14:8', '11.838'),
+(7, '2013-04-29', 1, 0, '08:37:0', '12.708'),
+(8, '2013-05-08', 1, 0, '09:32:5', '11.466'),
+(9, '2013-05-14', 1, 0, '08:52:1', '12.350'),
+(10, '2013-05-22', 1, 0, '08:09:7', '13.408'),
+(11, '2013-05-30', 1, 0, '08:34:3', '12.782'),
+(12, '2013-06-05', 1, 0, '08:23:8', '13.036'),
+(13, '2013-06-10', 1, 0, '08:31:8', '12.832'),
+(14, '2013-07-08', 1, 0, '09:17:2', '11.795'),
+(15, '2013-07-15', 1, 0, '08:27:3', '12.959'),
+(16, '2013-07-20', 1, 0, '08:16:6', '13.219'),
+(17, '2013-07-27', 1, 0, '09:24:1', '11.649'),
+(18, '2013-07-29', 1, 0, '08:51:3', '12.373'),
+(19, '2013-08-03', 1, 0, '08:49:6', '12.396'),
+(20, '2013-08-13', 1, 0, '08:45:0', '12.514'),
+(21, '2013-08-19', 1, 0, '08:32:7', '12.807'),
+(22, '2013-08-21', 1, 0, '09:13:2', '11.881'),
+(23, '2013-08-23', 1, 0, '08:15:8', '13.246'),
+(24, '2013-08-26', 1, 0, '08:38:1', '12.683'),
+(25, '2013-08-28', 1, 0, '08:57:0', '12.235'),
+(26, '2013-08-31', 1, 0, '08:45:0', '12.514'),
+(27, '2013-09-06', 1, 0, '08:36:7', '12.708'),
+(28, '2013-09-09', 1, 0, '08:24:9', '13.010'),
+(29, '2013-09-10', 1, 0, '08:01:5', '13.631'),
+(30, '2013-09-14', 1, 0, '08:23:5', '13.036'),
+(31, '2013-09-16', 1, 0, '08:35:0', '12.757'),
+(32, '2013-10-09', 1, 0, '08:46:7', '12.467'),
+(33, '2013-10-24', 1, 0, '08:08:1', '13.463'),
+(34, '2013-11-14', 1, 0, '08:12:5', '13.327'),
+(35, '2013-12-02', 1, 0, '08:27:5', '12.933'),
+(36, '2013-12-07', 1, 0, '08:12:6', '13.327'),
+(37, '2014-01-12', 1, 0, '08:59:0', '12.189'),
+(38, '2014-02-04', 1, 0, '08:50:0', '12.396'),
+(39, '2014-02-10', 1, 0, '08:29:1', '12.908'),
+(40, '2014-03-06', 1, 0, '08:31:9', '12.832'),
+(41, '2014-05-03', 1, 0, '08:26:5', '12.959'),
+(42, '2014-05-31', 1, 0, '08:38:5', '12.659'),
+(43, '2014-06-29', 1, 0, '08:14:2', '13.300'),
+(44, '2014-07-29', 1, 0, '08:17:2', '13.219'),
+(45, '2014-08-09', 1, 0, '08:45:5', '12.490'),
+(46, '2014-08-20', 1, 0, '08:21:2', '13.114'),
+(47, '2014-09-09', 1, 0, '08:51:7', '12.350'),
+(48, '2014-09-25', 1, 0, '08:00:6', '13.659'),
+(49, '2014-10-15', 1, 0, '08:52:1', '12.350'),
+(50, '2014-11-11', 1, 0, '08:19:8', '13.140'),
+(51, '2014-12-10', 1, 0, '08:18:6', '13.166'),
+(52, '2014-12-23', 1, 0, '08:29:1', '12.908'),
+(53, '2015-01-01', 1, 0, '08:45:8', '12.490'),
+(54, '2015-01-21', 1, 0, '09:00:3', '12.167'),
+(55, '2015-01-28', 1, 0, '08:45:2', '12.514'),
+(56, '2015-02-17', 1, 0, '08:30:6', '12.857'),
+(57, '2015-03-20', 1, 0, '08:46:5', '12.467'),
+(58, '2015-04-10', 1, 0, '08:27:5', '12.933'),
+(59, '2015-05-01', 1, 0, '08:26:1', '12.984'),
+(60, '2015-05-15', 1, 0, '08:49:7', '12.396'),
+(61, '2015-05-30', 1, 0, '08:19:7', '13.140'),
+(62, '2015-06-17', 1, 0, '08:52:2', '12.350'),
+(63, '2015-09-23', 1, 0, '09:20:0', '11.732'),
+(64, '2015-09-26', 1, 0, '09:16:0', '11.817'),
+(65, '2015-11-04', 1, 0, '09:21:7', '11.690'),
+(66, '2015-11-11', 1, 0, '09:11:1', '11.924'),
+(67, '2015-11-25', 1, 0, '08:54:6', '12.280'),
+(68, '2015-12-23', 1, 0, '09:10:4', '11.945'),
+(69, '2016-01-14', 1, 0, '09:09:9', '11.945'),
+(70, '2016-01-28', 1, 0, '09:08:5', '11.967'),
+(71, '2016-02-10', 1, 0, '08:53:6', '12.303'),
+(72, '2016-02-24', 1, 0, '08:47:6', '12.443'),
+(73, '2016-04-17', 1, 0, '08:24:4', '13.036'),
+(74, '2016-06-14', 1, 0, '07:56:4', '13.803'),
+(75, '2013-03-14', 2, 0, '14:27:8', '11.240'),
+(76, '2013-03-20', 2, 0, '14:05:5', '11.532'),
+(77, '2013-04-03', 2, 0, '13:34:2', '11.985'),
+(78, '2013-04-08', 2, 0, '13:31:9', '12.015'),
+(79, '2013-04-30', 2, 0, '13:14:5', '12.272'),
+(80, '2013-05-03', 2, 0, '13:48:7', '11.768'),
+(81, '2013-05-21', 2, 0, '13:48:4', '11.783'),
+(82, '2013-05-29', 2, 0, '13:14:5', '12.272'),
+(83, '2013-06-20', 2, 0, '13:45:7', '11.811'),
+(84, '2013-07-18', 2, 0, '13:22:0', '12.165'),
+(85, '2013-08-14', 2, 0, '13:30:0', '12.044'),
+(86, '2013-08-27', 2, 0, '13:15:6', '12.256'),
+(87, '2013-09-05', 2, 0, '12:55:0', '12.588'),
+(88, '2013-10-03', 2, 0, '12:43:1', '12.786'),
+(89, '2013-11-25', 2, 0, '12:51:3', '12.654'),
+(90, '2014-01-20', 2, 0, '13:49:6', '11.754'),
+(91, '2014-02-15', 2, 0, '13:05:9', '12.412'),
+(92, '2014-04-11', 3, 0, '15:28:6', '11.238'),
+(93, '2014-04-29', 3, 0, '15:07:5', '11.498'),
+(94, '2014-06-20', 3, 0, '14:46:5', '11.770'),
+(95, '2014-07-03', 3, 0, '14:41:9', '11.837'),
+(96, '2014-07-24', 3, 0, '14:22:2', '12.111'),
+(97, '2014-08-13', 3, 0, '14:33:5', '11.945'),
+(98, '2014-08-22', 3, 0, '14:16:4', '12.196'),
+(99, '2014-08-28', 3, 0, '14:43:2', '11.823'),
+(100, '2014-09-14', 3, 0, '14:08:9', '12.297'),
+(101, '2014-09-29', 3, 0, '14:26:7', '12.042'),
+(102, '2014-11-03', 3, 0, '14:48:0', '11.757'),
+(103, '2014-11-20', 3, 0, '14:14:7', '12.211'),
+(104, '2014-12-15', 3, 0, '14:58:5', '11.613'),
+(105, '2015-01-09', 3, 0, '14:47:3', '11.770'),
+(106, '2015-01-31', 3, 0, '14:40:9', '11.850'),
+(107, '2015-03-03', 3, 0, '15:10:3', '11.473'),
+(108, '2015-04-21', 3, 0, '14:35:6', '11.918'),
+(109, '2015-05-12', 3, 0, '14:32:2', '11.972'),
+(110, '2015-05-29', 3, 0, '14:36:6', '11.904'),
+(111, '2015-07-04', 3, 0, '15:10:5', '11.460'),
+(112, '2015-11-06', 3, 0, '17:03:7', '10.195'),
+(113, '2015-12-13', 3, 0, '15:26:5', '11.262'),
+(114, '2015-12-20', 3, 0, '15:03:0', '11.561'),
+(115, '2016-01-21', 3, 0, '15:37:7', '11.130'),
+(116, '2016-03-06', 3, 0, '16:00:7', '10.864'),
+(117, '2016-03-13', 3, 0, '14:54:8', '11.665'),
+(118, '2016-05-01', 3, 0, '14:35:2', '11.931'),
+(119, '2016-06-04', 3, 0, '14:15:2', '12.211'),
+(120, '2013-09-12', 4, 0, '11:16:7', '10.422'),
+(121, '2013-09-23', 4, 0, '12:16:3', '09.587'),
+(122, '2013-09-26', 4, 0, '11:17:8', '10.407'),
+(123, '2013-10-07', 4, 0, '12:23:7', '09.484'),
+(124, '2013-10-16', 4, 0, '11:53:1', '09.896'),
+(125, '2013-10-17', 4, 0, '12:05:3', '09.732'),
+(126, '2013-10-20', 4, 0, '11:20:2', '10.376'),
+(127, '2013-10-23', 4, 0, '11:25:4', '10.301'),
+(128, '2013-10-27', 4, 0, '10:48:9', '10.872'),
+(129, '2013-11-07', 4, 0, '11:40:7', '10.066'),
+(130, '2013-11-18', 4, 0, '11:19:4', '10.392'),
+(131, '2013-11-20', 4, 0, '10:25:7', '11.272'),
+(132, '2013-11-28', 4, 0, '09:39:4', '12.187'),
+(133, '2013-12-04', 4, 0, '11:15:3', '10.453'),
+(134, '2013-12-27', 4, 0, '10:45:3', '10.940'),
+(135, '2013-12-11', 4, 0, '10:49:0', '10.872'),
+(136, '2013-12-14', 4, 0, '10:41:1', '11.008'),
+(137, '2013-12-15', 4, 0, '10:39:0', '11.042'),
+(138, '2013-12-19', 4, 0, '10:48:5', '10.872'),
+(139, '2013-12-27', 4, 0, '10:45:1', '10.940'),
+(140, '2013-12-30', 4, 0, '10:56:1', '10.756'),
+(141, '2014-01-07', 4, 0, '11:09:1', '10.547'),
+(142, '2014-01-12', 4, 0, '11:00:4', '10.691'),
+(143, '2014-01-18', 4, 0, '10:37:3', '11.077'),
+(144, '2014-02-03', 4, 0, '09:55:8', '11.839'),
+(145, '2014-02-09', 4, 0, '10:17:3', '11.436'),
+(146, '2014-02-13', 4, 0, '09:46:5', '12.020'),
+(147, '2014-02-24', 4, 0, '10:19:8', '11.381'),
+(148, '2014-03-03', 4, 0, '10:04:6', '11.663'),
+(149, '2014-03-10', 4, 0, '10:47:0', '10.906'),
+(150, '2014-03-16', 4, 0, '10:28:3', '11.236'),
+(151, '2014-04-07', 4, 0, '10:54:5', '10.773'),
+(152, '2014-04-21', 4, 0, '11:10:0', '10.531'),
+(153, '2014-05-05', 4, 0, '10:08:7', '11.586'),
+(154, '2014-05-28', 4, 0, '10:32:5', '11.147'),
+(155, '2014-06-12', 4, 0, '10:07:7', '11.605'),
+(156, '2014-06-27', 4, 0, '09:31:1', '12.357'),
+(157, '2014-07-27', 4, 0, '09:24:5', '12.488'),
+(158, '2014-08-03', 4, 0, '10:16:6', '11.436'),
+(159, '2014-08-05', 4, 0, '10:02:6', '11.701'),
+(160, '2014-08-07', 4, 0, '10:24:2', '11.308'),
+(161, '2014-08-11', 4, 0, '10:06:0', '11.644'),
+(162, '2014-08-19', 4, 0, '10:32:1', '11.165'),
+(163, '2014-08-25', 4, 0, '09:48:9', '11.980'),
+(164, '2014-09-02', 4, 0, '09:56:1', '11.839'),
+(165, '2014-09-08', 4, 0, '10:46:9', '10.906'),
+(166, '2014-09-17', 4, 0, '10:18:0', '11.417'),
+(167, '2014-09-23', 4, 0, '10:02:9', '11.701'),
+(168, '2014-10-01', 4, 0, '09:53:6', '11.879'),
+(169, '2014-10-13', 4, 0, '10:10:5', '11.548'),
+(170, '2014-10-24', 4, 0, '10:29:0', '11.218'),
+(171, '2014-10-31', 4, 0, '10:03:5', '11.682'),
+(172, '2014-11-05', 4, 0, '10:09:8', '11.567'),
+(173, '2014-11-13', 4, 0, '10:17:8', '11.417'),
+(174, '2014-11-22', 4, 0, '09:21:3', '12.578'),
+(175, '2014-11-26', 4, 0, '10:05:4', '11.663'),
+(176, '2014-12-01', 4, 0, '09:57:3', '11.819'),
+(177, '2014-12-05', 4, 0, '09:32:3', '12.336'),
+(178, '2014-12-12', 4, 0, '09:44:8', '12.062'),
+(179, '2014-12-21', 4, 0, '10:10:2', '11.567'),
+(180, '2014-12-27', 4, 0, '10:32:5', '11.147'),
+(181, '2015-01-03', 4, 0, '09:30:0', '12.379'),
+(182, '2015-01-14', 4, 0, '10:16:3', '11.455'),
+(183, '2015-01-18', 4, 0, '09:27:0', '12.444'),
+(184, '2015-01-27', 4, 0, '10:01:9', '11.721'),
+(185, '2015-02-02', 4, 0, '10:52:0', '10.822'),
+(186, '2015-02-06', 4, 0, '10:30:6', '11.182'),
+(187, '2015-02-11', 4, 0, '09:56:9', '11.819'),
+(188, '2015-02-24', 4, 0, '09:57:3', '11.819'),
+(189, '2015-02-27', 4, 0, '09:40:8', '12.145'),
+(190, '2015-03-11', 4, 0, '10:28:0', '11.236'),
+(191, '2015-03-13', 4, 0, '10:29:5', '11.200'),
+(192, '2015-03-25', 4, 0, '10:18:5', '11.399'),
+(193, '2015-04-06', 4, 0, '10:21:0', '11.362'),
+(194, '2015-04-14', 4, 0, '10:17:4', '11.436'),
+(195, '2015-04-27', 4, 0, '09:57:0', '11.819'),
+(196, '2015-05-04', 4, 0, '10:06:9', '11.624'),
+(197, '2015-05-10', 4, 0, '10:07:2', '11.624'),
+(198, '2015-05-21', 4, 0, '10:41:7', '10.991'),
+(199, '2015-05-27', 4, 0, '09:48:8', '11.980'),
+(200, '2015-06-02', 4, 0, '10:24:4', '11.308'),
+(201, '2015-06-10', 4, 0, '10:14:2', '11.492'),
+(202, '2015-06-26', 4, 0, '10:48:6', '10.872'),
+(203, '2015-07-03', 4, 0, '10:25:0', '11.290'),
+(204, '2015-07-10', 4, 0, '10:24:7', '11.290'),
+(205, '2015-07-20', 4, 0, '10:03:5', '11.682'),
+(206, '2015-07-28', 4, 0, '10:34:2', '11.129'),
+(207, '2015-08-07', 4, 0, '10:27:2', '11.254'),
+(208, '2015-09-18', 4, 0, '10:31:3', '11.182'),
+(209, '2015-11-03', 4, 0, '10:42:1', '10.991'),
+(210, '2015-11-10', 4, 0, '10:46:9', '10.906'),
+(211, '2015-11-17', 4, 0, '10:40:2', '11.025'),
+(212, '2015-12-03', 4, 0, '10:11:5', '11.529'),
+(213, '2015-12-09', 4, 0, '10:58:1', '10.723'),
+(214, '2015-12-12', 4, 0, '10:12:8', '11.511'),
+(215, '2015-12-18', 4, 0, '10:26:6', '11.254'),
+(216, '2015-12-24', 4, 0, '10:37:8', '11.060'),
+(217, '2015-12-27', 4, 0, '09:48:5', '11.980'),
+(218, '2016-01-01', 4, 0, '10:34:2', '11.129'),
+(219, '2016-01-12', 4, 0, '10:11:7', '11.529'),
+(220, '2016-01-17', 4, 0, '10:15:0', '11.473'),
+(221, '2016-01-27', 4, 0, '09:55:6', '11.839'),
+(222, '2016-02-02', 4, 0, '09:38:3', '12.208'),
+(223, '2016-02-09', 4, 0, '10:09:2', '11.586'),
+(224, '2016-02-18', 4, 0, '09:54:4', '11.879'),
+(225, '2016-02-22', 4, 0, '10:08:6', '11.586'),
+(226, '2016-03-09', 4, 0, '10:49:1', '10.872'),
+(227, '2016-03-18', 4, 0, '10:33:0', '11.147'),
+(228, '2016-03-28', 4, 0, '10:11:5', '11.529'),
+(229, '2016-04-07', 4, 0, '09:19:6', '12.600'),
+(230, '2016-04-15', 4, 0, '10:31:1', '11.182'),
+(231, '2016-05-07', 4, 0, '10:25:7', '11.272'),
+(232, '2016-05-15', 4, 0, '09:31:0', '12.357'),
+(233, '2016-05-24', 4, 0, '10:11:8', '11.529'),
+(234, '2016-06-12', 4, 0, '09:47:8', '12.000'),
+(235, '2016-07-17', 4, 0, '10:08:0', '11.605'),
+(236, '2016-08-05', 4, 0, '09:21:0', '12.578'),
+(237, '2013-03-16', 5, 0, '17:33:3', '10.803'),
+(238, '2013-03-21', 5, 0, '17:40:1', '10.732'),
+(239, '2013-03-27', 5, 0, '16:20:2', '11.608'),
+(240, '2013-04-05', 5, 0, '16:46:6', '11.297'),
+(241, '2013-05-06', 5, 0, '16:41:2', '11.365'),
+(242, '2013-05-09', 5, 0, '16:34:5', '11.433'),
+(243, '2013-05-16', 5, 0, '17:16:5', '10.970'),
+(244, '2013-05-24', 5, 0, '16:11:2', '11.716'),
+(245, '2013-06-13', 5, 0, '16:17:1', '11.644'),
+(246, '2013-07-09', 5, 0, '17:02:4', '11.131'),
+(247, '2013-08-02', 5, 0, '16:43:9', '11.331'),
+(248, '2013-08-29', 5, 0, '16:34:6', '11.433'),
+(249, '2013-09-02', 5, 0, '15:46:5', '12.013'),
+(250, '2013-09-19', 5, 0, '15:58:3', '11.875'),
+(251, '2013-09-30', 5, 0, '15:20:3', '12.365'),
+(252, '2013-10-31', 5, 0, '16:51:2', '11.252'),
+(253, '2013-12-09', 5, 0, '16:11:7', '11.704'),
+(254, '2013-12-31', 5, 0, '16:39:8', '11.376'),
+(255, '2014-03-05', 5, 0, '16:43:3', '11.342'),
+(256, '2014-04-24', 5, 0, '16:23:9', '11.561'),
+(257, '2014-06-14', 5, 0, '15:55:6', '11.900'),
+(258, '2014-07-23', 5, 0, '15:28:6', '12.245'),
+(259, '2014-08-17', 5, 0, '15:39:2', '12.115'),
+(260, '2014-09-20', 5, 0, '16:12:8', '11.692'),
+(261, '2014-10-28', 5, 0, '15:53:4', '11.937'),
+(262, '2015-01-16', 5, 0, '16:49:1', '11.275'),
+(263, '2015-02-13', 5, 0, '17:37:0', '10.763'),
+(264, '2015-03-27', 5, 0, '17:11:7', '11.023'),
+(265, '2015-05-07', 5, 0, '16:39:0', '11.387'),
+(266, '2015-05-23', 5, 0, '16:15:7', '11.656'),
+(267, '2015-06-05', 5, 0, '16:18:8', '11.620'),
+(268, '2015-06-16', 5, 0, '16:12:1', '11.704'),
+(269, '2015-06-30', 5, 0, '16:35:7', '11.422'),
+(270, '2015-07-17', 5, 0, '16:41:7', '11.353'),
+(271, '2015-07-31', 5, 0, '17:31:5', '10.814'),
+(272, '2015-08-22', 5, 0, '17:58:0', '10.553'),
+(273, '2015-09-19', 5, 0, '17:53:0', '10.602'),
+(274, '2015-09-30', 5, 0, '17:23:1', '10.907'),
+(275, '2015-11-18', 5, 0, '18:46:3', '10.103'),
+(276, '2015-12-29', 5, 0, '17:49:3', '10.642'),
+(277, '2016-01-30', 5, 0, '17:31:1', '10.824'),
+(278, '2016-02-19', 5, 0, '17:16:6', '10.970'),
+(279, '2016-03-21', 5, 0, '16:56:4', '11.197'),
+(280, '2016-04-05', 5, 0, '16:56:0', '11.197'),
+(281, '2016-05-27', 6, 0, '17:07:8', '11.434'),
+(282, '2016-06-07', 6, 0, '17:16:4', '11.346'),
+(283, '2013-03-28', 7, 0, '42:23:9', '09.785'),
+(284, '2013-05-07', 7, 0, '39:43:8', '10.442'),
+(285, '2013-09-03', 7, 0, '38:21:9', '10.814'),
+(286, '2013-10-30', 7, 0, '38:13:8', '10.852'),
+(287, '2014-05-11', 7, 0, '38:19:2', '10.828'),
+(288, '2014-08-31', 7, 0, '37:49:5', '10.967'),
+(289, '2015-04-11', 7, 0, '39:51:6', '10.407'),
+(290, '2016-01-19', 7, 0, '41:29:9', '09.998'),
+(291, '2016-04-22', 7, 0, '37:44:3', '10.996'),
+(292, '2016-07-12', 7, 0, '38:05:2', '10.895'),
+(293, '2014-08-16', 8, 0, '39:15:1', '10.571'),
+(294, '2015-02-20', 8, 0, '40:00:6', '10.368'),
+(295, '2015-11-28', 8, 0, '42:28:0', '09.770'),
+(296, '2013-09-17', 9, 0, '1:07:29:0', '09.442'),
+(297, '2013-10-02', 9, 0, '1:07:14:0', '09.477'),
+(298, '2013-11-06', 9, 0, '1:04:56:0', '09.813'),
+(299, '2014-03-20', 9, 0, '1:05:10:0', '09.778'),
+(300, '2014-05-29', 9, 0, '1:04:12:0', '09.925'),
+(301, '2014-09-11', 9, 0, '1:01:19:0', '10.392'),
+(302, '2016-05-03', 9, 0, '59:42:4', '10.673'),
+(303, '2016-06-10', 9, 0, '1:00:29:0', '10.535'),
+(304, '2016-07-01', 9, 0, '1:01:46:0', '10.316'),
+(305, '2013-12-01', 10, 0, '39:08:6', '10.115'),
+(306, '2014-08-01', 10, 0, '39:30:1', '10.025'),
+(307, '2014-10-26', 10, 0, '38:45:1', '10.219'),
+(308, '2014-12-08', 10, 0, '38:12:3', '10.366'),
+(309, '2015-01-07', 10, 0, '40:03:4', '09.888'),
+(310, '2015-11-21', 10, 0, '42:12:1', '09.384'),
+(311, '2016-02-21', 10, 0, '39:08:1', '10.119'),
+(312, '2016-05-28', 10, 0, '38:39:6', '10.241'),
+(313, '2016-06-25', 10, 0, '40:25:5', '09.794'),
+(314, '2013-09-20', 11, 0, '29:30:5', '10.377'),
+(315, '2013-10-12', 11, 0, '28:32:9', '10.729'),
+(316, '2013-11-04', 11, 0, '29:07:0', '10.520'),
+(317, '2014-05-02', 11, 0, '29:17:8', '10.454'),
+(318, '2014-08-08', 11, 0, '28:32:8', '10.729'),
+(319, '2014-09-24', 11, 0, '28:10:5', '10.868'),
+(320, '2015-01-25', 11, 0, '29:16:6', '10.460'),
+(321, '2015-06-20', 11, 0, '29:36:0', '10.348'),
+(322, '2016-03-12', 11, 0, '29:45:4', '10.296'),
+(323, '2016-04-24', 11, 0, '28:14:5', '10.842'),
+(324, '2016-06-27', 11, 0, '28:31:0', '10.741'),
+(325, '2013-11-13', 12, 0, '28:39:6', '10.685'),
+(326, '2014-03-17', 12, 0, '29:08:6', '10.508'),
+(327, '2014-06-19', 12, 0, '27:14:1', '11.247'),
+(328, '2014-08-27', 12, 0, '28:53:9', '10.599'),
+(329, '2015-04-17', 12, 0, '28:01:9', '10.926'),
+(330, '2015-07-07', 12, 0, '28:35:5', '10.710'),
+(331, '2015-11-24', 12, 0, '30:46:4', '09.956'),
+(332, '2016-02-12', 12, 0, '29:03:7', '10.538'),
+(333, '2016-04-12', 12, 0, '27:08:9', '11.282'),
+(334, '2016-05-13', 12, 0, '28:39:7', '10.685'),
+(335, '2016-06-20', 12, 0, '28:36:3', '10.710'),
+(336, '2016-08-03', 12, 0, '28:26:8', '10.766'),
+(337, '2014-11-19', 13, 0, '24:28:4', '11.084'),
+(338, '2014-12-06', 13, 0, '25:20:4', '10.705'),
+(339, '2014-12-18', 13, 0, '23:49:5', '11.379'),
+(340, '2014-12-28', 13, 0, '24:44:8', '10.958'),
+(341, '2015-01-16', 13, 0, '24:46:0', '10.950'),
+(342, '2015-02-09', 13, 0, '24:54:9', '10.884'),
+(343, '2015-03-17', 13, 0, '24:18:6', '11.153'),
+(344, '2015-04-07', 13, 0, '25:31:5', '10.621'),
+(345, '2015-05-17', 13, 0, '23:22:1', '11.606'),
+(346, '2015-06-07', 13, 0, '23:47:7', '11.395'),
+(347, '2015-07-14', 13, 0, '24:14:1', '11.191'),
+(348, '2015-08-04', 13, 0, '25:12:2', '10.762'),
+(349, '2015-09-05', 13, 0, '26:40:0', '10.170'),
+(350, '2015-11-15', 13, 0, '25:40:5', '10.559'),
+(351, '2015-12-08', 13, 0, '25:34:0', '10.608'),
+(352, '2016-01-04', 13, 0, '25:11:9', '10.762'),
+(353, '2016-02-06', 13, 0, '24:31:2', '11.062'),
+(354, '2016-03-05', 13, 0, '24:55:4', '10.884'),
+(355, '2016-04-03', 13, 0, '22:57:3', '11.817'),
+(356, '2016-05-05', 13, 0, '23:49:2', '11.387'),
+(357, '2016-06-03', 13, 0, '22:53:5', '11.843'),
+(358, '2016-07-18', 13, 0, '23:26:1', '11.573'),
+(359, '2015-04-24', 14, 0, '24:55:4', '10.884'),
+(360, '2015-06-23', 14, 0, '24:35:7', '11.024'),
+(361, '2015-12-06', 14, 0, '25:44:2', '10.539'),
+(362, '2016-01-16', 14, 0, '24:38:3', '11.009'),
+(363, '2016-02-14', 14, 0, '24:38:9', '11.002'),
+(364, '2016-02-27', 14, 0, '23:49:8', '11.379'),
+(365, '2016-03-23', 14, 0, '24:10:4', '11.222'),
+(366, '2016-04-30', 14, 0, '23:31:7', '11.524'),
+(367, '2016-05-22', 14, 0, '24:33:0', '11.047'),
+(368, '2016-06-17', 14, 0, '23:11:6', '11.690'),
+(369, '2016-07-25', 14, 0, '23:45:5', '11.411'),
+(370, '2016-08-09', 13, 0, '22:21:4', '12.134'),
+(371, '2016-08-10', 10, 0, '36:42:5', '10.886'),
+(372, '2013-09-13', 15, 0, '56:49:0', '10.243'),
+(373, '2013-10-10', 15, 0, '55:55:3', '10.408'),
+(374, '2014-04-13', 15, 0, '56:17:2', '10.341'),
+(375, '2014-07-01', 15, 0, '53:23:3', '10.902'),
+(376, '2014-09-04', 15, 0, '53:28:3', '10.885'),
+(377, '2014-11-02', 15, 0, '55:22:4', '10.512'),
+(378, '2015-03-01', 15, 0, '57:58:8', '10.037'),
+(379, '2016-03-25', 15, 0, '55:25:3', '10.502'),
+(380, '2016-06-01', 15, 0, '52:29:2', '11.089'),
+(381, '2016-06-18', 15, 0, '53:47:4', '10.821'),
+(382, '2016-07-15', 15, 0, '55:14:1', '10.537'),
+(383, '2016-08-12', 15, 0, '51:17:5', '11.345'),
+(384, '2016-05-14', 16, 0, '31:52:6', '10.727'),
+(385, '2016-08-23', 16, 0, '32:35:7', '10.491'),
+(386, '2016-06-08', 17, 0, '24:59:1', '09.222'),
+(387, '2016-07-19', 17, 0, '25:37:7', '08.988'),
+(388, '2016-08-08', 17, 0, '25:25:7', '09.059'),
+(389, '2016-05-17', 18, 0, '1:28:47:0', '10.137'),
+(390, '2016-07-21', 18, 0, '1:30:24:0', '09.956'),
+(391, '2016-08-22', 18, 0, '1:27:09:0', '10.327'),
+(392, '2013-11-10', 19, 0, '2:24:57:0', '09.521'),
+(393, '2016-07-29', 19, 0, '2:19:03:0', '09.924'),
+(394, '2013-06-01', 20, 0, '14:44:0', '13.032'),
+(395, '2013-10-05', 20, 0, '14:35:0', '13.166'),
+(396, '2013-11-02', 20, 0, '14:57:0', '12.843'),
+(397, '2014-08-08', 20, 0, '15:14:0', '12.604'),
+(398, '2014-09-06', 20, 0, '15:07:0', '12.701'),
+(399, '2016-07-04', -1, 4750, '27:09:0', '10.497'),
+(400, '2016-07-05', -1, 4750, '26:14:7', '10.857'),
+(401, '2016-07-06', -1, 4750, '26:08:6', '10.899'),
+(402, '2016-07-07', -1, 4750, '25:07:7', '11.340'),
+(403, '2016-07-08', -1, 4750, '26:01:5', '10.948'),
+(404, '2015-09-08', -1, 2450, '13:45:5', '10.678'),
+(405, '2015-09-10', -1, 2450, '14:20:9', '10.244'),
+(406, '2015-07-21', -1, 3120, '17:19:8', '10.800'),
+(407, '2015-07-22', -1, 3120, '17:07:9', '10.926'),
+(408, '2015-07-23', -1, 3120, '17:00:4', '11.012'),
+(409, '2015-07-24', -1, 3120, '16:36:7', '11.266'),
+(410, '2015-07-25', -1, 3120, '17:01:6', '10.990'),
+(415, '2014-07-15', -1, 3500, '18:43:7', '11.210'),
+(416, '2014-07-16', -1, 3500, '18:02:3', '11.645'),
+(417, '2014-07-18', -1, 3500, '18:05:1', '11.613'),
+(418, '2014-07-19', -1, 3500, '17:56:1', '11.710'),
+(419, '2014-07-07', -1, 2000, '12:30:8', '09.587'),
+(420, '2014-07-08', -1, 2000, '12:31:2', '09.587'),
+(421, '2014-07-09', -1, 2000, '12:47:7', '09.375'),
+(422, '2014-07-10', -1, 2000, '12:32:6', '09.562'),
+(423, '2014-07-12', -1, 2000, '12:14:5', '09.796'),
+(424, '2014-07-13', -1, 2000, '12:25:4', '09.664'),
+(425, '2013-08-05', -1, 3000, '17:56:9', '10.028'),
+(426, '2013-08-06', -1, 3000, '17:07:1', '10.516'),
+(427, '2013-08-07', -1, 3000, '16:56:8', '10.619'),
+(428, '2013-08-08', -1, 3000, '17:01:0', '10.578'),
+(429, '2013-11-29', 21, 0, '3:55:3', '15.319'),
+(430, '2014-07-30', 21, 0, '3:49:0', '15.721'),
+(431, '2016-04-01', 21, 0, '4:01:4', '14.938'),
+(432, '2016-04-01', 21, 0, '6:40:5', '08.978'),
+(433, '2016-04-01', 21, 0, '5:58:5', '10.028'),
+(434, '2016-04-01', 21, 0, '5:09:0', '11.650'),
+(435, '2016-05-25', 21, 0, '3:59:6', '15.000'),
+(436, '2016-05-25', 21, 0, '6:39:9', '09.000'),
+(437, '2016-05-25', 21, 0, '4:59:4', '12.040'),
+(438, '2016-05-25', 21, 0, '6:00:5', '09.972'),
+(439, '2016-05-25', 21, 0, '7:15:3', '08.276'),
+(440, '2016-05-25', 21, 0, '4:19:6', '13.846'),
+(441, '2015-03-21', 22, 0, '29:48:0', '10.067'),
+(442, '2015-06-24', 22, 0, '26:04:0', '11.509'),
+(443, '2016-06-22', 22, 0, '24:06:0', '12.448'),
+(444, '2013-05-12', 23, 0, '55:39:0', '10.782'),
+(445, '2016-04-13', 23, 0, '58:22:2', '10.280'),
+(446, '2016-05-08', 23, 0, '54:00:0', '11.111'),
+(447, '2013-06-04', -1, 2400, '11:35:7', '12.414'),
+(448, '2013-11-29', -1, 1150, '08:54:5', '07.738'),
+(449, '2014-07-30', -1, 1150, '07:15:0', '09.517'),
+(450, '2013-11-17', -1, 2875, '21:05:2', '08.182'),
+(451, '2016-04-01', -1, 2875, '17:13:4', '10.019'),
+(452, '2016-05-25', -1, 2875, '17:32:2', '09.838'),
+(453, '2014-11-08', -1, 5500, '31:01:3', '10.639'),
+(454, '2014-11-09', -1, 3100, '21:37:0', '08.604'),
+(455, '2015-03-28', -1, 21098, '2:20:36:0', '09.003'),
+(456, '2016-04-13', -1, 2875, '17:30:9', '09.848'),
+(457, '2016-06-23', -1, 4700, '32:30:0', '08.677'),
+(458, '2016-06-23', -1, 4700, '32:30:0', '08.677'),
+(459, '2016-08-16', -1, 4200, '23:26:8', '10.746'),
+(460, '2016-08-17', -1, 5300, '35:20:5', '08.996'),
+(461, '2016-08-19', -1, 4780, '27:21:6', '10.480');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `elrh_run_tracks`
+--
+
+CREATE TABLE IF NOT EXISTS `elrh_run_tracks` (
+  `id` int(11) NOT NULL,
+  `name` varchar(25) COLLATE utf8_czech_ci NOT NULL,
+  `dscr` text COLLATE utf8_czech_ci NOT NULL,
+  `length` int(11) NOT NULL,
+  `map_link` varchar(25) COLLATE utf8_czech_ci NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
+
+--
+-- Dumping data for table `elrh_run_tracks`
+--
+
+INSERT INTO `elrh_run_tracks` (`id`, `name`, `dscr`, `length`, `map_link`) VALUES
+(-1, '-', '', -1, ''),
+(1, 'P1', 'Úplně první běžecká trasa, na kterou jsem vyrazil, vede v blízkém okolí čtvrti. Zároveň i nejkratší, necelé 2km. V poslední době jsem ji skoro přestal běhat, protože je krátká, byť se výkon kompenzuje vyšší intenzitou běhu.', 1825, 'https://mapy.cz/s/T3yo'),
+(2, 'P2s', 'Prodloužená variace běhu po čtvrti. Musel jsem ji cca po roce pozměnit poté, co mi plot zahradil jeden úsek cesty. Nová varianta je delší.', 2710, 'https://mapy.cz/s/T3Eq'),
+(3, 'P2', 'Na jaře 2014 byla plotem obehnána část mnou používané trasy P2s, nezbylo tedy než si běh trochu upravit. Výsledkem je o něco větší vzdálenost a překvapivě výrazně horší časy...', 2900, 'https://mapy.cz/s/VYlB'),
+(4, 'P3', 'Původně oddechová výběhová trasa, ze které se však postupně stala i trasa výkonostní. Běhám ji vůbec nejčastěji a byť většinou "na pohodu", sem tam se podaří dosáhnout zvlášť dobrých časů...', 1960, 'https://mapy.cz/s/WFK4'),
+(5, 'L1s', 'Okruh vedoucí většinu času lesem Velkého háje a nejméně z poloviny po nepříliš kvalitních cestách. Na trati je několik převýšení, byť ten největší kopec na úvod jsem z taktických důvodů vynechal a vždy si ho vyjdu pěšky. Tuto variantu jsem byl nucen přestat běhat na jaře 2016, kdy mi pokácené stromy zatarasily spojovací cestičku. Nová varianta je o něco delší.', 3160, 'https://mapy.cz/s/WRsr'),
+(6, 'L1', 'Okruh vedoucí většinu času lesem Velkého háje a nejméně z poloviny po nepříliš kvalitních cestách. Na trati je několik převýšení, byť ten největší kopec na úvod jsem z taktických důvodů vynechal a vždy si ho vyjdu pěšky. O cca 100 metrů delší variantu běhám od jara 2016.', 3265, 'https://mapy.cz/s/WRw2'),
+(7, 'K1', 'Lesní okruh vedoucí Kunratickým lesem. V zásadě se v první polovině hodně stoupá, potom následuje dlouhý seběh dolů a zbytek trasy údolím Kuntratického potoka s ještě jedním kratším stoupáním asi kilometr před cílem. Když jsem trasu zkoušel poprvé, potřeboval jsem 5 zastávek, to už je dnes samozřejmě jinak :)', 6915, 'https://mapy.cz/s/WRQn'),
+(8, 'K1I', 'Okruh K1 v obráceném pořadí, takže s 1,5 kilometru dlouhým relativně prudkým stoupáním. Logicky tedy pomalejší časy.', 6915, 'https://mapy.cz/s/WRQn'),
+(9, 'K2', '"Velký" lesní okruh v Kunratickém lese, který jsem natáhl přes 10 kilometrů a vede víceméně po celém obvodu lesa s přídavným kolečkem uprostřed. Trasa vede po kvalitních širokých cestách. Je na ni několik kopců, ale spíše je vedena tak, aby to bylo jednoduché, nejtěžší část je hned v úvodních kilometrech.', 10620, 'https://mapy.cz/s/WTrG'),
+(10, 'K3', 'Zkrácená varianta K2, která vznikla, když jsem se jednou necítil a vzal to zkratkou.', 6660, 'https://mapy.cz/s/WTmp'),
+(11, 'L2', 'Pětikilometrový okruh, částečně po cyklostezce, kus přes městkou zástavbu a zbytek lesem, který se vyznačuje zejména kilometrovým 7-8% stoupáním z Braníka na Novodvorskou.', 5105, 'https://mapy.cz/s/WTHZ'),
+(12, 'L2I', 'Trasa L2 v opačném směru. Takže těžký kopec se běží dolů, ale na druhou stranu jsou tam táhlá stoupání na začátku a na konci. Časy jsou tak plus minus vyrovnané.', 5105, 'https://mapy.cz/s/WTHZ'),
+(13, 'BR1', 'Okruh po cyklostezce a poté vilovou čtvrtí s 500 metry 6% stoupání po obrátce v Braníku. Po jeho "vynálezu" koncem roku 2014 jsem si zvykl ho běhat pravidelně každý měsíc jednou.', 4520, 'https://mapy.cz/s/WTOe'),
+(14, 'BR1I', 'Obrácený BR1, takže nejdramatičtější stoupání je zde klesáním, ale zase člověk táhle stoupá na začátku a ke konci, takže časy jsou spíše vyrovnané.', 4520, 'https://mapy.cz/s/WTOe'),
+(15, 'Z1', 'Přesně tři dny nejdelší uběhnutá vzdálenost, téměř 10 kilometrů. Neúplný okruh, který má tu výhodu, že většinu času vede spíše z kopce.', 9700, 'https://mapy.cz/s/10loa'),
+(16, 'KL1', 'Středně dlouhá trasa dvou lesů a průběhu civilizací mezi nimi, která se vyznačuje zejména výběhem do kopce kolem IKEMu.', 5700, 'https://mapy.cz/s/10lBe'),
+(17, 'K5V', 'Trasa, která po P3 převzala úlohu "oddechové", kde se skutečně běží pomalu a bez ambicí na čas. Uvidíme, jak dlouho to tak vydrží...', 3840, 'https://mapy.cz/s/10lFE'),
+(18, 'K4', '"Královský" okruh Kunratickým lesem, natažený na 15 kilometrů s několika prudšími výběhy a seběhy, byť nijak zvlášť dlouhými.', 15000, 'https://mapy.cz/s/10mgO'),
+(19, 'BM1', 'Nejdelší trasa, jakou jsem zatím v kuse uběhl - o 2km delší než 1/2maraton. Kromě samotné délky je v ní ukryto zákeřné dlouhé stoupání Modřanskou roklí gradující výběhem na Sídliště Libuš.', 23000, 'https://mapy.cz/s/10mIi'),
+(20, 'STR', 'Párkrát jsem se zúčastnil běžeckého závodu ve Stromovce, který se běhá na dvě kola po mílovém okruhu.', 3200, 'https://mapy.cz/s/10n3o'),
+(21, '1KM', 'Jeden kilometr po rovince podél Vltavy v Braníku, značený po 100 metech na asfaltu. Krom běhání na absolutní rychlost si na něm zkouším práci s tempem.', 1000, 'https://mapy.cz/s/10rzS'),
+(22, '5KM', 'Trasa 5km běhaná při různých příležitostech a na různých tratích...', 5000, ''),
+(23, '10KM', 'Trasa 10km běhaná při různých příležitostech a na různých tratích...', 10000, '');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `elrh_softball`
 --
 
@@ -748,7 +1529,7 @@ CREATE TABLE IF NOT EXISTS `elrh_tournaments` (
   `title` varchar(100) NOT NULL,
   `location` varchar(100) NOT NULL,
   `link` varchar(150) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `elrh_tournaments`
@@ -771,7 +1552,10 @@ INSERT INTO `elrh_tournaments` (`id`, `ord`, `date`, `sport`, `title`, `location
 (14, 15, '2015', 's', 'ESF EPCW 2015', 'Praha - Krč', 'http://competition.europeansoftball.org/2015/prague2/schedule.php'),
 (15, 16, '2015', 's', 'ESF ESCM 2015', 'Praha - Tempo', 'http://competition.europeansoftball.org/2015/prague3/schedule.php'),
 (16, 13, '2014', 's', 'ESF EChM 2014', 'Havlíčkův Brod', 'http://competition.europeansoftball.org/2014/havlickuv/schedule.php'),
-(17, 17, '2015', 'b', 'Final Four ČBP 2015', 'Choceň', 'http://www.baseball.cz/article.php?sid=4032');
+(17, 17, '2015', 'b', 'Final Four ČBP 2015', 'Choceň', 'http://www.baseball.cz/article.php?sid=4032'),
+(18, 10, '2013', 'b', 'CEB EC U18 2013', 'Praha - Krč / Tempo', 'http://www.baseballstats.eu/2013/prague/schedule.php'),
+(19, 19, '2016', 'b', 'CEB EC U12 2016', 'Třebíč', 'http://baseballstats.eu/2016/trebic/schedule.php'),
+(20, 20, '2016', 's', 'ECW - Cup Women', 'Most', 'http://competition.europeansoftball.org/2016/most/schedule.php');
 
 -- --------------------------------------------------------
 
@@ -802,7 +1586,9 @@ INSERT INTO `elrh_versions` (`version`, `date`, `dscr`) VALUES
 ('2.5', '2015-03-29', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>Stránka "GLOSY"</li>  \r\n <li>Stránka "DENÍK POLITIKA"</li>\r\n</ul>'),
 ('2.5.1', '2015-08-06', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>Archivace stránky "Blog"</li>  \r\n <li>Stránky "Deník politika" a&nbsp;"Glosy" mají nový indikátor posledního vloženého příspěvku</li>\r\n</ul>'),
 ('3.0', '2015-12-10', '<strong>Velká změnová verze.</strong> Došlo ke kompletnímu překlopení webu do objektového PHP a&nbsp;byly provedeny s&nbsp;tím spojené nutné úpravy.<br /> <strong>Zásadní změny</strong>:\r\n\r\n<ul>\r\n <li>Nasazen nový MVC-systém napsaný v&nbsp;objektovém PHP vlastní výroby</li>\r\n <li>Nové menu s&nbsp;třemi hlavními oddíly a&nbsp;drop-down boxy pro stránky v&nbsp;kategorii</li>\r\n <li>Nové samostatné stránky "Kontakty"a&nbsp;"Mapa stránek"</li>\r\n <li>Přepracování zobrazování odkazů</li>\r\n</ul>'),
-('3.0.1', '2015-12-19', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>\r\n  Přidána stránka "online přenosy" v sekci Politika.\r\n </li>\r\n <li>\r\n  Měřič Google Analytics\r\n </li>\r\n <li>\r\n  Drobné opravy kódu.\r\n </li>\r\n</ul>');
+('3.0.1', '2015-12-19', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>\r\n  Přidána stránka "online přenosy" v sekci Politika.\r\n </li>\r\n <li>\r\n  Měřič Google Analytics\r\n </li>\r\n <li>\r\n  Drobné opravy kódu.\r\n </li>\r\n</ul>'),
+('3.0.2', '2015-12-28', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>\r\n  Vylepšení a sjednocení CSS\r\n </li>\r\n <li>\r\n  Pročištění nepoužívaných souborů\r\n </li>\r\n <li>\r\n  Opravy chyb (onlines, připojení k db)\r\n </li>\r\n</ul>'),
+('3.1', '2016-08-23', '<strong>Seznam úprav:</strong>\r\n\r\n<ul>\r\n <li>\r\n  Nová stránka BĚH se statistikami běhání\r\n </li>\r\n <li>\r\n  Admin přihlášení + formuláře pro snazší zadávání dat (běhy, deník politika, glosy, onlines)\r\n </li>\r\n</ul>');
 
 -- --------------------------------------------------------
 
@@ -926,6 +1712,18 @@ ALTER TABLE `elrh_reviews`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `elrh_run_records`
+--
+ALTER TABLE `elrh_run_records`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `elrh_run_tracks`
+--
+ALTER TABLE `elrh_run_tracks`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `elrh_softball`
 --
 ALTER TABLE `elrh_softball`
@@ -957,7 +1755,7 @@ ALTER TABLE `games_colormatch`
 -- AUTO_INCREMENT for table `elrh_blog`
 --
 ALTER TABLE `elrh_blog`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=78;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=79;
 --
 -- AUTO_INCREMENT for table `elrh_books`
 --
@@ -967,7 +1765,7 @@ ALTER TABLE `elrh_books`
 -- AUTO_INCREMENT for table `elrh_diary`
 --
 ALTER TABLE `elrh_diary`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=114;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=140;
 --
 -- AUTO_INCREMENT for table `elrh_galleries`
 --
@@ -982,32 +1780,42 @@ ALTER TABLE `elrh_links`
 -- AUTO_INCREMENT for table `elrh_navigation`
 --
 ALTER TABLE `elrh_navigation`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=26;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=28;
 --
 -- AUTO_INCREMENT for table `elrh_onlines`
 --
 ALTER TABLE `elrh_onlines`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `elrh_onlines_content`
 --
 ALTER TABLE `elrh_onlines_content`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=29;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=240;
 --
 -- AUTO_INCREMENT for table `elrh_quotes`
 --
 ALTER TABLE `elrh_quotes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=52;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=68;
 --
 -- AUTO_INCREMENT for table `elrh_reviews`
 --
 ALTER TABLE `elrh_reviews`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=80;
 --
+-- AUTO_INCREMENT for table `elrh_run_records`
+--
+ALTER TABLE `elrh_run_records`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=462;
+--
+-- AUTO_INCREMENT for table `elrh_run_tracks`
+--
+ALTER TABLE `elrh_run_tracks`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=24;
+--
 -- AUTO_INCREMENT for table `elrh_tournaments`
 --
 ALTER TABLE `elrh_tournaments`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=21;
 --
 -- AUTO_INCREMENT for table `games_colormatch`
 --

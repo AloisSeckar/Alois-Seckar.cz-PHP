@@ -1,6 +1,5 @@
 <?php
 class ELRHGARenderer {
-	// script for google analytics
 	// taken from Google Analytics code generator
 	public static function renderGA() {
 		echo '<script>';

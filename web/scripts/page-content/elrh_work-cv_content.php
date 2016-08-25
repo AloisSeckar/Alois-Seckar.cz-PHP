@@ -2,7 +2,7 @@
 class ELRHPageContentRenderer {
 	public static function renderContent($page_data) {
 		// use "echo" function to render all contents of current page
-		echo '<h1>Bc. ALOIS SEČKÁR</h1>'.PHP_EOL;
+		echo '<h1>Ing. ALOIS SEČKÁR</h1>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;
 			echo '<a href="web/content/CV.pdf" title="CV.pdf">Životopis v PDF</a>'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
@@ -15,18 +15,17 @@ class ELRHPageContentRenderer {
 		echo '</ul>'.PHP_EOL;
 		 echo '<h2>VZDĚLÁNÍ</h2>'.PHP_EOL;
         echo '<ul>'.PHP_EOL;
+			echo '<li><strong>2013 – 2016</strong> - Vysoká Škola Ekonomická v&nbsp;Praze, FIS, Praha, Ing.,&nbsp;obor Informační systémy a technologie</li>'.PHP_EOL;
 			echo '<li><strong>2010 – 2013</strong> - Vysoká Škola Ekonomická v&nbsp;Praze, FIS, Praha, Bc.,&nbsp;obor Aplikovaná Informatika</li>'.PHP_EOL;
 			echo '<li><strong>2003 – 2007</strong> - Gymnázium Na&nbsp;Vítězné pláni, Praha, Všeobecné čtyřleté gymnázium</li>'.PHP_EOL;
 			echo '<li><strong>1996 – 2003</strong> - 1.&nbsp;JZŠ Horáčkova, Praha, Výběrová škola s&nbsp;rozšířenou výukou jazyků (3. – 9. třída)</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;
-			echo 'V&nbsp;současné době <strong>(2013 – 2016)</strong> navazující magisterské studium na FIS VŠE v Praze, obor Informační systémy a&nbsp;technologie.'.PHP_EOL;
-		echo '</p>'.PHP_EOL;
-		echo '<p>'.PHP_EOL;
 			echo 'V letech 2007 – 2010 neukončené bakalářské studium na MFF UK v&nbsp;Praze, obor Informatika.'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
 		echo '<h2>ZAMĚSTNÁNÍ</h2>'.PHP_EOL;
         echo '<ul>'.PHP_EOL;
+			echo '<li><strong>02/2016 – souč.</strong> - Atos IT Solutions and Services; Application developer - programování a vývoj aplikací (Java, webové služby, Selenium)</li>'.PHP_EOL;
 			echo '<li><strong>07/2014 – 12/2015</strong> - Petr Mach - Europoslanec; Asistent - administrativní práce v&nbsp;europoslanecké kanceláři v&nbsp;Praze.</li>'.PHP_EOL;
 			echo '<li><strong>03/2014 – 11/2015</strong> - Strana svobodných občanů; Pracovník Republikové kanceláře - vedení zápisů ze schůzí, správa uživatelů, vyřizování dotazů, administrativní podpora vedení strany.</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
@@ -51,6 +50,7 @@ class ELRHPageContentRenderer {
 			echo '<li>MySQL, Oracle DB – pokročilý</li>'.PHP_EOL;
 			echo '<li>Java – pokročilý</li>'.PHP_EOL;
 			echo '<li>Delphi, C# - mírně pokročilý</li>'.PHP_EOL;
+			echo '<li>Selenium IDE - mírně pokročilý</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;
 			echo 'Obecně velmi dobrá znalost práce s&nbsp;PC, schopnost rychle se zorientovat a&nbsp;naučit se pracovat s&nbsp;novým software. Kvalitní programátorské základy – znalost OOP, schopnost práce s&nbsp;databázemi, povědomí o&nbsp;známých algoritmech a&nbsp;programovacích technikách, schopnost rychle zvládnout nový programovací jazyk.'.PHP_EOL;
@@ -69,7 +69,7 @@ class ELRHPageContentRenderer {
 			echo '<li><strong>Fotografie</strong> - Příležitostné amatérské focení většinou přírodních motivů (ukázky zde na webu)</li>'.PHP_EOL;
 		echo '</ul>'.PHP_EOL;
 		echo '<p>'.PHP_EOL;
-			echo '<em>Aktualizováno: 6. prosince 2015</em>'.PHP_EOL;
+			echo '<em>Aktualizováno: 14. července 2016</em>'.PHP_EOL;
 		echo '</p>'.PHP_EOL;
 	}
 }

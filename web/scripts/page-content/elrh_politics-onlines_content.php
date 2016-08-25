@@ -1,12 +1,15 @@
 <?php
 class ELRHPageContentRenderer {
 	public static function renderContent($page_data) {
+		//
+		$admin_form = "/politics-onlines/";
 		// use "echo" function to render all contents of current page
 	    if ($page_data["single"]==true) {
 			// there is request for displaying particular blog entry
 			if ($page_data["exists"]==true) {
+				$admin_form .= $page_data["entry"]["id"];
 				// article found
-				echo '<h1>Politika online: '.$page_data["entry"]["name"].'</h1>'.PHP_EOL;
+				echo '<h1>'.$page_data["title"].'</h1>'.PHP_EOL;
 				echo '<img src="'.$page_data["entry"]["thumb"].'" title="'.$page_data["entry"]["name"].'" alt="'.$page_data["entry"]["name"].'" width="200" height="120" />'.PHP_EOL;
 				echo '<p>'.PHP_EOL;
 					echo '<strong><em>Datum: '.$page_data["entry"]["date"].'</em></strong>'.PHP_EOL;
@@ -14,13 +17,13 @@ class ELRHPageContentRenderer {
 				echo '<p>'.PHP_EOL;
 					switch ($page_data["entry"]["status"]) {
 						case "future":
-						    $state = '<span class="future">Budoucí</span>';
+						    $state = '<span style="background-color: #C0C0C0;">Budoucí</span>';
 							break;
 						case "current":
-						    $state = '<span class="active">Aktivní</span>';
+						    $state = '<span style="background-color: #66FF66;">Aktivní</span>';
 							break;
 						case "past":
-						    $state = '<span class="past">Ukončeno</span>';
+						    $state = '<span style="background-color: #FFFF99;">Ukončeno</span>';
 							break;
 					}
 					echo '<strong><em>Stav: '.$state.'</em></strong>'.PHP_EOL;
@@ -37,7 +40,10 @@ class ELRHPageContentRenderer {
 					// headers
 					echo '<tr>'.PHP_EOL;
 						echo '<th>Čas</th>'.PHP_EOL;
-						echo '<th class="left">Příspěvek</th>'.PHP_EOL;
+						echo '<th style="text-align: left;">Příspěvek</th>'.PHP_EOL;
+					echo '</tr>'.PHP_EOL;
+					echo '<tr>'.PHP_EOL;
+						echo '<td colspan="5" style="height: 5px;"></td>'.PHP_EOL;
 					echo '</tr>'.PHP_EOL;
 					foreach ($page_data["contents"] as $row) {
 						// prepare time in HH:MM format
@@ -46,7 +52,7 @@ class ELRHPageContentRenderer {
 						// display results
 						echo '<tr>'.PHP_EOL;
 							echo '<td><strong>'.$time[0].':'.$time[1].'</strong></td>'.PHP_EOL;
-							echo '<td class="justify">'.$row["content"].'</td>'.PHP_EOL;
+							echo '<td style="text-align: left;">'.$row["content"].'</td>'.PHP_EOL;
 						echo '</tr>'.PHP_EOL;
 					}
 					echo '</table>'.PHP_EOL;
@@ -59,12 +65,9 @@ class ELRHPageContentRenderer {
 			} else {
 				// article not found
 				echo '<h1>POLITIKA ONLINE</h1>'.PHP_EOL;
-				echo '<p class="red-note">'.PHP_EOL;
-					echo 'Online přenos s takovým ID se bohužel na blogu nenachází...'.PHP_EOL;
+				echo '<p>'.PHP_EOL;
+					echo '<div class="font-error">Online přenos s takovým ID se bohužel na blogu nenachází...</div>'.PHP_EOL;
 				echo '</p>'.PHP_EOL;
-				echo '<p class="centered">';
-					echo '<a href="http://alois-seckar.cz/politics-onlines">Zpět na seznam přenosů</a>';
-				echo '</p>';
 			}
 		} else {
 			// there is request for displaying onlines index 
@@ -79,9 +82,12 @@ class ELRHPageContentRenderer {
 			echo '<tr>'.PHP_EOL;
 				echo '<th>Datum</th>'.PHP_EOL;
 				echo '<th></th>'.PHP_EOL;
-				echo '<th class="left">Název</th>'.PHP_EOL;
+				echo '<th style="text-align: left;">Název</th>'.PHP_EOL;
 				echo '<th>Stav</th>'.PHP_EOL;
 				echo '<th>Přejít</th>'.PHP_EOL;
+			echo '</tr>'.PHP_EOL;
+			echo '<tr>'.PHP_EOL;
+				echo '<td colspan="5" style="height: 5px;"></td>'.PHP_EOL;
 			echo '</tr>'.PHP_EOL;
 			// display stored onlines
 			if (!empty($page_data["onlines"])) {
@@ -91,21 +97,21 @@ class ELRHPageContentRenderer {
 					switch ($row["status"]) {
 						case "future":
 						    $state = "Budoucí";
-							echo '<tr class="future">'.PHP_EOL;
+							echo '<tr style="background-color: #C0C0C0;">'.PHP_EOL;
 							break;
 						case "current":
 						    $state = "Aktivní";
-							echo '<tr class="active">'.PHP_EOL;
+							echo '<tr style="background-color: #66FF66;">'.PHP_EOL;
 							break;
 						case "past":
 						    $state = "Ukončeno";
-							echo '<tr class="past">'.PHP_EOL;
+							echo '<tr style="background-color: #FFFF99;">'.PHP_EOL;
 							break;
 					}
 					//
 						echo '<td>'.$row["date"].'</td>'.PHP_EOL;
-						echo '<td class="onlines"><img src="'.$row["thumb"].'" title="'.$row["name"].'" alt="'.$row["name"].'" width="50" height="30" /></td>'.PHP_EOL;
-						echo '<td class="left"><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'">'.$row["name"].'</a></td>'.PHP_EOL;
+						echo '<td><img src="'.$row["thumb"].'" title="'.$row["name"].'" alt="'.$row["name"].'" width="50" height="30" /></td>'.PHP_EOL;
+						echo '<td style="padding-right: 10px; text-align: left;"><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'">'.$row["name"].'</a></td>'.PHP_EOL;
 						echo '<td>'.$state.'</td>'.PHP_EOL;
 						if ($row["status"]!="future") { 
 							echo '<td><a href="/politics-onlines/'.$row["id"].'" title="'.$row["name"].'"><img src="/web/skin/left_arrow.png" title="K online přenosu" alt="K online přenosu" height="10" /></a></td>'.PHP_EOL;
@@ -121,6 +127,41 @@ class ELRHPageContentRenderer {
 				echo '</tr>'.PHP_EOL;
 			}
 			echo '</table>'.PHP_EOL;			
+		}
+		// input form for admin
+		if (isset($_SESSION["user"])) {
+			echo '<p><br /></p>';
+			echo '<h3 style="text-align: center;">Vložit nový příspěvek</h3>';
+			echo '<form method="post" action="'.$admin_form.'">'.PHP_EOL;
+				echo '<table>'.PHP_EOL;
+					if (isset($page_data["admin_message"])) {
+						echo '<tr><td colspan="2">'.$page_data["admin_message"].'</td></tr>'.PHP_EOL;
+					}
+					echo '<tr>'.PHP_EOL;
+						echo '<td><strong>Online:</strong></td>'.PHP_EOL;
+						echo '<td>'.PHP_EOL;
+							echo '<select name="admin_online" style="width: 100%;">'.PHP_EOL;
+							foreach ($page_data["onlines"] as $row) {
+								echo '<option value="'.$row["id"].'"';
+								if ($row["id"]==$page_data["entry"]["id"]) {
+									echo ' selected';
+								}
+								echo '>'.$row["id"].' - '.$row["name"].'</option>'.PHP_EOL;
+							}
+							echo '</select>'.PHP_EOL;
+						echo '</td>'.PHP_EOL;
+					echo '</tr>'.PHP_EOL;
+					echo '<tr>'.PHP_EOL;
+						echo '<td><strong>Komentář:</strong></td>'.PHP_EOL;
+						echo '<td><textarea name="admin_content" style="width: 300px;" rows="5">';
+							if (isset($page_data["admin_content"])) { echo $page_data["admin_content"]; }
+						echo '</textarea></td>'.PHP_EOL;
+					echo '</tr>'.PHP_EOL;
+					echo '<tr>'.PHP_EOL;
+						echo '<td colspan="2"><input type="submit" value="Odeslat" /></td>'.PHP_EOL;
+					echo '</tr>'.PHP_EOL;
+				echo '</table>'.PHP_EOL;
+			echo '</form>'.PHP_EOL;
 		}
 	}
 }

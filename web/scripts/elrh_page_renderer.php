@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 class ELRHPageRenderer {
 	public static function renderHTMLStart() {
 		echo '<!DOCTYPE html>'.PHP_EOL;
-		echo '<html>'.PHP_EOL;
+		echo '<html lang="cs">'.PHP_EOL;
 	}
 	
 	public static function renderHTMLHead($title) {
@@ -11,6 +11,7 @@ class ELRHPageRenderer {
 			echo '<meta http-equiv="content-type" content="text/html; charset=utf-8" />'.PHP_EOL;
 			echo '<meta name="generator" content="PSPad editor, www.pspad.com" />'.PHP_EOL;
 			echo '<meta name="description" content="Alois Sečkár - osobní prezentace, politické názory a další aktivity" />'.PHP_EOL;
+			echo '<meta name="keywords" content="Alois Sečkár Svobodní Strana svobodných občanů politika názory prezentace Praha 4 Krč" />'.PHP_EOL;
 			echo '<meta property="og:image" content="/web/images/alois_seckar.png" />'.PHP_EOL;
 			echo '<link rel="stylesheet" type="text/css" href="/elrh_css.css" />'.PHP_EOL;
 			echo '<link rel="stylesheet" type="text/css" href="/dropdown.css" />'.PHP_EOL;
@@ -71,14 +72,14 @@ class ELRHPageRenderer {
 	}
 	
 	public static function renderPageFooter($version, $update) {
-		echo '<footer>'.PHP_EOL;
+		echo '<div id="footer">'.PHP_EOL;
 			echo '<div id="footer-left">'.PHP_EOL;
 				echo '<a href="http://praha4.svobodni.cz" title="Svobodní Praha 4"> <img title="Svobodní Praha 4" alt="praha4.svobodni.cz" height="31" src="/web/images/svobodni_p4_bar.png" width="88" /> </a>'.PHP_EOL;
 				echo '<a href="http://svobodnatv.cz" title="Svobodná TV"> <img title="Svobodná TV" alt="svobodnatv.cz" height="31" src="/web/images/svobodna_tv_bar.png" width="88" /> </a>'.PHP_EOL;
 				echo '<a href="http://krc-historie.cz" title="Stará Krč"> <img title="Stará Krč" alt="krc-historie.cz" height="31" src="/web/images/stara_krc_bar.png" width="88" /> </a>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
 			echo '<div id="footer-center">'.PHP_EOL;
-				echo '<div class="footer-big">&copy; 2008-2015 <a href="/versions" title="Verze systému">System v.'.$version.'</a> by <a href="/contacts" title="Kontakt">Alois Sečkár</a></div>'.PHP_EOL;
+				echo '<div class="footer-big">&copy; 2008-2016 <a href="/versions" title="Verze systému">System v.'.$version.'</a> by <a href="/contacts" title="Kontakt">Alois Sečkár</a> <a href="/login"><img src="/web/images/admin.png" height="6" /></a></div>'.PHP_EOL;
 				echo '<div class="footer-small">Last Update: '.$update.'</div>'.PHP_EOL;
 				echo '<div class="footer-tiny"><a href="https://validator.w3.org/nu/?doc=http://'.$_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"].'" title="Validator at w3.org">This document was checked with Nu Html Checker</a></div>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
@@ -87,7 +88,7 @@ class ELRHPageRenderer {
 				echo '<a href="http://svobodnatv.cz" title="Svobodná TV"> <img title="Svobodná TV" alt="svobodnatv.cz" height="31" src="/web/images/svobodna_tv_bar.png" width="88" /> </a>'.PHP_EOL;
 				echo '<a href="http://praha4.svobodni.cz" title="Svobodní Praha 4"> <img title="Svobodní Praha 4" alt="Svobodni.cz" height="31" src="/web/images/svobodni_p4_bar.png" width="88" /> </a>'.PHP_EOL;
 			echo '</div>'.PHP_EOL;
-		echo '</footer>'.PHP_EOL;
+		echo '</div>'.PHP_EOL;
 	}
 	
 	public static function renderHTMLEnd() {
